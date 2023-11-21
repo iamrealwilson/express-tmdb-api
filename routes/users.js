@@ -9133,7 +9133,7 @@ router.get('/credit/:credit_id', function(req, res, next) {
 });
 
 router.get('/discover/movie', function(req, res, next) {
-  if (req.params.with_genres == 20328){
+  if (req.query.with_genres === 20328){
       res.json({
     "page": 1,
     "results": [
@@ -9242,7 +9242,7 @@ router.get('/discover/movie', function(req, res, next) {
  } else {
   res.json({});
  }
- 
+
 });
 
 router.get('/find/:external_id', function(req, res, next) {
