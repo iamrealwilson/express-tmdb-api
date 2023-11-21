@@ -9133,816 +9133,116 @@ router.get('/credit/:credit_id', function(req, res, next) {
 });
 
 router.get('/discover/movie', function(req, res, next) {
-  res.json({
-"page": 1,
-"results": [
-  {
-    "adult": false,
-    "backdrop_path": "/fm6KqXpk3M2HVveHwCrBSSBaO0V.jpg",
-    "genre_ids": [
-      18,
-      36
-    ],
-    "id": 872585,
-    "original_language": "en",
-    "original_title": "Oppenheimer",
-    "overview": "The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II.",
-    "popularity": 2590.24,
-    "poster_path": "/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
-    "release_date": "2023-07-19",
-    "title": "Oppenheimer",
-    "video": false,
-    "vote_average": 8.2,
-    "vote_count": 4588
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/t5zCBSB5xMDKcDqe91qahCOUYVV.jpg",
-    "genre_ids": [
-      27,
-      9648
-    ],
-    "id": 507089,
-    "original_language": "en",
-    "original_title": "Five Nights at Freddy's",
-    "overview": "Recently fired and desperate for work, a troubled young man named Mike agrees to take a position as a night security guard at an abandoned theme restaurant: Freddy Fazbear's Pizzeria. But he soon discovers that nothing at Freddy's is what it seems.",
-    "popularity": 1617.893,
-    "poster_path": "/A4j8S6moJS2zNtRR8oWF08gRnL5.jpg",
-    "release_date": "2023-10-25",
-    "title": "Five Nights at Freddy's",
-    "video": false,
-    "vote_average": 8,
-    "vote_count": 2300
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/kjQBrc00fB2RjHZB3PGR4w9ibpz.jpg",
-    "genre_ids": [
-      878,
-      28,
-      53
-    ],
-    "id": 670292,
-    "original_language": "en",
-    "original_title": "The Creator",
-    "overview": "Amid a future war between the human race and the forces of artificial intelligence, a hardened ex-special forces agent grieving the disappearance of his wife, is recruited to hunt down and kill the Creator, the elusive architect of advanced AI who has developed a mysterious weapon with the power to end the war—and mankind itself.",
-    "popularity": 1595.817,
-    "poster_path": "/vBZ0qvaRxqEhZwl6LWmruJqWE8Z.jpg",
-    "release_date": "2023-09-27",
-    "title": "The Creator",
-    "video": false,
-    "vote_average": 7.2,
-    "vote_count": 786
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/rMvPXy8PUjj1o8o1pzgQbdNCsvj.jpg",
-    "genre_ids": [
-      28,
-      12,
-      53
-    ],
-    "id": 299054,
-    "original_language": "en",
-    "original_title": "Expend4bles",
-    "overview": "Armed with every weapon they can get their hands on and the skills to use them, The Expendables are the world’s last line of defense and the team that gets called when all other options are off the table. But new team members with new styles and tactics are going to give “new blood” a whole new meaning.",
-    "popularity": 1108.183,
-    "poster_path": "/iwsMu0ehRPbtaSxqiaUDQB9qMWT.jpg",
-    "release_date": "2023-09-15",
-    "title": "Expend4bles",
-    "video": false,
-    "vote_average": 6.4,
-    "vote_count": 741
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/628Dep6AxEtDxjZoGP78TsOxYbK.jpg",
-    "genre_ids": [
-      28,
-      53
-    ],
-    "id": 575264,
-    "original_language": "en",
-    "original_title": "Mission: Impossible - Dead Reckoning Part One",
-    "overview": "Ethan Hunt and his IMF team embark on their most dangerous mission yet: To track down a terrifying new weapon that threatens all of humanity before it falls into the wrong hands. With control of the future and the world's fate at stake and dark forces from Ethan's past closing in, a deadly race around the globe begins. Confronted by a mysterious, all-powerful enemy, Ethan must consider that nothing can matter more than his mission—not even the lives of those he cares about most.",
-    "popularity": 1044.199,
-    "poster_path": "/NNxYkU70HPurnNCSiCjYAmacwm.jpg",
-    "release_date": "2023-07-08",
-    "title": "Mission: Impossible - Dead Reckoning Part One",
-    "video": false,
-    "vote_average": 7.6,
-    "vote_count": 2454
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/4XM8DUTQb3lhLemJC51Jx4a2EuA.jpg",
-    "genre_ids": [
-      28,
-      80,
-      53
-    ],
-    "id": 385687,
-    "original_language": "en",
-    "original_title": "Fast X",
-    "overview": "Over many missions and against impossible odds, Dom Toretto and his family have outsmarted, out-nerved and outdriven every foe in their path. Now, they confront the most lethal opponent they've ever faced: A terrifying threat emerging from the shadows of the past who's fueled by blood revenge, and who is determined to shatter this family and destroy everything—and everyone—that Dom loves, forever.",
-    "popularity": 770.248,
-    "poster_path": "/fiVW06jE7z9YnO4trhaMEdclSiC.jpg",
-    "release_date": "2023-05-17",
-    "title": "Fast X",
-    "video": false,
-    "vote_average": 7.2,
-    "vote_count": 4283
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/tC78Pck2YCsUAtEdZwuHYUFYtOj.jpg",
-    "genre_ids": [
-      28,
-      53,
-      80
-    ],
-    "id": 926393,
-    "original_language": "en",
-    "original_title": "The Equalizer 3",
-    "overview": "Robert McCall finds himself at home in Southern Italy but he discovers his friends are under the control of local crime bosses. As events turn deadly, McCall knows what he has to do: become his friends' protector by taking on the mafia.",
-    "popularity": 741.736,
-    "poster_path": "/b0Ej6fnXAP8fK75hlyi2jKqdhHz.jpg",
-    "release_date": "2023-08-30",
-    "title": "The Equalizer 3",
-    "video": false,
-    "vote_average": 7.4,
-    "vote_count": 1646
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/5a4JdoFwll5DRtKMe7JLuGQ9yJm.jpg",
-    "genre_ids": [
-      28,
-      12,
-      878
-    ],
-    "id": 695721,
-    "original_language": "en",
-    "original_title": "The Hunger Games: The Ballad of Songbirds & Snakes",
-    "overview": "64 years before he becomes the tyrannical president of Panem, Coriolanus Snow sees a chance for a change in fortunes when he mentors Lucy Gray Baird, the female tribute from District 12.",
-    "popularity": 734.432,
-    "poster_path": "/mBaXZ95R2OxueZhvQbcEWy2DqyO.jpg",
-    "release_date": "2023-11-15",
-    "title": "The Hunger Games: The Ballad of Songbirds & Snakes",
-    "video": false,
-    "vote_average": 7.4,
-    "vote_count": 146
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/feSiISwgEpVzR1v3zv2n2AU4ANJ.jpg",
-    "genre_ids": [
-      28,
-      12,
-      878
-    ],
-    "id": 609681,
-    "original_language": "en",
-    "original_title": "The Marvels",
-    "overview": "Carol Danvers, aka Captain Marvel, has reclaimed her identity from the tyrannical Kree and taken revenge on the Supreme Intelligence. But unintended consequences see Carol shouldering the burden of a destabilized universe. When her duties send her to an anomalous wormhole linked to a Kree revolutionary, her powers become entangled with that of Jersey City super-fan Kamala Khan, aka Ms. Marvel, and Carol’s estranged niece, now S.A.B.E.R. astronaut Captain Monica Rambeau. Together, this unlikely trio must team up and learn to work in concert to save the universe.",
-    "popularity": 633.789,
-    "poster_path": "/Ag3D9qXjhJ2FUkrlJ0Cv1pgxqYQ.jpg",
-    "release_date": "2023-11-08",
-    "title": "The Marvels",
-    "video": false,
-    "vote_average": 6.5,
-    "vote_count": 430
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/dZbLqRjjiiNCpTYzhzL2NMvz4J0.jpg",
-    "genre_ids": [
-      27,
-      53
-    ],
-    "id": 951491,
-    "original_language": "en",
-    "original_title": "Saw X",
-    "overview": "Between the events of 'Saw' and 'Saw II', a sick and desperate John Kramer travels to Mexico for a risky and experimental medical procedure in hopes of a miracle cure for his cancer, only to discover the entire operation is a scam to defraud the most vulnerable. Armed with a newfound purpose, the infamous serial killer returns to his work, turning the tables on the con artists in his signature visceral way through devious, deranged, and ingenious traps.",
-    "popularity": 626.145,
-    "poster_path": "/aQPeznSu7XDTrrdCtT5eLiu52Yu.jpg",
-    "release_date": "2023-09-26",
-    "title": "Saw X",
-    "video": false,
-    "vote_average": 7.4,
-    "vote_count": 1065
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/pA3vdhadJPxF5GA1uo8OPTiNQDT.jpg",
-    "genre_ids": [
-      28,
-      18
-    ],
-    "id": 678512,
-    "original_language": "en",
-    "original_title": "Sound of Freedom",
-    "overview": "The story of Tim Ballard, a former US government agent, who quits his job in order to devote his life to rescuing children from global sex traffickers.",
-    "popularity": 614.334,
-    "poster_path": "/qA5kPYZA7FkVvqcEfJRoOy4kpHg.jpg",
-    "release_date": "2023-07-03",
-    "title": "Sound of Freedom",
-    "video": false,
-    "vote_average": 8.1,
-    "vote_count": 1459
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/3H9NA1KWEQN0ItL3Wl3SFZYP6yV.jpg",
-    "genre_ids": [
-      28,
-      878,
-      12
-    ],
-    "id": 565770,
-    "original_language": "en",
-    "original_title": "Blue Beetle",
-    "overview": "Recent college grad Jaime Reyes returns home full of aspirations for his future, only to find that home is not quite as he left it. As he searches to find his purpose in the world, fate intervenes when Jaime unexpectedly finds himself in possession of an ancient relic of alien biotechnology: the Scarab.",
-    "popularity": 579.577,
-    "poster_path": "/mXLOHHc1Zeuwsl4xYKjKh2280oL.jpg",
-    "release_date": "2023-08-16",
-    "title": "Blue Beetle",
-    "video": false,
-    "vote_average": 7,
-    "vote_count": 1612
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/r7DuyYJ0N3cD8bRKsR5Ygq2P7oa.jpg",
-    "genre_ids": [
-      12,
-      28,
-      18
-    ],
-    "id": 980489,
-    "original_language": "en",
-    "original_title": "Gran Turismo",
-    "overview": "The ultimate wish-fulfillment tale of a teenage Gran Turismo player whose gaming skills won him a series of Nissan competitions to become an actual professional racecar driver.",
-    "popularity": 556.183,
-    "poster_path": "/51tqzRtKMMZEYUpSYkrUE7v9ehm.jpg",
-    "release_date": "2023-08-09",
-    "title": "Gran Turismo",
-    "video": false,
-    "vote_average": 8,
-    "vote_count": 1445
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/dRWhJ4godwy40JdmNuRZy23oViY.jpg",
-    "genre_ids": [
-      27
-    ],
-    "id": 830764,
-    "original_language": "en",
-    "original_title": "Pet Sematary: Bloodlines",
-    "overview": "In 1969, a young Jud Crandall has dreams of leaving his hometown of Ludlow, Maine behind, but soon discovers sinister secrets buried within and is forced to confront a dark family history that will forever keep him connected to Ludlow.",
-    "popularity": 553.407,
-    "poster_path": "/yqnNLn24shYnZ6kqGpbwuB3NJ0D.jpg",
-    "release_date": "2023-09-23",
-    "title": "Pet Sematary: Bloodlines",
-    "video": false,
-    "vote_average": 6.1,
-    "vote_count": 201
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/5mzr6JZbrqnqD8rCEvPhuCE5Fw2.jpg",
-    "genre_ids": [
-      28,
-      878,
-      27
-    ],
-    "id": 615656,
-    "original_language": "en",
-    "original_title": "Meg 2: The Trench",
-    "overview": "An exploratory dive into the deepest depths of the ocean of a daring research team spirals into chaos when a malevolent mining operation threatens their mission and forces them into a high-stakes battle for survival.",
-    "popularity": 544.8,
-    "poster_path": "/4m1Au3YkjqsxF8iwQy0fPYSxE0h.jpg",
-    "release_date": "2023-08-02",
-    "title": "Meg 2: The Trench",
-    "video": false,
-    "vote_average": 6.8,
-    "vote_count": 2544
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/AprNYUAS2AJ3xVgg7Wwt00GVvsM.jpg",
-    "genre_ids": [
-      16,
-      10751,
-      28,
-      878
-    ],
-    "id": 893723,
-    "original_language": "en",
-    "original_title": "PAW Patrol: The Mighty Movie",
-    "overview": "A magical meteor crash lands in Adventure City and gives the PAW Patrol pups superpowers, transforming them into The Mighty Pups.",
-    "popularity": 540.935,
-    "poster_path": "/oJkyw6TNEWIS0WkrxNspJfUTao4.jpg",
-    "release_date": "2023-09-21",
-    "title": "PAW Patrol: The Mighty Movie",
-    "video": false,
-    "vote_average": 6.9,
-    "vote_count": 172
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/pLm9j7o5InoWaG2tlaQABYR2cAx.jpg",
-    "genre_ids": [
-      27,
-      9648,
-      53
-    ],
-    "id": 968051,
-    "original_language": "en",
-    "original_title": "The Nun II",
-    "overview": "In 1956 France, a priest is violently murdered, and Sister Irene begins to investigate. She once again comes face-to-face with a powerful evil.",
-    "popularity": 520.807,
-    "poster_path": "/5gzzkR7y3hnY8AD1wXjCnVlHba5.jpg",
-    "release_date": "2023-09-06",
-    "title": "The Nun II",
-    "video": false,
-    "vote_average": 6.9,
-    "vote_count": 1422
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/4fLZUr1e65hKPPVw0R3PmKFKxj1.jpg",
-    "genre_ids": [
-      16,
-      35,
-      10751,
-      14,
-      10749
-    ],
-    "id": 976573,
-    "original_language": "en",
-    "original_title": "Elemental",
-    "overview": "In a city where fire, water, land and air residents live together, a fiery young woman and a go-with-the-flow guy will discover something elemental: how much they have in common.",
-    "popularity": 511.748,
-    "poster_path": "/4Y1WNkd88JXmGfhtWR7dmDAo1T2.jpg",
-    "release_date": "2023-06-14",
-    "title": "Elemental",
-    "video": false,
-    "vote_average": 7.7,
-    "vote_count": 2989
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/agJTpYOjSSG9uZe5xVZHL8nE6nj.jpg",
-    "genre_ids": [
-      27,
-      9648,
-      53
-    ],
-    "id": 841742,
-    "original_language": "fr",
-    "original_title": "Megalomaniac",
-    "overview": "Felix and Martha, the two offspring of legendary serial murderer The Skinner of Mons, grapple with the grotesque legacy bequeathed to them. While Martha works a menial janitorial job, Felix continues his father's reign of terror. But following a brutal attack at work, Martha quickly descends into madness, finding she must come to terms with the infamous blood that flows through her veins.",
-    "popularity": 502.741,
-    "poster_path": "/eAx5QKnboZpysIg1XBfjhbSgOPF.jpg",
-    "release_date": "2023-09-08",
-    "title": "Megalomaniac",
-    "video": false,
-    "vote_average": 6.2,
-    "vote_count": 13
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/iiXliCeykkzmJ0Eg9RYJ7F2CWSz.jpg",
-    "genre_ids": [
-      28,
-      53,
-      80
-    ],
-    "id": 762430,
-    "original_language": "en",
-    "original_title": "Retribution",
-    "overview": "When a mysterious caller puts a bomb under his car seat, Matt Turner begins a high-speed chase across the city to complete a specific series of tasks- all with his kids trapped in the back seat.",
-    "popularity": 489.304,
-    "poster_path": "/oUmmY7QWWn7OhKlcPOnirHJpP1F.jpg",
-    "release_date": "2023-08-23",
-    "title": "Retribution",
-    "video": false,
-    "vote_average": 7,
-    "vote_count": 668
-  }
-],
-"total_pages": 41075,
-"total_results": 821483
-});
-});
+  if (req.params.with_genres == 20328){
+      res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/fm6KqXpk3M2HVveHwCrBSSBaO0V.jpg",
+        "genre_ids": [
+          18,
+          36
+        ],
+        "id": 872585,
+        "original_language": "en",
+        "original_title": "Delito Continuado",
+        "overview": "Delito Continuado or continuing offense consists of a series of acts arising from. one criminal intent or resolution. In the above views, since there is only a single criminal intent, even though there. is a series of criminal acts.",
+        "popularity": 2590.24,
+        "poster_path": "/images/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+        "release_date": "2023-07-19",
+        "title": "Oppenheimer",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/t5zCBSB5xMDKcDqe91qahCOUYVV.png",
+        "genre_ids": [
+          27,
+          9648
+        ],
 
-router.get('/discover/tv', function(req, res, next) {
-  res.json({
-"page": 1,
-"results": [
-  {
-    "backdrop_path": "/jWXrQstj7p3Wl5MfYWY6IHqRpDb.jpg",
-    "first_air_date": "1952-12-26",
-    "genre_ids": [
-      10763
+        "id": 507089,
+        "original_language": "en",
+        "original_title": "Three fold rule and GCTA",
+        "overview": "Under the three-fold rule, of Article 70, a convict can be punished only up to three times the most severe penalty imposed, and such maximum period shall not exceed 40 years.",
+        "popularity": 1617.893,
+        "poster_path": "/images/A4j8S6moJS2zNtRR8oWF08gRnL5.png",
+        "release_date": "2023-10-25",
+        "title": "Three fold rule and GCTA",
+        "video": false,
+        "vote_average": 8,
+        "vote_count": 2300
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/kjQBrc00fB2RjHZB3PGR4w9ibpz.jpg",
+        "genre_ids": [
+          878,
+          28,
+          53
+        ],
+        "id": 670292,
+        "original_language": "en",
+        "original_title": "Falsification Malversation of Funds Estafa Theft",
+        "overview": "The crime of theft is included necessarily in that of robbery and therefore ... estafa with falsification through imprudence, but of intentional estafa with ...",
+        "popularity": 1595.817,
+        "poster_path": "/images/vBZ0qvaRxqEhZwl6LWmruJqWE8Z.png",
+        "release_date": "2023-09-27",
+        "title": "Falsification Malversation of Funds Estafa Theft",
+        "video": false,
+        "vote_average": 7.2,
+        "vote_count": 786
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/rMvPXy8PUjj1o8o1pzgQbdNCsvj.jpg",
+        "genre_ids": [
+          28,
+          12,
+          53
+        ],
+        "id": 299054,
+        "original_language": "en",
+        "original_title": "Bigamy illegal marriage performance of illegal marriage",
+        "overview": "Bigamy can be intentional, where one spouse marries a second spouse knowing full well their initial marriage remains legally binding, or it can be unintentional, the result of an attempted divorce that was never legally finalized.",
+        "popularity": 1108.183,
+        "poster_path": "/images/iwsMu0ehRPbtaSxqiaUDQB9qMWT.jpg",
+        "release_date": "2023-09-15",
+        "title": "Bigamy illegal marriage performance of illegal marriage",
+        "video": false,
+        "vote_average": 6.4,
+        "vote_count": 741
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/628Dep6AxEtDxjZoGP78TsOxYbK.jpg",
+        "genre_ids": [
+          28,
+          53
+        ],
+        "id": 575264,
+        "original_language": "en",
+        "original_title": "Complex Crime",
+        "overview": "Complex Crime is defined as when a single act constitutes two or more grave or less grave felonies, or when an offense is a necessary means for committing the other, the penalty for the most serious crime shall be imposed, the same to be applied in its maximum period.",
+        "popularity": 1044.199,
+        "poster_path": "/images/NNxYkU70HPurnNCSiCjYAmacwm.jpg",
+        "release_date": "2023-07-08",
+        "title": "Complex Crime",
+        "video": false,
+        "vote_average": 7.6,
+        "vote_count": 2454
+      }
     ],
-    "id": 94722,
-    "name": "Tagesschau",
-    "origin_country": [
-      "DE"
-    ],
-    "original_language": "de",
-    "original_name": "Tagesschau",
-    "overview": "German daily news program, the oldest still existing program on German television.",
-    "popularity": 3276.253,
-    "poster_path": "/7dFZJ2ZJJdcmkp05B9NWlqTJ5tq.jpg",
-    "vote_average": 7.2,
-    "vote_count": 165
-  },
-  {
-    "backdrop_path": "/ugcdRKcOyUMAr9hAsL058cAX2vj.jpg",
-    "first_air_date": "2001-10-20",
-    "genre_ids": [
-      10764
-    ],
-    "id": 12409,
-    "name": "Star Academy",
-    "origin_country": [
-      "FR"
-    ],
-    "original_language": "fr",
-    "original_name": "Star Academy",
-    "overview": "Star Academy is a French reality television show produced by the Dutch company Endemol. It consists of a contest of young singers. It spawned an equally successful show in Quebec called Star Académie. It is broadcast on NRJ12. At the end of each season, selected contestants would go on tour around France, Morocco, Switzerland, Belgium, Tunisia, and other French-speaking countries.\n\nThe contestants stayed in the Dammarie-lès-Lys castle: The Vives-Eaux castle.\n\nThe reality show was hosted by Nikos Aliagas and featured guest stars such as Madonna, Alizée, Céline Dion, Tina Arena, Nelly Furtado, Tokio Hotel, Andrea Bocelli, Charles Aznavour, Hélène Ségara, Peter Kingsbery, Phil Collins, Laura Pausini, Kylie Minogue, Dannii Minogue, Tina Turner, Mariah Carey, Lara Fabian, Rihanna, Shania Twain, Moby, Avril Lavigne, Anastacia, Alicia Keys, Craig David, 50 Cent, will.i.am, James Blunt, Diddy, Sting, David Guetta, Lenny Kravitz, Janet Jackson, Britney Spears, Liza Minnelli, Johnny Hallyday, Paul Anka, Lionel Richie, Alanis Morissette, Ray Charles, Stevie Wonder, Elton John, Bee Gees, Ricky Martin, and Beyoncé.",
-    "popularity": 2193.914,
-    "poster_path": "/80BP36meHtHF2UuDBgvAJxgFo5V.jpg",
-    "vote_average": 6.6,
-    "vote_count": 8
-  },
-  {
-    "backdrop_path": "/aDRIKJuB63tuJUZf1O4mRmbMTVw.jpg",
-    "first_air_date": "1999-09-30",
-    "genre_ids": [
-      10764,
-      99
-    ],
-    "id": 6480,
-    "name": "House Hunters",
-    "origin_country": [
-      "US"
-    ],
-    "original_language": "en",
-    "original_name": "House Hunters",
-    "overview": "Hosted by Suzanne Whang, the show takes viewers behind the scenes as individuals, couples and families learn what to look for and decide whether or not a home is meant for them. Focusing on the emotional experience of finding and purchasing a new home, each episode follows a prospective buyer and real estate agent through the home-buying process, from start to finish.",
-    "popularity": 2123.248,
-    "poster_path": "/7Bsr9ogG0q6yHtNuIp6bJ6EFpbH.jpg",
-    "vote_average": 5.1,
-    "vote_count": 25
-  },
-  {
-    "backdrop_path": "/g8sQ4wCNGYLIkVok5aQsX0WYyMr.jpg",
-    "first_air_date": "2023-10-30",
-    "genre_ids": [
-      80,
-      9648
-    ],
-    "id": 231454,
-    "name": "The Justice",
-    "origin_country": [
-      "CN"
-    ],
-    "original_language": "zh",
-    "original_name": "宣判",
-    "overview": "",
-    "popularity": 2091.944,
-    "poster_path": "/stAFsiKB8No9wYtNpX6yyjRgrkO.jpg",
-    "vote_average": 7.7,
-    "vote_count": 3
-  },
-  {
-    "backdrop_path": "/hwUQsL1cWt0bmbTxzCompqqvTH9.jpg",
-    "first_air_date": "2004-01-22",
-    "genre_ids": [
-      10764
-    ],
-    "id": 82250,
-    "name": "Gran hermano VIP",
-    "origin_country": [
-      "ES"
-    ],
-    "original_language": "es",
-    "original_name": "Gran hermano VIP",
-    "overview": "",
-    "popularity": 1864.387,
-    "poster_path": "/9269PATr0bmEXKjkpR88mzGmNYI.jpg",
-    "vote_average": 4.1,
-    "vote_count": 10
-  },
-  {
-    "backdrop_path": "/7F9pXKnGsjPRiHGi14xKVlIxUI3.jpg",
-    "first_air_date": "2023-10-30",
-    "genre_ids": [
-      18
-    ],
-    "id": 152551,
-    "name": "Rising With the Wind",
-    "origin_country": [
-      "CN"
-    ],
-    "original_language": "zh",
-    "original_name": "我要逆风去",
-    "overview": "Xu Si (Gong Jun), an investment professional who moves back to mainland China from a Hong Kong investment bank, meets Jiang Hu (Zhong Chuxi), the only daughter of the chairman of a national clothing conglomerate. Due to their differing business philosophies, the two are at odds with each other. When Jiang Hu's father's company suddenly goes bankrupt, she finds herself plummeting from the heights of success. Meanwhile, Xu Si, who has always been ambitious, sets his sights on the rubber-soled shoe brand \"Tengyue,\" which was once created by Jiang Hu's father. Determined to save \"Tengyue\" at all costs, Jiang Hu, despite her downfall, engages in a fierce battle with Xu Si.\n\nUltimately, their interactions and struggles will determine the fate of \"Tengyue\" and whether it can be revived.",
-    "popularity": 1862.213,
-    "poster_path": "/cZSb43j1O1pRZIwwn0fgCx5XJIP.jpg",
-    "vote_average": 0,
-    "vote_count": 0
-  },
-  {
-    "backdrop_path": "/218ZehBKlH8efPRRccmB7bu0oLQ.jpg",
-    "first_air_date": "2023-09-25",
-    "genre_ids": [
-      35,
-      9648,
-      10766,
-      18
-    ],
-    "id": 219109,
-    "name": "Elas por Elas",
-    "origin_country": [
-      "BR"
-    ],
-    "original_language": "pt",
-    "original_name": "Elas por Elas",
-    "overview": "Seven friends who met in their youth at an English course meet again 25 years later; Lara, Taís, Helena, Adriana, Renée, Natália and Carol, each of them has a different personality and origin, but they share a deep affection.",
-    "popularity": 1836.795,
-    "poster_path": "/m0cvvnhnRXdQhLARx7qt9lz7hTE.jpg",
-    "vote_average": 7.4,
-    "vote_count": 11
-  },
-  {
-    "backdrop_path": "/zvQY9Ddg0JUXs0HNIZ3moj2DZth.jpg",
-    "first_air_date": "2021-01-27",
-    "genre_ids": [
-      18
-    ],
-    "id": 117685,
-    "name": "Weaving a Tale of Love",
-    "origin_country": [
-      "CN"
-    ],
-    "original_language": "zh",
-    "original_name": "风起霓裳",
-    "overview": "In the reign of Emperor Taizong (627—649), which was called the Prosperity of Zhenguan, former clothing maker An is framed and imprisoned. When she was in danger, she entrusts her young daughter Liu Li to an old friend in the palace. Liu Li grows up in the palace and becomes a medical officer, responsible for epidemic prevention.",
-    "popularity": 1772.978,
-    "poster_path": "/96xFaFO71aYXcDEbiNd9tmWSKV9.jpg",
-    "vote_average": 5.5,
-    "vote_count": 6
-  },
-  {
-    "backdrop_path": "/oz8oFmJdgoE7SUND68ihwORHscu.jpg",
-    "first_air_date": "2023-11-01",
-    "genre_ids": [
-      10764
-    ],
-    "id": 233816,
-    "name": "Love Island Games",
-    "origin_country": [
-      "US"
-    ],
-    "original_language": "en",
-    "original_name": "Love Island Games",
-    "overview": "In this cheeky new iteration, romance meets reality as fan-favorite Islanders are faced with both team and couples' challenges, all while navigating dating, eliminations, recoupling, dramatic arrivals and new competition twists and turns like never before.",
-    "popularity": 1604.52,
-    "poster_path": "/1ACzNV3c4alBW7rUyo51n8uGoJw.jpg",
-    "vote_average": 10,
-    "vote_count": 1
-  },
-  {
-    "backdrop_path": null,
-    "first_air_date": "2023-10-15",
-    "genre_ids": [],
-    "id": 237200,
-    "name": "Stardance XII ...kolem dokola",
-    "origin_country": [
-      "CZ"
-    ],
-    "original_language": "cs",
-    "original_name": "Stardance XII ...kolem dokola",
-    "overview": "",
-    "popularity": 1529.448,
-    "poster_path": "/ot9MBwaVWb8vJU3mrUPXSuIcxUP.jpg",
-    "vote_average": 10,
-    "vote_count": 1
-  },
-  {
-    "backdrop_path": "/hCu11X8wCvloA49xzZQKZ9GdXcQ.jpg",
-    "first_air_date": "2023-11-02",
-    "genre_ids": [
-      18
-    ],
-    "id": 225929,
-    "name": "Love is Panacea",
-    "origin_country": [
-      "CN"
-    ],
-    "original_language": "zh",
-    "original_name": "治愈系恋人",
-    "overview": "When Gu Yunzheng, an associate professor of neurosurgery, goes on a medical aid mission in Lacaya, he meets Su Wei'an, a \"deserter\" who has abandoned her medical career to become a businessperson. From bickering all the time to falling in love with each other, he gradually discovers that all her abnormal behavior is caused by a genetic disease called Huntington's disease. The love for his beloved one makes him empathize with the sadness and despair of this incurable disease faced by 30,000 patients and their families across the country. Finally, Gu Yunzheng decides to give up his promising career and devote his life to the research of curing this rare disease, fighting alongside his lover to carve light out of the darkness.",
-    "popularity": 1472.728,
-    "poster_path": "/d2FwkOhWrimCjqhi6P0YUEPeVH9.jpg",
-    "vote_average": 5,
-    "vote_count": 2
-  },
-  {
-    "backdrop_path": "/N1hWzVPpZ8lIQvQskgdQogxdsc.jpg",
-    "first_air_date": "2021-06-09",
-    "genre_ids": [
-      18,
-      10765
-    ],
-    "id": 84958,
-    "name": "Loki",
-    "origin_country": [
-      "US"
-    ],
-    "original_language": "en",
-    "original_name": "Loki",
-    "overview": "After stealing the Tesseract during the events of “Avengers: Endgame,” an alternate version of Loki is brought to the mysterious Time Variance Authority, a bureaucratic organization that exists outside of time and space and monitors the timeline. They give Loki a choice: face being erased from existence due to being a “time variant” or help fix the timeline and stop a greater threat.",
-    "popularity": 1370.678,
-    "poster_path": "/voHUmluYmKyleFkTu3lOXQG702u.jpg",
-    "vote_average": 8.2,
-    "vote_count": 10721
-  },
-  {
-    "backdrop_path": "/ohJTnu93hJ0Uonl86Wn3mOSlWXN.jpg",
-    "first_air_date": "2017-02-06",
-    "genre_ids": [
-      10751,
-      35,
-      18
-    ],
-    "id": 91759,
-    "name": "Come Home Love: Lo and Behold",
-    "origin_country": [
-      "HK"
-    ],
-    "original_language": "cn",
-    "original_name": "愛·回家之開心速遞",
-    "overview": "Hung Sue Gan starting from the bottom, established his own logistics company, which is now running smoothly. His only concern now are his three daughters. His eldest daughter has immigrated overseas. His second daughter Hung Yeuk Shui has reached the marriageable age, but has no hopes for marriage anytime soon. She is constantly bickering with her younger sister Hung Sum Yue, who is an honour student, over trivial matters, causing their father to not know whether to laugh or cry. Hung Sue Yan, Hung Sue Gan's brother, moves in with the family, temporarily ending his life as a nomadic photographer. He joins Hung Yeuk Shui's company and encounters Ko Pak Fei, the director of an online shop. The two appear to be former lovers, making for lots of laughter. Since Hung Sue Yan moved in, a series of strange events have occurred in the family. Upon investigation, the source is traced to Lung Ging Fung, a promising young man who is the son of department store mogul Lung Gam Wai.",
-    "popularity": 1333.13,
-    "poster_path": "/lgD4j9gUGmMckZpWWRJjorWqGVT.jpg",
-    "vote_average": 5,
-    "vote_count": 32
-  },
-  {
-    "backdrop_path": "/rBF8wVQN8hTWHspVZBlI3h7HZJ.jpg",
-    "first_air_date": "2013-12-02",
-    "genre_ids": [
-      16,
-      35,
-      10765,
-      10759
-    ],
-    "id": 60625,
-    "name": "Rick and Morty",
-    "origin_country": [
-      "US"
-    ],
-    "original_language": "en",
-    "original_name": "Rick and Morty",
-    "overview": "Rick is a mentally-unbalanced but scientifically gifted old man who has recently reconnected with his family. He spends most of his time involving his young grandson Morty in dangerous, outlandish adventures throughout space and alternate universes. Compounded with Morty's already unstable family life, these events cause Morty much distress at home and school.",
-    "popularity": 1282.049,
-    "poster_path": "/gdIrmf2DdY5mgN6ycVP0XlzKzbE.jpg",
-    "vote_average": 8.7,
-    "vote_count": 8774
-  },
-  {
-    "backdrop_path": "/aWPhMZ0P2DyfWB7k5NXhGHSZHGC.jpg",
-    "first_air_date": "2023-05-08",
-    "genre_ids": [
-      18,
-      80,
-      10766
-    ],
-    "id": 209265,
-    "name": "Land of Desire",
-    "origin_country": [
-      "BR"
-    ],
-    "original_language": "pt",
-    "original_name": "Terra e Paixão",
-    "overview": "When her husband is killed in a land grabbing attempt, Aline takes charge of cultivating his land and protecting his family. Facing the powerful Antonio La Selva, responsible for the death of her husband and the largest landowner in the region, Aline is determined to keep possession of her land and invest in its production. However, she didn't expect that she would fall in love with Daniel, son of her rival, who is at odds with his rebellious half-brother, Caio, who, in turn, also falls in love with the girl. In the interior of Brazil, Aline will have to fight two battles: the dispute for her lands and for her heart.",
-    "popularity": 1264.527,
-    "poster_path": "/6SgKArqMYmqSl5XlHEucGXvotw.jpg",
-    "vote_average": 6.5,
-    "vote_count": 123
-  },
-  {
-    "backdrop_path": "/yii7eIlaw1MRMfa7FTA6mW8hBUQ.jpg",
-    "first_air_date": "2023-08-14",
-    "genre_ids": [
-      35,
-      10766
-    ],
-    "id": 213026,
-    "name": "Fuzue",
-    "origin_country": [
-      "BR"
-    ],
-    "original_language": "pt",
-    "original_name": "Fuzuê",
-    "overview": "The department store Fuzue, specialized in popular items, is a success led by Nero Braga e Silva. Little does he know that the store's grounds have hidden relics for over 300 years.",
-    "popularity": 1147.757,
-    "poster_path": "/zNNFg8z3z7uT817n6M0kHRcYwq1.jpg",
-    "vote_average": 5.8,
-    "vote_count": 20
-  },
-  {
-    "backdrop_path": "/l7LRGYJY3NzIGBlpvHpMsNXHbm5.jpg",
-    "first_air_date": "2023-01-09",
-    "genre_ids": [
-      10751,
-      35
-    ],
-    "id": 218145,
-    "name": "Mom for rent",
-    "origin_country": [
-      "SK"
-    ],
-    "original_language": "sk",
-    "original_name": "Mama na prenájom",
-    "overview": "Abandoned by his wife, Martin is lying to his daughter not to be upset. But as Hanka grows, these lies become unbearable. Martin meets Nada unexpectedly, asked her to be a rent-a-mother and all lives are completely changed.",
-    "popularity": 1136.182,
-    "poster_path": "/fH7PP2Rkdlo414IHvZABBHhtoqd.jpg",
-    "vote_average": 6.1,
-    "vote_count": 12
-  },
-  {
-    "backdrop_path": "/9TXcHOeCsM8W3ZKKIKjdYUsRSeq.jpg",
-    "first_air_date": "2017-07-17",
-    "genre_ids": [
-      80,
-      18
-    ],
-    "id": 72879,
-    "name": "Tomorrow is Ours",
-    "origin_country": [
-      "FR"
-    ],
-    "original_language": "fr",
-    "original_name": "Demain nous appartient",
-    "overview": "The story revolves around the people of Sète, France. Their lives are punctuated by family rivalries, romance and scenes from daily life, but also by plots involving police investigations, secrets and betrayals.",
-    "popularity": 1058.895,
-    "poster_path": "/3uU5uJzOX7xe7mn7YKpBM9oiEZO.jpg",
-    "vote_average": 6.2,
-    "vote_count": 44
-  },
-  {
-    "backdrop_path": "/wU1y7snEVYiJBpZ2k1DjIpHgJbx.jpg",
-    "first_air_date": "1999-01-31",
-    "genre_ids": [
-      16,
-      35
-    ],
-    "id": 1434,
-    "name": "Family Guy",
-    "origin_country": [
-      "US"
-    ],
-    "original_language": "en",
-    "original_name": "Family Guy",
-    "overview": "Sick, twisted, politically incorrect and Freakin' Sweet animated series featuring the adventures of the dysfunctional Griffin family. Bumbling Peter and long-suffering Lois have three kids. Stewie (a brilliant but sadistic baby bent on killing his mother and taking over the world), Meg (the oldest, and is the most unpopular girl in town) and Chris (the middle kid, he's not very bright but has a passion for movies). The final member of the family is Brian - a talking dog and much more than a pet, he keeps Stewie in check whilst sipping Martinis and sorting through his own life issues.",
-    "popularity": 1034.788,
-    "poster_path": "/hw2vi8agaJZ7oeSvS8uEYgOtK32.jpg",
-    "vote_average": 7.3,
-    "vote_count": 3950
-  },
-  {
-    "backdrop_path": "/pxeqQX4qFQ0cVxPt5SWZENV5BH3.jpg",
-    "first_air_date": "1989-12-17",
-    "genre_ids": [
-      10751,
-      16,
-      35
-    ],
-    "id": 456,
-    "name": "The Simpsons",
-    "origin_country": [
-      "US"
-    ],
-    "original_language": "en",
-    "original_name": "The Simpsons",
-    "overview": "Set in Springfield, the average American town, the show focuses on the antics and everyday adventures of the Simpson family; Homer, Marge, Bart, Lisa and Maggie, as well as a virtual cast of thousands. Since the beginning, the series has been a pop culture icon, attracting hundreds of celebrities to guest star. The show has also made name for itself in its fearless satirical take on politics, media and American life in general.",
-    "popularity": 990.737,
-    "poster_path": "/vHqeLzYl3dEAutojCO26g0LIkom.jpg",
-    "vote_average": 8,
-    "vote_count": 9244
-  }
-],
-"total_pages": 7973,
-"total_results": 159458
-});
+    "total_pages": 1,
+    "total_results": 5
+    });
+ } else {
+  res.json({});
+ }
+ 
 });
 
 router.get('/find/:external_id', function(req, res, next) {
@@ -9976,80 +9276,36 @@ router.get('/genre/movie/list', function(req, res, next) {
   res.json({
 "genres": [
   {
-    "id": 28,
-    "name": "Action"
+    "id": 20328,
+    "name": "Criminal"
   },
   {
-    "id": 12,
-    "name": "Adventure"
+    "id": 20312,
+    "name": "Remedial"
   },
   {
-    "id": 16,
-    "name": "Animation"
+    "id": 20316,
+    "name": "Political"
   },
   {
-    "id": 35,
-    "name": "Comedy"
+    "id": 20335,
+    "name": "Civil"
   },
   {
-    "id": 80,
-    "name": "Crime"
+    "id": 20380,
+    "name": "Legal Ethics"
   },
   {
-    "id": 99,
-    "name": "Documentary"
+    "id": 20399,
+    "name": "Taxation"
   },
   {
-    "id": 18,
-    "name": "Drama"
+    "id": 20318,
+    "name": "Commercial"
   },
   {
-    "id": 10751,
-    "name": "Family"
-  },
-  {
-    "id": 14,
-    "name": "Fantasy"
-  },
-  {
-    "id": 36,
-    "name": "History"
-  },
-  {
-    "id": 27,
-    "name": "Horror"
-  },
-  {
-    "id": 10402,
-    "name": "Music"
-  },
-  {
-    "id": 9648,
-    "name": "Mystery"
-  },
-  {
-    "id": 10749,
-    "name": "Romance"
-  },
-  {
-    "id": 878,
-    "name": "Science Fiction"
-  },
-  {
-    "id": 10770,
-    "name": "TV Movie"
-  },
-  {
-    "id": 53,
-    "name": "Thriller"
-  },
-  {
-    "id": 10752,
-    "name": "War"
-  },
-  {
-    "id": 37,
-    "name": "Western"
+    "id": 20375,
+    "name": "Labor"
   }
 ]
 });
@@ -10059,36 +9315,36 @@ router.get('/genre/tv/list', function(req, res, next) {
   res.json({
 "genres": [
   {
-    "id": 10759,
-    "name": "Action & Adventure"
+    "id": 1028,
+    "name": "Criminal"
   },
   {
-    "id": 16,
-    "name": "Animation"
+    "id": 1012,
+    "name": "Remedial"
   },
   {
-    "id": 35,
-    "name": "Comedy"
+    "id": 1016,
+    "name": "Political"
   },
   {
-    "id": 80,
-    "name": "Crime"
+    "id": 1035,
+    "name": "Civil"
   },
   {
-    "id": 99,
-    "name": "Documentary"
+    "id": 1080,
+    "name": "Legal Ethics"
   },
   {
-    "id": 18,
-    "name": "Drama"
+    "id": 1099,
+    "name": "Taxation"
   },
   {
-    "id": 10751,
-    "name": "Family"
+    "id": 1018,
+    "name": "Commercial"
   },
   {
-    "id": 10762,
-    "name": "Kids"
+    "id": 1071,
+    "name": "Labor"
   },
   {
     "id": 9648,
@@ -17091,24 +16347,73 @@ router.get('/movie/:movie_id/reviews', function(req, res, next) {
 });
 
 router.get('/movie/:movie_id/videos', function(req, res, next) {
-  res.json({
-"id": 1272,
-"results": [
-  {
-    "iso_639_1": "en",
-    "iso_3166_1": "US",
-    "name": "Sunshine (2007) - Trailer",
-    "key": "gAYzdeanpo8",
-    "site": "YouTube",
-    "size": 1080,
-    "type": "Trailer",
-    "official": false,
-    "published_at": "2022-08-24T13:00:27.000Z",
-    "id": "63cf1f8ed6c3000096d5629f"
+    res.json({
+        "id": 203281,
+        "results": [
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Complex Crime - Trailer",
+            "key": "Ie7oUZxhu08",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "official": false,
+            "published_at": "2022-08-24T13:00:27.000Z",
+            "id": "763cf1f8ed6c3000096d5629f"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Delito Continuado - Trailer",
+            "key": "DmJLp1fsFjs",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "official": false,
+            "published_at": "2022-08-24T13:00:27.000Z",
+            "id": "863cf1f8ed6c3000096d5629f"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Falsification Malversation of Funds Estafa Theft - Trailer",
+            "key": "hkEeuD78pOsjs",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "official": false,
+            "published_at": "2022-08-24T13:00:27.000Z",
+            "id": "963cf1f8ed6c3000096d5629f"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Bigamy Illegal Marriage Performance of Illegal Marriage - Trailer",
+            "key": "3332tdEQq34",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "official": false,
+            "published_at": "2022-08-24T13:00:27.000Z",
+            "id": "1063cf1f8ed6c3000096d5629f"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Three fold rule and GCTA - Trailer",
+            "key": "eYy-PYBlWQ8",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "official": false,
+            "published_at": "2022-08-24T13:00:27.000Z",
+            "id": "1163cf1f8ed6c3000096d5629f"
+          }
+        ]
+        });
   }
-]
-});
-});
+);
 
 router.get('/review/:review_id', function(req, res, next) {
   res.json({
