@@ -9133,7 +9133,7 @@ router.get('/credit/:credit_id', function(req, res, next) {
 });
 
 router.get('/discover/movie', function(req, res, next) {
-  if (req.query.with_genres === 20328){
+  if (req.query.with_genres == 20328){
       res.json({
     "page": 1,
     "results": [
