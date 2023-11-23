@@ -9133,7 +9133,8 @@ router.get('/credit/:credit_id', function(req, res, next) {
 });
 
 router.get('/discover/movie', function(req, res, next) {
-  if (req.query.with_genres == 20328){
+  console.log('Request Genres - ' + req.query.with_genres);
+  if (req.query.with_genres == 20328 ){
       res.json({
     "page": 1,
     "results": [
@@ -9144,7 +9145,7 @@ router.get('/discover/movie', function(req, res, next) {
           18,
           36
         ],
-        "id": 872585,
+        "id": 99988801,
         "original_language": "en",
         "original_title": "Delito Continuado",
         "overview": "Delito Continuado or continuing offense consists of a series of acts arising from. one criminal intent or resolution. In the above views, since there is only a single criminal intent, even though there. is a series of criminal acts.",
@@ -9164,7 +9165,7 @@ router.get('/discover/movie', function(req, res, next) {
           9648
         ],
 
-        "id": 507089,
+        "id": 99988802,
         "original_language": "en",
         "original_title": "Three fold rule and GCTA",
         "overview": "Under the three-fold rule, of Article 70, a convict can be punished only up to three times the most severe penalty imposed, and such maximum period shall not exceed 40 years.",
@@ -9184,7 +9185,7 @@ router.get('/discover/movie', function(req, res, next) {
           28,
           53
         ],
-        "id": 670292,
+        "id": 99988803,
         "original_language": "en",
         "original_title": "Falsification Malversation of Funds Estafa Theft",
         "overview": "The crime of theft is included necessarily in that of robbery and therefore ... estafa with falsification through imprudence, but of intentional estafa with ...",
@@ -9204,7 +9205,7 @@ router.get('/discover/movie', function(req, res, next) {
           12,
           53
         ],
-        "id": 299054,
+        "id": 99988804,
         "original_language": "en",
         "original_title": "Bigamy illegal marriage performance of illegal marriage",
         "overview": "Bigamy can be intentional, where one spouse marries a second spouse knowing full well their initial marriage remains legally binding, or it can be unintentional, the result of an attempted divorce that was never legally finalized.",
@@ -9223,7 +9224,122 @@ router.get('/discover/movie', function(req, res, next) {
           28,
           53
         ],
-        "id": 575264,
+        "id": 99988805,
+        "original_language": "en",
+        "original_title": "Complex Crime",
+        "overview": "Complex Crime is defined as when a single act constitutes two or more grave or less grave felonies, or when an offense is a necessary means for committing the other, the penalty for the most serious crime shall be imposed, the same to be applied in its maximum period.",
+        "popularity": 1044.199,
+        "poster_path": "/images/NNxYkU70HPurnNCSiCjYAmacwm.jpg",
+        "release_date": "2023-07-08",
+        "title": "Complex Crime",
+        "video": false,
+        "vote_average": 7.6,
+        "vote_count": 2454
+      }
+    ],
+    "total_pages": 1,
+    "total_results": 5
+    });
+ } else {
+  res.json({});
+ }
+
+});
+
+
+router.get('/discover/tv', function(req, res, next) {
+  console.log('Request Genres - ' + req.query.with_genres);
+  if (req.query.with_genres == 20328 ){
+      res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/fm6KqXpk3M2HVveHwCrBSSBaO0V.jpg",
+        "genre_ids": [
+          18,
+          36
+        ],
+        "id": 99988801,
+        "original_language": "en",
+        "original_title": "Delito Continuado",
+        "overview": "Delito Continuado or continuing offense consists of a series of acts arising from. one criminal intent or resolution. In the above views, since there is only a single criminal intent, even though there. is a series of criminal acts.",
+        "popularity": 2590.24,
+        "poster_path": "/images/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+        "release_date": "2023-07-19",
+        "title": "Oppenheimer",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/t5zCBSB5xMDKcDqe91qahCOUYVV.png",
+        "genre_ids": [
+          27,
+          9648
+        ],
+
+        "id": 99988802,
+        "original_language": "en",
+        "original_title": "Three fold rule and GCTA",
+        "overview": "Under the three-fold rule, of Article 70, a convict can be punished only up to three times the most severe penalty imposed, and such maximum period shall not exceed 40 years.",
+        "popularity": 1617.893,
+        "poster_path": "/images/A4j8S6moJS2zNtRR8oWF08gRnL5.png",
+        "release_date": "2023-10-25",
+        "title": "Three fold rule and GCTA",
+        "video": false,
+        "vote_average": 8,
+        "vote_count": 2300
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/kjQBrc00fB2RjHZB3PGR4w9ibpz.jpg",
+        "genre_ids": [
+          878,
+          28,
+          53
+        ],
+        "id": 99988803,
+        "original_language": "en",
+        "original_title": "Falsification Malversation of Funds Estafa Theft",
+        "overview": "The crime of theft is included necessarily in that of robbery and therefore ... estafa with falsification through imprudence, but of intentional estafa with ...",
+        "popularity": 1595.817,
+        "poster_path": "/images/vBZ0qvaRxqEhZwl6LWmruJqWE8Z.png",
+        "release_date": "2023-09-27",
+        "title": "Falsification Malversation of Funds Estafa Theft",
+        "video": false,
+        "vote_average": 7.2,
+        "vote_count": 786
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/rMvPXy8PUjj1o8o1pzgQbdNCsvj.jpg",
+        "genre_ids": [
+          28,
+          12,
+          53
+        ],
+        "id": 99988804,
+        "original_language": "en",
+        "original_title": "Bigamy illegal marriage performance of illegal marriage",
+        "overview": "Bigamy can be intentional, where one spouse marries a second spouse knowing full well their initial marriage remains legally binding, or it can be unintentional, the result of an attempted divorce that was never legally finalized.",
+        "popularity": 1108.183,
+        "poster_path": "/images/iwsMu0ehRPbtaSxqiaUDQB9qMWT.jpg",
+        "release_date": "2023-09-15",
+        "title": "Bigamy illegal marriage performance of illegal marriage",
+        "video": false,
+        "vote_average": 6.4,
+        "vote_count": 741
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/628Dep6AxEtDxjZoGP78TsOxYbK.jpg",
+        "genre_ids": [
+          28,
+          53
+        ],
+        "id": 99988805,
         "original_language": "en",
         "original_title": "Complex Crime",
         "overview": "Complex Crime is defined as when a single act constitutes two or more grave or less grave felonies, or when an offense is a necessary means for committing the other, the penalty for the most serious crime shall be imposed, the same to be applied in its maximum period.",
@@ -18162,7 +18278,8 @@ router.get('/tv/top_rated', function(req, res, next) {
 });
 
 router.get('/tv/:series_id', function(req, res, next) {
-  res.json({
+  res.json(
+    {
 "adult": false,
 "backdrop_path": null,
 "created_by": [
@@ -19720,35 +19837,107 @@ router.get('/tv/:series_id/translations', function(req, res, next) {
 });
 
 router.get('/tv/:series_id/videos', function(req, res, next) {
-  res.json({
-"id": 12751,
-"results": [
-  {
-    "iso_639_1": "en",
-    "iso_3166_1": "US",
-    "name": "Automan & Masquerade 1983 ABC Promo",
-    "key": "u1gyfPFPh68",
-    "site": "YouTube",
-    "size": 480,
-    "type": "Trailer",
-    "official": false,
-    "published_at": "2015-08-04T13:24:39.000Z",
-    "id": "613bba4b322b2b0029644ad8"
-  },
-  {
-    "iso_639_1": "en",
-    "iso_3166_1": "US",
-    "name": "Automan (1983) - Series intro and concept",
-    "key": "wWyl4k4LRRg",
-    "published_at": "2014-05-08T09:19:57.000Z",
-    "site": "YouTube",
-    "size": 360,
-    "type": "Opening Credits",
-    "official": false,
-    "id": "54059c17c3a36816af003436"
-  }
-]
-});
+
+    if (req.params.series_id == 99988801){
+          res.json({
+        "id": 99988801,
+        "results": [
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Delito Continuado",
+            "key": "DmJLp1fsFjs",
+            "site": "YouTube",
+            "size": 480,
+            "type": "Trailer",
+            "official": false,
+            "published_at": "2015-08-04T13:24:39.000Z",
+            "id": "613bba4b322b2b0029644ad8"
+          }
+        ]
+        });
+    }
+
+    if (req.params.series_id == 99988802){
+      res.json({
+      "id": 99988802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Three fold rule and GCTA",
+          "key": "eYy-PYBlWQ8",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+  
+    if (req.params.series_id == 99988803){
+      res.json({
+        "id": 99988803,
+        "results": [
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Falsification Malversation of Funds Estafa Theft",
+            "key": "hkEeuD78pOs",
+            "site": "YouTube",
+            "size": 480,
+            "type": "Trailer",
+            "official": false,
+            "published_at": "2015-08-04T13:24:39.000Z",
+            "id": "613bba4b322b2b0029644ad8"
+          }
+        ]
+        });
+      }
+  
+      if (req.params.series_id == 99988804){
+        res.json({
+          "id": 99988804,
+          "results": [
+            {
+              "iso_639_1": "en",
+              "iso_3166_1": "US",
+              "name": "Bigamy illegal marriage performance of illegal marriage",
+              "key": "3332tdEQq34",
+              "site": "YouTube",
+              "size": 480,
+              "type": "Trailer",
+              "official": false,
+              "published_at": "2015-08-04T13:24:39.000Z",
+              "id": "613bba4b322b2b0029644ad8"
+            }
+          ]
+        });
+      }
+  
+    if (req.params.series_id == 99988805){
+        res.json({
+      "id": 99988805,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Complex Crime",
+          "key": "Ie7oUZxhu08",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+      }
+
 });
 
 router.get('/tv/:series_id/watch/providers', function(req, res, next) {
