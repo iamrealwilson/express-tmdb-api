@@ -9160,7 +9160,7 @@ router.get('/discover/movie', function(req, res, next) {
       },
       {
         "adult": false,
-        "backdrop_path": "/images/t5zCBSB5xMDKcDqe91qahCOUYVV.png",
+        "backdrop_path": "/images/t5zCBSB5xMDKcDqe91qahCOUYVV.jpg",
         "genre_ids": [
           27,
           9648
@@ -9171,7 +9171,7 @@ router.get('/discover/movie', function(req, res, next) {
         "original_title": "Three fold rule and GCTA",
         "overview": "Under the three-fold rule, of Article 70, a convict can be punished only up to three times the most severe penalty imposed, and such maximum period shall not exceed 40 years.",
         "popularity": 1617.893,
-        "poster_path": "/images/A4j8S6moJS2zNtRR8oWF08gRnL5.png",
+        "poster_path": "/images/A4j8S6moJS2zNtRR8oWF08gRnL5.jpg",
         "release_date": "2023-10-25",
         "title": "Three fold rule and GCTA",
         "video": false,
@@ -9191,7 +9191,7 @@ router.get('/discover/movie', function(req, res, next) {
         "original_title": "Falsification Malversation of Funds Estafa Theft",
         "overview": "The crime of theft is included necessarily in that of robbery and therefore ... estafa with falsification through imprudence, but of intentional estafa with ...",
         "popularity": 1595.817,
-        "poster_path": "/images/vBZ0qvaRxqEhZwl6LWmruJqWE8Z.png",
+        "poster_path": "/images/vBZ0qvaRxqEhZwl6LWmruJqWE8Z.jpg",
         "release_date": "2023-09-27",
         "title": "Falsification Malversation of Funds Estafa Theft",
         "video": false,
@@ -9273,7 +9273,7 @@ router.get('/discover/movie', function(req, res, next) {
       },
       {
         "adult": false,
-        "backdrop_path": "/images/t5zCBSB5xMDKcDqe91qahCOUYVV.png",
+        "backdrop_path": "/images/t5zCBSB5xMDKcDqe91qahCOUYVV.jpg",
         "genre_ids": [
           27,
           9648
@@ -9284,7 +9284,7 @@ router.get('/discover/movie', function(req, res, next) {
         "original_title": "Three fold rule and GCTA",
         "overview": "Under the three-fold rule, of Article 70, a convict can be punished only up to three times the most severe penalty imposed, and such maximum period shall not exceed 40 years.",
         "popularity": 1617.893,
-        "poster_path": "/images/A4j8S6moJS2zNtRR8oWF08gRnL5.png",
+        "poster_path": "/images/A4j8S6moJS2zNtRR8oWF08gRnL5.jpg",
         "release_date": "2023-10-25",
         "title": "Three fold rule and GCTA",
         "video": false,
@@ -9304,7 +9304,7 @@ router.get('/discover/movie', function(req, res, next) {
         "original_title": "Falsification Malversation of Funds Estafa Theft",
         "overview": "The crime of theft is included necessarily in that of robbery and therefore ... estafa with falsification through imprudence, but of intentional estafa with ...",
         "popularity": 1595.817,
-        "poster_path": "/images/vBZ0qvaRxqEhZwl6LWmruJqWE8Z.png",
+        "poster_path": "/images/vBZ0qvaRxqEhZwl6LWmruJqWE8Z.jpg",
         "release_date": "2023-09-27",
         "title": "Falsification Malversation of Funds Estafa Theft",
         "video": false,
@@ -9386,7 +9386,7 @@ router.get('/discover/movie', function(req, res, next) {
       },
       {
         "adult": false,
-        "backdrop_path": "/images/t5zCBSB5xMDKcDqe91qahCOUYVV.png",
+        "backdrop_path": "/images/t5zCBSB5xMDKcDqe91qahCOUYVV.jpg",
         "genre_ids": [
           27,
           9648
@@ -9397,7 +9397,7 @@ router.get('/discover/movie', function(req, res, next) {
         "original_title": "Three fold rule and GCTA",
         "overview": "Under the three-fold rule, of Article 70, a convict can be punished only up to three times the most severe penalty imposed, and such maximum period shall not exceed 40 years.",
         "popularity": 1617.893,
-        "poster_path": "/images/A4j8S6moJS2zNtRR8oWF08gRnL5.png",
+        "poster_path": "/images/A4j8S6moJS2zNtRR8oWF08gRnL5.jpg",
         "release_date": "2023-10-25",
         "title": "Three fold rule and GCTA",
         "video": false,
@@ -9417,7 +9417,7 @@ router.get('/discover/movie', function(req, res, next) {
         "original_title": "Falsification Malversation of Funds Estafa Theft",
         "overview": "The crime of theft is included necessarily in that of robbery and therefore ... estafa with falsification through imprudence, but of intentional estafa with ...",
         "popularity": 1595.817,
-        "poster_path": "/images/vBZ0qvaRxqEhZwl6LWmruJqWE8Z.png",
+        "poster_path": "/images/vBZ0qvaRxqEhZwl6LWmruJqWE8Z.jpg",
         "release_date": "2023-09-27",
         "title": "Falsification Malversation of Funds Estafa Theft",
         "video": false,
@@ -9499,7 +9499,7 @@ router.get('/discover/movie', function(req, res, next) {
       },
       {
         "adult": false,
-        "backdrop_path": "/images/t5zCBSB5xMDKcDqe91qahCOUYVV.png",
+        "backdrop_path": "/images/t5zCBSB5xMDKcDqe91qahCOUYVV.jpg",
         "genre_ids": [
           27,
           9648
@@ -9510,7 +9510,7 @@ router.get('/discover/movie', function(req, res, next) {
         "original_title": "Three fold rule and GCTA",
         "overview": "Under the three-fold rule, of Article 70, a convict can be punished only up to three times the most severe penalty imposed, and such maximum period shall not exceed 40 years.",
         "popularity": 1617.893,
-        "poster_path": "/images/A4j8S6moJS2zNtRR8oWF08gRnL5.png",
+        "poster_path": "/images/A4j8S6moJS2zNtRR8oWF08gRnL5.jpg",
         "release_date": "2023-10-25",
         "title": "Three fold rule and GCTA",
         "video": false,
@@ -9530,7 +9530,7 @@ router.get('/discover/movie', function(req, res, next) {
         "original_title": "Falsification Malversation of Funds Estafa Theft",
         "overview": "The crime of theft is included necessarily in that of robbery and therefore ... estafa with falsification through imprudence, but of intentional estafa with ...",
         "popularity": 1595.817,
-        "poster_path": "/images/vBZ0qvaRxqEhZwl6LWmruJqWE8Z.png",
+        "poster_path": "/images/vBZ0qvaRxqEhZwl6LWmruJqWE8Z.jpg",
         "release_date": "2023-09-27",
         "title": "Falsification Malversation of Funds Estafa Theft",
         "video": false,
@@ -10180,7 +10180,7 @@ router.get('/discover/tv', function(req, res, next) {
       },
       {
         "adult": false,
-        "backdrop_path": "/images/PNkPfxySMg0.png",
+        "backdrop_path": "/images/PNkPfxySMg0.jpg",
         "genre_ids": [
           27,
           9648
@@ -10191,7 +10191,7 @@ router.get('/discover/tv', function(req, res, next) {
         "original_title": "RA No  11648 statutory rape",
         "overview": "The discussion will center on analyzing Republic Act No. 11648, which amended Article 266-A of the Revised Penal Code on online libel. Specifically, points of discussion include: An overview of the new provisions introduced under the amended Article 266-A, Comparison to the previous provisions to understand the key changes/updates, Constitutional and legal issues potentially raised by the amendments.",
         "popularity": 1617.893,
-        "poster_path": "/images/PNkPfxySMg0.png",
+        "poster_path": "/images/PNkPfxySMg0.jpg",
         "release_date": "2023-10-25",
         "title": "RA No  11648   statutory rape",
         "video": false,
@@ -10211,7 +10211,7 @@ router.get('/discover/tv', function(req, res, next) {
         "original_title": "bigamy, illegal marriage   performance of illegal marriage",
         "overview": "The discussion will focus on analyzing and comparing the crimes of bigamy, illegal marriage, and performance of illegal marriage under Philippine law. Specifically, it will: Define the elements and nature of bigamy as contracting a second or subsequent marriage, Explain illegal marriage in terms of lack of legal requirements or impediments.",
         "popularity": 1595.817,
-        "poster_path": "/images/8OqZT7jfFn8.png",
+        "poster_path": "/images/8OqZT7jfFn8.jpg",
         "release_date": "2023-09-27",
         "title": "bigamy, illegal marriage   performance of illegal marriage",
         "video": false,
@@ -10291,7 +10291,7 @@ router.get('/discover/tv', function(req, res, next) {
       },
       {
         "adult": false,
-        "backdrop_path": "/images/ncg7TsrhiUY.png",
+        "backdrop_path": "/images/ncg7TsrhiUY.jpg",
         "genre_ids": [
           27,
           9648
@@ -10302,7 +10302,7 @@ router.get('/discover/tv', function(req, res, next) {
         "original_title": "Stages of felony",
         "overview": "The discussion will focus on the different stages a felony can take under Philippine law - attempted, frustrated or consummated. Specifically, it will examine: Defining the elements and requirements of an attempted felony, including specifics on overt acts and proximity to completion.",
         "popularity": 1617.893,
-        "poster_path": "/images/ncg7TsrhiUY.png",
+        "poster_path": "/images/ncg7TsrhiUY.jpg",
         "release_date": "2023-10-25",
         "title": "Stages of felony",
         "video": false,
@@ -10322,7 +10322,7 @@ router.get('/discover/tv', function(req, res, next) {
         "original_title": "Plunder",
         "overview": "The discussion will provide an analysis of the crime of plunder as defined under Republic Act 7080, as amended by Republic Act 7659. Specifically, it will: Outline the key provisions of both laws pertaining to the offense of plunder, Explain the essential elements that must be proved to constitute plunder.",
         "popularity": 1595.817,
-        "poster_path": "/images/a6yRu-13OFc.png",
+        "poster_path": "/images/a6yRu-13OFc.jpg",
         "release_date": "2023-09-27",
         "title": "Plunder",
         "video": false,
@@ -10402,7 +10402,7 @@ router.get('/discover/tv', function(req, res, next) {
       },
       {
         "adult": false,
-        "backdrop_path": "/images/BB3yoKrF8DM.png",
+        "backdrop_path": "/images/BB3yoKrF8DM.jpg",
         "genre_ids": [
           27,
           9648
@@ -10413,7 +10413,7 @@ router.get('/discover/tv', function(req, res, next) {
         "original_title": "Probation and community service",
         "overview": "The video will provide an overview and analysis of probation and community service as alternatives to imprisonment under Philippine law. Specifically, it will cover: An introduction to probation and its legal basis under Presidential Decree 968, as amended by Republic Act 10707, and Eligibility criteria and procedures for both probation and community service.",
         "popularity": 1617.893,
-        "poster_path": "/images/BB3yoKrF8DM.png",
+        "poster_path": "/images/BB3yoKrF8DM.jpg",
         "release_date": "2023-10-25",
         "title": "Probation and community service",
         "video": false,
@@ -10433,7 +10433,7 @@ router.get('/discover/tv', function(req, res, next) {
         "original_title": "Three-fold rule and GCTA",
         "overview": "The discussion will focus on analyzing the Three-fold Rule under Philippine penal law and its relationship to the Good Conduct Time Allowance (GCTA) system. Specifically, it will: Explain the Three-fold Rule, Outline the GCTA system, how it grants reductions in sentence length for good behavior, and Compare how these two concepts interact and potentially conflict.",
         "popularity": 1595.817,
-        "poster_path": "/images/JxsN19NL_Ds.png",
+        "poster_path": "/images/JxsN19NL_Ds.jpg",
         "release_date": "2023-09-27",
         "title": "Three-fold rule and GCTA",
         "video": false,
@@ -10513,7 +10513,7 @@ router.get('/discover/tv', function(req, res, next) {
       },
       {
         "adult": false,
-        "backdrop_path": "/images/B6-DJ-qWYKg.png",
+        "backdrop_path": "/images/B6-DJ-qWYKg.jpg",
         "genre_ids": [
           27,
           9648
@@ -10524,7 +10524,7 @@ router.get('/discover/tv', function(req, res, next) {
         "original_title": "Rape with homicide, robbery with homicide or rape",
         "overview": "The video will provide an analysis of the legal concept of special complex crimes under Philippine law. A main focus will be on two key characteristics that define special complex crimes such as the original design and direct connection.",
         "popularity": 1617.893,
-        "poster_path": "/images/B6-DJ-qWYKg.png",
+        "poster_path": "/images/B6-DJ-qWYKg.jpg",
         "release_date": "2023-10-25",
         "title": "Rape with homicide, robbery with homicide or rape",
         "video": false,
@@ -10544,7 +10544,7 @@ router.get('/discover/tv', function(req, res, next) {
         "original_title": "Kidnapping with homicide or rape",
         "overview": "The discussion will focus on analyzing the special complex crime of kidnapping with either homicide or rape under Philippine law. Specifically, it will examine kidnapping as one of the principal offenses of this special complex crime and homicide or rape as the other principal offense committed through the same criminal act.",
         "popularity": 1595.817,
-        "poster_path": "/images/CaRrSRRAI8c.png",
+        "poster_path": "/images/CaRrSRRAI8c.jpg",
         "release_date": "2023-09-27",
         "title": "Kidnapping with homicide or rape",
         "video": false,
@@ -10624,7 +10624,7 @@ router.get('/discover/tv', function(req, res, next) {
       },
       {
         "adult": false,
-        "backdrop_path": "/images/AYoZ07A0OWg.png",
+        "backdrop_path": "/images/AYoZ07A0OWg.jpg",
         "genre_ids": [
           27,
           9648
@@ -10635,7 +10635,7 @@ router.get('/discover/tv', function(req, res, next) {
         "original_title": "Falsification, malversation, estafa, theft",
         "overview": "The discussion will analyze the crime of falsification of public, commercial or private documents in relation to other offenses like malversation, estafa, and theft. Specifically, it will cover 4 rules on classifying these crimes.",
         "popularity": 1617.893,
-        "poster_path": "/images/AYoZ07A0OWg.png",
+        "poster_path": "/images/AYoZ07A0OWg.jpg",
         "release_date": "2023-10-25",
         "title": "Falsification, malversation, estafa, theft",
         "video": false,
@@ -10655,7 +10655,7 @@ router.get('/discover/tv', function(req, res, next) {
         "original_title": "Terrorism",
         "overview": "The video will analyze the concept of terrorism under Republic Act 11479 or the Anti-Terrorism Act of 2020. Specifically, it will cover an overview of the definition of terrorism provided in RA 11479 and the acts classified as terrorism and potential issues around vagueness/overreach.",
         "popularity": 1595.817,
-        "poster_path": "/images/4c6N2L9mO3A.png",
+        "poster_path": "/images/4c6N2L9mO3A.jpg",
         "release_date": "2023-09-27",
         "title": "Terrorism",
         "video": false,
@@ -10735,7 +10735,7 @@ router.get('/discover/tv', function(req, res, next) {
       },
       {
         "adult": false,
-        "backdrop_path": "/images/TDpAhpVcKXo.png",
+        "backdrop_path": "/images/TDpAhpVcKXo.jpg",
         "genre_ids": [
           27,
           9648
@@ -10746,7 +10746,7 @@ router.get('/discover/tv', function(req, res, next) {
         "original_title": "Penalties special law",
         "overview": "The discussion will focus on analyzing criminal penalties associated with offenses established under special laws in the Philippines. Some points of discussion may include examining categories of special laws that contain criminal provisions, discussing the range and graduation of penalties for violating special laws, and comparing penalty schemes between special laws and the Revised Penal Code.",
         "popularity": 1617.893,
-        "poster_path": "/images/TDpAhpVcKXo.png",
+        "poster_path": "/images/TDpAhpVcKXo.jpg",
         "release_date": "2023-10-25",
         "title": "Penalties special law",
         "video": false,
@@ -10766,7 +10766,7 @@ router.get('/discover/tv', function(req, res, next) {
         "original_title": "Penalties for special law",
         "overview": "The discussion will center on analyzing special penal laws and applicable penalties through examination of two case studies such as People v. Obias (G.R. No. 222187, March 25, 2019) and People v. Pis-an (G.R. No. 242692, July 13, 2020)",
         "popularity": 1595.817,
-        "poster_path": "/images/Cf0TCYWhreQ.png",
+        "poster_path": "/images/Cf0TCYWhreQ.jpg",
         "release_date": "2023-09-27",
         "title": "Penalties for special law",
         "video": false,
@@ -10846,7 +10846,7 @@ router.get('/discover/tv', function(req, res, next) {
       },
       {
         "adult": false,
-        "backdrop_path": "/images/nFK07TccaHc.png",
+        "backdrop_path": "/images/nFK07TccaHc.jpg",
         "genre_ids": [
           27,
           9648
@@ -10877,7 +10877,7 @@ router.get('/discover/tv', function(req, res, next) {
         "original_title": "Voyuerism",
         "overview": "The discussion will center around analyzing Republic Act 9995, also known as the Anti-Photo and Video Voyeurism Act of 2009. Some potential discussion points include defining key terms related to photo/video voyeurism as outlined in the law, examining the specific acts that are deemed illegal photo/video voyeurism, and discussing the intent and objectives of RA 9995 in addressing these issues.",
         "popularity": 1595.817,
-        "poster_path": "/images/kSqwVtztixg.png",
+        "poster_path": "/images/kSqwVtztixg.jpg",
         "release_date": "2023-09-27",
         "title": "Voyuerism",
         "video": false,
@@ -10957,7 +10957,7 @@ router.get('/discover/tv', function(req, res, next) {
       },
       {
         "adult": false,
-        "backdrop_path": "/images/pnScrR_P5AM.png",
+        "backdrop_path": "/images/pnScrR_P5AM.jpg",
         "genre_ids": [
           27,
           9648
@@ -10968,7 +10968,7 @@ router.get('/discover/tv', function(req, res, next) {
         "original_title": "Delito continuado",
         "overview": "The video will provide an analysis of the legal concept of delito continuado or continuing crime under Philippine law. Key aspects that will be covered include the definition of a continuing crime as composed of several acts committed under a single criminal impulse in violation of a single penal provision and distinguishing features compared to other types of crimes like complex crimes.",
         "popularity": 1617.893,
-        "poster_path": "/images/pnScrR_P5AM.png",
+        "poster_path": "/images/pnScrR_P5AM.jpg",
         "release_date": "2023-10-25",
         "title": "Delito continuado",
         "video": false,
@@ -10988,7 +10988,7 @@ router.get('/discover/tv', function(req, res, next) {
         "original_title": "Delito continuado 2",
         "overview": "The discussion will cover the second part of the concept of delito continuado or continuing crime under Philippine criminal law. Specifically, it will focus on analyzing the four kinds of continuing crimes identified by Train jurisprudence such as the crimes committed with indivisible intention, crimes committed by successive acts, crimes committed by intermittent acts, and crimes committed in breach of only one duty.",
         "popularity": 1595.817,
-        "poster_path": "/images/GQpnQnCKBDU.png",
+        "poster_path": "/images/GQpnQnCKBDU.jpg",
         "release_date": "2023-09-27",
         "title": "Delito continuado 2",
         "video": false,
