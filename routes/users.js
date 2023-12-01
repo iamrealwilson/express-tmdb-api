@@ -10502,7 +10502,7 @@ router.get('/discover/tv', function(req, res, next) {
         "id": 20303888801,
         "original_language": "en",
         "original_title": "Special complex crime",
-        "overview": "The discussion will focus on the concept of a "special complex crime" under Philippine criminal law. A special complex crime involves the commission of two or more felonies through a single criminal act, transaction, or course of conduct where the law prescribes a single, indivisible penalty for the whole offense.",
+        "overview": "The discussion will focus on the concept of a special complex crime under Philippine criminal law. A special complex crime involves the commission of two or more felonies through a single criminal act, transaction, or course of conduct where the law prescribes a single, indivisible penalty for the whole offense.",
         "popularity": 2590.24,
         "poster_path": "/images/O4WKPNUks5U.jpg",
         "release_date": "2023-07-19",
