@@ -20000,7 +20000,7 @@ router.get('/tv/top_rated', function(req, res, next) {
 });
 
 router.get('/tv/:series_id', function(req, res, next) {
-	
+  console.log('series id -- ' + req.params.series_id);
   res.json(
     {
 "adult": false,
