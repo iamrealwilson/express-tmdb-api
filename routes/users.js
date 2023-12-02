@@ -20001,766 +20001,140 @@ router.get('/tv/top_rated', function(req, res, next) {
 
 router.get('/tv/:series_id', function(req, res, next) {
 	
-   if (req.params.series_id == 2030088801){
-      res.json({
-      "id": 2030088801,
-      "results": [
-        {
-          "iso_639_1": "en",
-          "iso_3166_1": "US",
-          "name": "1. Robbery, kidnapping, arbitrary detention, unlawful arrest, arson",
-          "key": "Gg60vbmUmaY",
-          "site": "YouTube",
-          "size": 480,
-          "type": "Trailer",
-          "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
-          "id": "613bba4b322b2b0029644ad8"
-        }
-      ]
-      });
-    }
-  
-   if (req.params.series_id == 2030088802){
-      res.json({
-      "id": 2030088802,
-      "results": [
-        {
-          "iso_639_1": "en",
-          "iso_3166_1": "US",
-          "name": "2. RA No. 11648 - statutory rape",
-          "key": "DjHwll-HpeM",
-          "site": "YouTube",
-          "size": 480,
-          "type": "Trailer",
-          "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
-          "id": "613bba4b322b2b0029644ad8"
-        }
-      ]
-      });
-    }
-  
-   if (req.params.series_id == 2030088803){
-      res.json({
-      "id": 2030088803,
-      "results": [
-        {
-          "iso_639_1": "en",
-          "iso_3166_1": "US",
-          "name": "3. bigamy, illegal marriage _ performance of illegal marriage",
-          "key": "DwOJ4hULUyo",
-          "site": "YouTube",
-          "size": 480,
-          "type": "Trailer",
-          "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
-          "id": "613bba4b322b2b0029644ad8"
-        }
-      ]
-      });
-    }
-  
-   if (req.params.series_id == 2030088804){
-      res.json({
-      "id": 2030088804,
-      "results": [
-        {
-          "iso_639_1": "en",
-          "iso_3166_1": "US",
-          "name": "4 error in personae, aberatiu ictus, praeter intentionem",
-          "key": "Su8MATkGkVs",
-          "site": "YouTube",
-          "size": 480,
-          "type": "Trailer",
-          "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
-          "id": "613bba4b322b2b0029644ad8"
-        }
-      ]
-      });
-    }
-  
-   if (req.params.series_id == 2030088805){
-      res.json({
-      "id": 2030088805,
-      "results": [
-        {
-          "iso_639_1": "en",
-          "iso_3166_1": "US",
-          "name": "5. death under exceptional circumstance, tumultous affray, abortion, infanticide, parricide, murder, discharge of firearm",
-          "key": "o9UuV-1dM1I",
-          "site": "YouTube",
-          "size": 480,
-          "type": "Trailer",
-          "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
-          "id": "613bba4b322b2b0029644ad8"
-        }
-      ]
-      });
-    }
-  
-   if (req.params.series_id == 2030188801){
-      res.json({
-      "id": 2030188801,
-      "results": [
-        {
-          "iso_639_1": "en",
-          "iso_3166_1": "US",
-          "name": "6. Impossible crime",
-          "key": "k3jYl_Mvazs",
-          "site": "YouTube",
-          "size": 480,
-          "type": "Trailer",
-          "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
-          "id": "613bba4b322b2b0029644ad8"
-        }
-      ]
-      });
-    }
-  
-   if (req.params.series_id == 2030188802){
-      res.json({
-      "id": 2030188802,
-      "results": [
-        {
-          "iso_639_1": "en",
-          "iso_3166_1": "US",
-          "name": "7. Stages of felony",
-          "key": "0CNnZU1w9BU",
-          "site": "YouTube",
-          "size": 480,
-          "type": "Trailer",
-          "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
-          "id": "613bba4b322b2b0029644ad8"
-        }
-      ]
-      });
-    }
-  
-   if (req.params.series_id == 2030188803){
-      res.json({
-      "id": 2030188803,
-      "results": [
-        {
-          "iso_639_1": "en",
-          "iso_3166_1": "US",
-          "name": "8. Plunder",
-          "key": "NAON0E2jQak",
-          "site": "YouTube",
-          "size": 480,
-          "type": "Trailer",
-          "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
-          "id": "613bba4b322b2b0029644ad8"
-        }
-      ]
-      });
-    }
-  
-   if (req.params.series_id == 2030188804){
-      res.json({
-      "id": 2030188804,
-      "results": [
-        {
-          "iso_639_1": "en",
-          "iso_3166_1": "US",
-          "name": "9. Treason, Rebellion, coup detat, sedition",
-          "key": "CSIH-4gVgbM",
-          "site": "YouTube",
-          "size": 480,
-          "type": "Trailer",
-          "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
-          "id": "613bba4b322b2b0029644ad8"
-        }
-      ]
-      });
-    }
-  
-   if (req.params.series_id == 2030188805){
-      res.json({
-      "id": 2030188805,
-      "results": [
-        {
-          "iso_639_1": "en",
-          "iso_3166_1": "US",
-          "name": "Violence against women RA No. 9262",
-          "key": "VK4r7_g6RJE",
-          "site": "YouTube",
-          "size": 480,
-          "type": "Trailer",
-          "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
-          "id": "613bba4b322b2b0029644ad8"
-        }
-      ]
-      });
-    }
-  
-   if (req.params.series_id == 2030288801){
-      res.json({
-      "id": 2030288801,
-      "results": [
-        {
-          "iso_639_1": "en",
-          "iso_3166_1": "US",
-          "name": "11. Amnesty and pardon",
-          "key": "fUK67vTHUDM",
-          "site": "YouTube",
-          "size": 480,
-          "type": "Trailer",
-          "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
-          "id": "613bba4b322b2b0029644ad8"
-        }
-      ]
-      });
-    }
-  
-   if (req.params.series_id == 2030288802){
-      res.json({
-      "id": 2030288802,
-      "results": [
-        {
-          "iso_639_1": "en",
-          "iso_3166_1": "US",
-          "name": "12. Probation and community service",
-          "key": "gqxQlZG22hk",
-          "site": "YouTube",
-          "size": 480,
-          "type": "Trailer",
-          "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
-          "id": "613bba4b322b2b0029644ad8"
-        }
-      ]
-      });
-    }
-  
-   if (req.params.series_id == 2030288803){
-      res.json({
-      "id": 2030288803,
-      "results": [
-        {
-          "iso_639_1": "en",
-          "iso_3166_1": "US",
-          "name": "13. Three-fold rule and GCTA",
-          "key": "UMQ0DySDM4E",
-          "site": "YouTube",
-          "size": 480,
-          "type": "Trailer",
-          "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
-          "id": "613bba4b322b2b0029644ad8"
-        }
-      ]
-      });
-    }
-  
-   if (req.params.series_id == 2030288804){
-      res.json({
-      "id": 2030288804,
-      "results": [
-        {
-          "iso_639_1": "en",
-          "iso_3166_1": "US",
-          "name": "14. Principal, accomplice, accessory, fencing, obstruction of justice 1",
-          "key": "l1G9L8dF6zQ",
-          "site": "YouTube",
-          "size": 480,
-          "type": "Trailer",
-          "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
-          "id": "613bba4b322b2b0029644ad8"
-        }
-      ]
-      });
-    }
-  
-   if (req.params.series_id == 2030288805){
-      res.json({
-      "id": 2030288805,
-      "results": [
-        {
-          "iso_639_1": "en",
-          "iso_3166_1": "US",
-          "name": "15. trafficking in person, child trafficking, child pornography, cyber sex",
-          "key": "2NVM2K2ucJo",
-          "site": "YouTube",
-          "size": 480,
-          "type": "Trailer",
-          "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
-          "id": "613bba4b322b2b0029644ad8"
-        }
-      ]
-      });
-    }
-  
-   if (req.params.series_id == 2030388801){
-      res.json({
-      "id": 2030388801,
-      "results": [
-        {
-          "iso_639_1": "en",
-          "iso_3166_1": "US",
-          "name": "16. special complex crime",
-          "key": "fyFQiuUbixA",
-          "site": "YouTube",
-          "size": 480,
-          "type": "Trailer",
-          "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
-          "id": "613bba4b322b2b0029644ad8"
-        }
-      ]
-      });
-    }
-  
-   if (req.params.series_id == 2030388802){
-      res.json({
-      "id": 2030388802,
-      "results": [
-        {
-          "iso_639_1": "en",
-          "iso_3166_1": "US",
-          "name": "17. Rape with homicide, robbery with homicide or rape",
-          "key": "br1MFi8_rJg",
-          "site": "YouTube",
-          "size": 480,
-          "type": "Trailer",
-          "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
-          "id": "613bba4b322b2b0029644ad8"
-        }
-      ]
-      });
-    }
-  
-   if (req.params.series_id == 2030388803){
-      res.json({
-      "id": 2030388803,
-      "results": [
-        {
-          "iso_639_1": "en",
-          "iso_3166_1": "US",
-          "name": "18. Kidnapping with homicide or rape",
-          "key": "88B31z7Z29w",
-          "site": "YouTube",
-          "size": 480,
-          "type": "Trailer",
-          "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
-          "id": "613bba4b322b2b0029644ad8"
-        }
-      ]
-      });
-    }
-  
-   if (req.params.series_id == 2030388804){
-      res.json({
-      "id": 2030388804,
-      "results": [
-        {
-          "iso_639_1": "en",
-          "iso_3166_1": "US",
-          "name": "19. Kidnapping with rape, rape through forcible abduction, kidnapping and robbery",
-          "key": "nYkSb-Px7l8",
-          "site": "YouTube",
-          "size": 480,
-          "type": "Trailer",
-          "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
-          "id": "613bba4b322b2b0029644ad8"
-        }
-      ]
-      });
-    }
-  
-   if (req.params.series_id == 2030388805){
-      res.json({
-      "id": 2030388805,
-      "results": [
-        {
-          "iso_639_1": "en",
-          "iso_3166_1": "US",
-          "name": "20. Theft and estafa",
-          "key": "BGo08N73ARs",
-          "site": "YouTube",
-          "size": 480,
-          "type": "Trailer",
-          "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
-          "id": "613bba4b322b2b0029644ad8"
-        }
-      ]
-      });
-    }
-  
-   if (req.params.series_id == 2030488801){
-      res.json({
-      "id": 2030488801,
-      "results": [
-        {
-          "iso_639_1": "en",
-          "iso_3166_1": "US",
-          "name": "21. Rape, sexual assault, acts of lasciviouness, sexual abuse, child prostituiton, child cohabitation",
-          "key": "dAHoNOPs7iQ",
-          "site": "YouTube",
-          "size": 480,
-          "type": "Trailer",
-          "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
-          "id": "613bba4b322b2b0029644ad8"
-        }
-      ]
-      });
-    }
-  
-   if (req.params.series_id == 2030488802){
-      res.json({
-      "id": 2030488802,
-      "results": [
-        {
-          "iso_639_1": "en",
-          "iso_3166_1": "US",
-          "name": "22. falsification, malversation, estafa, theft",
-          "key": "WJ51r1JfU0k",
-          "site": "YouTube",
-          "size": 480,
-          "type": "Trailer",
-          "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
-          "id": "613bba4b322b2b0029644ad8"
-        }
-      ]
-      });
-    }
-  
-   if (req.params.series_id == 2030488803){
-      res.json({
-      "id": 2030488803,
-      "results": [
-        {
-          "iso_639_1": "en",
-          "iso_3166_1": "US",
-          "name": "23. Terrorism",
-          "key": "ue5KIyFCXlY",
-          "site": "YouTube",
-          "size": 480,
-          "type": "Trailer",
-          "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
-          "id": "613bba4b322b2b0029644ad8"
-        }
-      ]
-      });
-    }
-  
-   if (req.params.series_id == 2030488804){
-      res.json({
-      "id": 2030488804,
-      "results": [
-        {
-          "iso_639_1": "en",
-          "iso_3166_1": "US",
-          "name": "24. Generality and territoriality 1",
-          "key": "-rxaYsUN3YY",
-          "site": "YouTube",
-          "size": 480,
-          "type": "Trailer",
-          "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
-          "id": "613bba4b322b2b0029644ad8"
-        }
-      ]
-      });
-    }
-  
-   if (req.params.series_id == 2030488805){
-      res.json({
-      "id": 2030488805,
-      "results": [
-        {
-          "iso_639_1": "en",
-          "iso_3166_1": "US",
-          "name": "25. Territoriality, repeal and RA 10951-001_2",
-          "key": "Xau1OihxAeA",
-          "site": "YouTube",
-          "size": 480,
-          "type": "Trailer",
-          "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
-          "id": "613bba4b322b2b0029644ad8"
-        }
-      ]
-      });
-    }
-  
-   if (req.params.series_id == 2030588801){
-      res.json({
-      "id": 2030588801,
-      "results": [
-        {
-          "iso_639_1": "en",
-          "iso_3166_1": "US",
-          "name": "26. Culpa and mistake of fact",
-          "key": "VRkwFCIpkq0",
-          "site": "YouTube",
-          "size": 480,
-          "type": "Trailer",
-          "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
-          "id": "613bba4b322b2b0029644ad8"
-        }
-      ]
-      });
-    }
-  
-   if (req.params.series_id == 2030588802){
-      res.json({
-      "id": 2030588802,
-      "results": [
-        {
-          "iso_639_1": "en",
-          "iso_3166_1": "US",
-          "name": "27.  Penalties special law",
-          "key": "HScUS6yhGhI",
-          "site": "YouTube",
-          "size": 480,
-          "type": "Trailer",
-          "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
-          "id": "613bba4b322b2b0029644ad8"
-        }
-      ]
-      });
-    }
-  
-   if (req.params.series_id == 2030588803){
-      res.json({
-      "id": 2030588803,
-      "results": [
-        {
-          "iso_639_1": "en",
-          "iso_3166_1": "US",
-          "name": "28. Penalties for special law",
-          "key": "81r6XN8OcQI",
-          "site": "YouTube",
-          "size": 480,
-          "type": "Trailer",
-          "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
-          "id": "613bba4b322b2b0029644ad8"
-        }
-      ]
-      });
-    }
-  
-   if (req.params.series_id == 2030588804){
-      res.json({
-      "id": 2030588804,
-      "results": [
-        {
-          "iso_639_1": "en",
-          "iso_3166_1": "US",
-          "name": "29. Lawas principle",
-          "key": "aEGVWsTneFI",
-          "site": "YouTube",
-          "size": 480,
-          "type": "Trailer",
-          "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
-          "id": "613bba4b322b2b0029644ad8"
-        }
-      ]
-      });
-    }
-  
-   if (req.params.series_id == 2030588805){
-      res.json({
-      "id": 2030588805,
-      "results": [
-        {
-          "iso_639_1": "en",
-          "iso_3166_1": "US",
-          "name": "30. Carnapping and piracy",
-          "key": "aa3iL9ZgadA",
-          "site": "YouTube",
-          "size": 480,
-          "type": "Trailer",
-          "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
-          "id": "613bba4b322b2b0029644ad8"
-        }
-      ]
-      });
-    }
-  
-   if (req.params.series_id == 2030688801){
-      res.json({
-      "id": 2030688801,
-      "results": [
-        {
-          "iso_639_1": "en",
-          "iso_3166_1": "US",
-          "name": "31. Brigandage and hijacking",
-          "key": "-SaHpgGlAac",
-          "site": "YouTube",
-          "size": 480,
-          "type": "Trailer",
-          "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
-          "id": "613bba4b322b2b0029644ad8"
-        }
-      ]
-      });
-    }
-  
-   if (req.params.series_id == 2030688802){
-      res.json({
-      "id": 2030688802,
-      "results": [
-        {
-          "iso_639_1": "en",
-          "iso_3166_1": "US",
-          "name": "32. Syndicated estafa",
-          "key": "UryS3aRqRrY",
-          "site": "YouTube",
-          "size": 480,
-          "type": "Trailer",
-          "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
-          "id": "613bba4b322b2b0029644ad8"
-        }
-      ]
-      });
-    }
-  
-   if (req.params.series_id == 2030688803){
-      res.json({
-      "id": 2030688803,
-      "results": [
-        {
-          "iso_639_1": "en",
-          "iso_3166_1": "US",
-          "name": "33. Voyuerism",
-          "key": "GTxLKdTj2WQ",
-          "site": "YouTube",
-          "size": 480,
-          "type": "Trailer",
-          "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
-          "id": "613bba4b322b2b0029644ad8"
-        }
-      ]
-      });
-    }
-  
-   if (req.params.series_id == 2030688804){
-      res.json({
-      "id": 2030688804,
-      "results": [
-        {
-          "iso_639_1": "en",
-          "iso_3166_1": "US",
-          "name": "34. Hazing",
-          "key": "p4Ehr1fxAbI",
-          "site": "YouTube",
-          "size": 480,
-          "type": "Trailer",
-          "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
-          "id": "613bba4b322b2b0029644ad8"
-        }
-      ]
-      });
-    }
-  
-   if (req.params.series_id == 2030688805){
-      res.json({
-      "id": 2030688805,
-      "results": [
-        {
-          "iso_639_1": "en",
-          "iso_3166_1": "US",
-          "name": "35. Cyber-libel",
-          "key": "PeRi98ktHpE",
-          "site": "YouTube",
-          "size": 480,
-          "type": "Trailer",
-          "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
-          "id": "613bba4b322b2b0029644ad8"
-        }
-      ]
-      });
-    }
-  
-   if (req.params.series_id == 2030788801){
-      res.json({
-      "id": 2030788801,
-      "results": [
-        {
-          "iso_639_1": "en",
-          "iso_3166_1": "US",
-          "name": "36. complex crime",
-          "key": "ftJ16-7QKnU",
-          "site": "YouTube",
-          "size": 480,
-          "type": "Trailer",
-          "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
-          "id": "613bba4b322b2b0029644ad8"
-        }
-      ]
-      });
-    }
-  
-   if (req.params.series_id == 2030788802){
-      res.json({
-      "id": 2030788802,
-      "results": [
-        {
-          "iso_639_1": "en",
-          "iso_3166_1": "US",
-          "name": "37. Delito continuado",
-          "key": "TbUsPpK71Rk",
-          "site": "YouTube",
-          "size": 480,
-          "type": "Trailer",
-          "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
-          "id": "613bba4b322b2b0029644ad8"
-        }
-      ]
-      });
-    }
-  
-   if (req.params.series_id == 2030788803){
-      res.json({
-      "id": 2030788803,
-      "results": [
-        {
-          "iso_639_1": "en",
-          "iso_3166_1": "US",
-          "name": "38. Delito continuado 2",
-          "key": "Gb_fIzBMLf0",
-          "site": "YouTube",
-          "size": 480,
-          "type": "Trailer",
-          "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
-          "id": "613bba4b322b2b0029644ad8"
-        }
-      ]
-      });
-    }
-  
+  res.json(
+    {
+"adult": false,
+"backdrop_path": null,
+"created_by": [
+  {
+    "id": 11834,
+    "credit_id": "5307ee44c3a36841f00011b0",
+    "name": "David Seltzer",
+    "gender": 2,
+    "profile_path": "/igRrhRzTQIzUIOzhmo3A1LwMHOI.jpg"
+  }
+],
+"episode_run_time": [
+  43
+],
+"first_air_date": "2005-04-13",
+"genres": [
+  {
+    "id": 18,
+    "name": "Drama"
+  },
+  {
+    "id": 9648,
+    "name": "Mystery"
+  },
+  {
+    "id": 10765,
+    "name": "Sci-Fi & Fantasy"
+  }
+],
+"homepage": "",
+"id": 11122,
+"in_production": false,
+"languages": [
+  "en"
+],
+"last_air_date": "2005-05-18",
+"last_episode_to_air": {
+  "id": 445341,
+  "name": "Hour Six",
+  "overview": "Dr. Massey (Bill Pullman) and Sister Jo (Natascha McElhone) translate the secret book they found hidden in the puzzle box, which leads them to Tiberias on a mission to find young Hawk (Mark Rendall) and stop the impending birth of the Anti-Christ. Haden (Michael Massee) and Dr. Massey enter a final showdown in the dramatic conclusion.",
+  "vote_average": 0,
+  "vote_count": 0,
+  "air_date": "2005-05-18",
+  "episode_number": 6,
+  "episode_type": "finale",
+  "production_code": "",
+  "runtime": 43,
+  "season_number": 1,
+  "show_id": 11122,
+  "still_path": null
+},
+"name": "Revelations",
+"next_episode_to_air": null,
+"networks": [
+  {
+    "id": 6,
+    "logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+    "name": "NBC",
+    "origin_country": "US"
+  }
+],
+"number_of_episodes": 6,
+"number_of_seasons": 1,
+"origin_country": [
+  "US"
+],
+"original_language": "en",
+"original_name": "Revelations",
+"overview": "Set just before the start of Armageddon, the series will follow two central characters, a physicist and a nun, who are racing against the clock to see if the end of the world apocalypse can be averted. Bill Pullman plays Dr. Richard Massey, a Harvard professor whose daughter is murdered by satanists while McElhone stars as a nun who recruits Massey to help investigate whether what's told in the Book of Revelations is starting to come true. Seltzer and Polone with executive produce the project along with Pariah Television's Vivian Cannon and Jessika Borsiczky.",
+"popularity": 23.139,
+"poster_path": "/iiJ1La1Roicp1kHG99OTuL2g8H3.jpg",
+"production_companies": [
+  {
+    "id": 11345,
+    "logo_path": "/xhnnHfsqEimD4r0QeUz3GSvcv73.png",
+    "name": "Stillking Films",
+    "origin_country": "CZ"
+  },
+  {
+    "id": 55683,
+    "logo_path": null,
+    "name": "NBC Enterprises",
+    "origin_country": ""
+  },
+  {
+    "id": 11733,
+    "logo_path": null,
+    "name": "Pariah",
+    "origin_country": ""
+  }
+],
+"production_countries": [
+  {
+    "iso_3166_1": "US",
+    "name": "United States of America"
+  }
+],
+"seasons": [
+  {
+    "air_date": "2006-12-22",
+    "episode_count": 2,
+    "id": 21591,
+    "name": "Specials",
+    "overview": "",
+    "poster_path": null,
+    "season_number": 0,
+    "vote_average": 0
+  },
+  {
+    "air_date": "2005-04-13",
+    "episode_count": 6,
+    "id": 21590,
+    "name": "Season 1",
+    "overview": "",
+    "poster_path": "/keFARZE8NK3RcIuAGguhJcVwgx6.jpg",
+    "season_number": 1,
+    "vote_average": 0
+  }
+],
+"spoken_languages": [
+  {
+    "english_name": "English",
+    "iso_639_1": "en",
+    "name": "English"
+  }
+],
+"status": "Ended",
+"tagline": "",
+"type": "Miniseries",
+"vote_average": 5.7,
+"vote_count": 29
+});
 });
 
 router.get('/tv/:series_id/account_states', function(req, res, next) {
