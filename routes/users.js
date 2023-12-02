@@ -11228,72 +11228,176 @@ router.get('/genre/movie/list', function(req, res, next) {
 
 router.get('/genre/tv/list', function(req, res, next) {
   res.json({
-"genres": [
-  {
-    "id": 1028,
-    "name": "Criminal"
-  },
-  {
-    "id": 1012,
-    "name": "Remedial"
-  },
-  {
-    "id": 1016,
-    "name": "Political"
-  },
-  {
-    "id": 1035,
-    "name": "Civil"
-  },
-  {
-    "id": 1080,
-    "name": "Legal Ethics"
-  },
-  {
-    "id": 1099,
-    "name": "Taxation"
-  },
-  {
-    "id": 1018,
-    "name": "Commercial"
-  },
-  {
-    "id": 1071,
-    "name": "Labor"
-  },
-  {
-    "id": 9648,
-    "name": "Mystery"
-  },
-  {
-    "id": 10763,
-    "name": "News"
-  },
-  {
-    "id": 10764,
-    "name": "Reality"
-  },
-  {
-    "id": 10765,
-    "name": "Sci-Fi & Fantasy"
-  },
-  {
-    "id": 10766,
-    "name": "Soap"
-  },
-  {
-    "id": 10767,
-    "name": "Talk"
-  },
-  {
-    "id": 10768,
-    "name": "War & Politics"
-  },
-  {
-    "id": 37,
-    "name": "Western"
-  }
-]
+ "genres": [
+    {
+      "id": 1001,
+      "name": "Politcal Part 1"
+    },
+    {
+      "id": 1002,
+      "name": "Political Part 2"
+    },
+    {
+      "id": 1003,
+      "name": "Political Part 3"
+    },
+    {
+      "id": 1004,
+      "name": "Political Part 4"
+    },
+    {
+      "id": 1005,
+      "name": "Political Part 5"
+    },
+    {
+      "id": 1006,
+      "name": "Taxation Part 1"
+    },
+    {
+      "id": 1007,
+      "name": "Taxation Part 2"
+    },
+    {
+      "id": 1008,
+      "name": "Taxation Part 3"
+    },
+    {
+      "id": 1009,
+      "name": "Taxation Part 4"
+    },
+    {
+      "id": 1100,
+      "name": "Taxation Part 5"
+    },
+    {
+      "id": 1110,
+      "name": "Commercial Part 1"
+    },
+    {
+      "id": 1120,
+      "name": "Commercial Part 2"
+    },
+    {
+      "id": 1130,
+      "name": "Commercial Part 3"
+    },
+    {
+      "id": 1140,
+      "name": "Commercial Part 4"
+    },
+    {
+      "id": 1150,
+      "name": "Commercial Part 5"
+    },
+    {
+      "id": 1160,
+      "name": "Civil Part 1"
+    },
+    {
+      "id": 1170,
+      "name": "Civil Part 2"
+    },
+    {
+      "id": 1180,
+      "name": "Civil Part 2"
+    },
+    {
+      "id": 1190,
+      "name": "Civil Part 3"
+    },
+    {
+      "id": 1200,
+      "name": "Civil Part 4"
+    },
+    {
+      "id": 1210,
+      "name": "Civil Part 5"
+    },
+    {
+      "id": 1220,
+      "name": "Labort Part 1"
+    },
+    {
+      "id": 1230,
+      "name": "Labort Part 2"
+    },
+    {
+      "id": 1240,
+      "name": "Labort Part 3"
+    },
+    {
+      "id": 20300,
+      "name": "Judge Campanilla Criminal Part 1"
+    },
+    {
+      "id": 20301,
+      "name": "Judge Campanilla Criminal Part 2"
+    },
+    {
+      "id": 20302,
+      "name": "Judge Campanilla Criminal Part 3"
+    },
+    {
+      "id": 20303,
+      "name": "Judge Campanilla Criminal Part 4"
+    },
+    {
+      "id": 20304,
+      "name": "Judge Campanilla Criminal Part 5"
+    },
+	 {
+      "id": 20305,
+      "name": "Judge Campanilla Criminal Part 6"
+    },
+    {
+      "id": 20306,
+      "name": "Judge Campanilla Criminal Part 7"
+    },
+    {
+      "id": 20307,
+      "name": "Judge Campanilla Criminal Part 8"
+    },
+    {
+      "id": 20303,
+      "name": "Judge Campanilla Criminal Part 4"
+    },
+    {
+      "id": 20304,
+      "name": "Judge Campanilla Criminal Part 5"
+    },
+    {
+      "id": 1300,
+      "name": "Remedial Part 1"
+    },
+    {
+      "id": 1310,
+      "name": "Remedial Part 2"
+    },
+    {
+      "id": 1320,
+      "name": "Remedial Part 3"
+    },
+    {
+      "id": 1330,
+      "name": "Remedial Part 4"
+    },
+    {
+      "id": 1350,
+      "name": "Remedial Part 5"
+    },
+    {
+      "id": 1360,
+      "name": "Legal Ethics Part 1"
+    },
+    {
+      "id": 1370,
+      "name": "Legal Ethics Part 2"
+    },
+    {
+      "id": 1380,
+      "name": "Legal Ethics Part 3"
+    }
+  ]
 });
 });
 
