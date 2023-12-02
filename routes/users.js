@@ -20001,140 +20001,2659 @@ router.get('/tv/top_rated', function(req, res, next) {
 
 router.get('/tv/:series_id', function(req, res, next) {
   console.log('series id -- ' + req.params.series_id);
-  res.json(
-    {
-"adult": false,
-"backdrop_path": null,
-"created_by": [
-  {
-    "id": 11834,
-    "credit_id": "5307ee44c3a36841f00011b0",
-    "name": "David Seltzer",
-    "gender": 2,
-    "profile_path": "/igRrhRzTQIzUIOzhmo3A1LwMHOI.jpg"
+  if (req.params.series_id == 2030088801){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		  {
+			"id": 2030088801,
+			"credit_id": "5307ee44c3a36841f00011b0",
+			"name": "Neilson Review",
+			"gender": 2,
+			"profile_path": "/igRrhRzTQIzUIOzhmo3A1LwMHOI.jpg"
+		  }
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		  {
+			"id": 18,
+			"name": "Drama"
+		  },
+		  {
+			"id": 9648,
+			"name": "Mystery"
+		  },
+		  {
+			"id": 10765,
+			"name": "Sci-Fi & Fantasy"
+		  }
+		],
+		"homepage": "",
+		"id": 2030088801,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Robbery, kidnapping, arbitrary detention, unlawful arrest, arson",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Robbery, kidnapping, arbitrary detention, unlawful arrest, arson",
+		"overview": "This discussion will provide a constitutional law analysis of certain serious criminal offenses in the Philippines: Robbery, Kidnapping, Arbitrary detention, Unlawful arrest, Arson.",
+		"popularity": 23.139,
+        "poster_path": "/images/6Ra4oY_L1HM.jpg",
+		"production_companies": [
+		  {
+			"id": 2030088801,
+			"logo_path": "/images/6Ra4oY_L1HM.jpg",
+			"name": "Stillking Films",
+			"origin_country": "CZ"
+		  }
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
   }
-],
-"episode_run_time": [
-  43
-],
-"first_air_date": "2005-04-13",
-"genres": [
-  {
-    "id": 18,
-    "name": "Drama"
-  },
-  {
-    "id": 9648,
-    "name": "Mystery"
-  },
-  {
-    "id": 10765,
-    "name": "Sci-Fi & Fantasy"
+  
+  if (req.params.series_id == 2030088802){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		  {
+			"id": 18,
+			"name": "Drama"
+		  },
+		  {
+			"id": 9648,
+			"name": "Mystery"
+		  },
+		  {
+			"id": 10765,
+			"name": "Sci-Fi & Fantasy"
+		  }
+		],
+		"homepage": "",
+		"id": 2030088802,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "RA No  11648 statutory rape",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "RA No  11648 statutory rape",
+		"overview": "The discussion will center on analyzing Republic Act No. 11648, which amended Article 266-A of the Revised Penal Code on online libel. Specifically, points of discussion include: An overview of the new provisions introduced under the amended Article 266-A, Comparison to the previous provisions to understand the key changes/updates, Constitutional and legal issues potentially raised by the amendments.",
+		"popularity": 23.139,
+        "poster_path": "/images/PNkPfxySMg0.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
   }
-],
-"homepage": "",
-"id": 11122,
-"in_production": false,
-"languages": [
-  "en"
-],
-"last_air_date": "2005-05-18",
-"last_episode_to_air": {
-  "id": 445341,
-  "name": "Hour Six",
-  "overview": "Dr. Massey (Bill Pullman) and Sister Jo (Natascha McElhone) translate the secret book they found hidden in the puzzle box, which leads them to Tiberias on a mission to find young Hawk (Mark Rendall) and stop the impending birth of the Anti-Christ. Haden (Michael Massee) and Dr. Massey enter a final showdown in the dramatic conclusion.",
-  "vote_average": 0,
-  "vote_count": 0,
-  "air_date": "2005-05-18",
-  "episode_number": 6,
-  "episode_type": "finale",
-  "production_code": "",
-  "runtime": 43,
-  "season_number": 1,
-  "show_id": 11122,
-  "still_path": null
-},
-"name": "Revelations",
-"next_episode_to_air": null,
-"networks": [
-  {
-    "id": 6,
-    "logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
-    "name": "NBC",
-    "origin_country": "US"
+  
+  if (req.params.series_id == 2030088803){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 2030088803,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "bigamy, illegal marriage performance of illegal marriage",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "bigamy, illegal marriage performance of illegal marriage",
+		"overview": "The discussion will focus on analyzing and comparing the crimes of bigamy, illegal marriage, and performance of illegal marriage under Philippine law. Specifically, it will: Define the elements and nature of bigamy as contracting a second or subsequent marriage, Explain illegal marriage in terms of lack of legal requirements or impediments.",
+		"popularity": 23.139,
+        "poster_path": "/images/8OqZT7jfFn8.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
   }
-],
-"number_of_episodes": 6,
-"number_of_seasons": 1,
-"origin_country": [
-  "US"
-],
-"original_language": "en",
-"original_name": "Revelations",
-"overview": "Set just before the start of Armageddon, the series will follow two central characters, a physicist and a nun, who are racing against the clock to see if the end of the world apocalypse can be averted. Bill Pullman plays Dr. Richard Massey, a Harvard professor whose daughter is murdered by satanists while McElhone stars as a nun who recruits Massey to help investigate whether what's told in the Book of Revelations is starting to come true. Seltzer and Polone with executive produce the project along with Pariah Television's Vivian Cannon and Jessika Borsiczky.",
-"popularity": 23.139,
-"poster_path": "/iiJ1La1Roicp1kHG99OTuL2g8H3.jpg",
-"production_companies": [
-  {
-    "id": 11345,
-    "logo_path": "/xhnnHfsqEimD4r0QeUz3GSvcv73.png",
-    "name": "Stillking Films",
-    "origin_country": "CZ"
-  },
-  {
-    "id": 55683,
-    "logo_path": null,
-    "name": "NBC Enterprises",
-    "origin_country": ""
-  },
-  {
-    "id": 11733,
-    "logo_path": null,
-    "name": "Pariah",
-    "origin_country": ""
+  
+  if (req.params.series_id == 2030088804){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 2030088804,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "error in personae, aberatiu ictus, praeter intentioneme",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "error in personae, aberatiu ictus, praeter intentioneme",
+		"overview": "The discussion will examine the concepts of error in personae, aberatio ictus, and praeter intentionem in relation to Article 4 of the Revised Penal Code of the Philippines. Specifically, it will analyze: Error in personae, which refers to mistakes regarding the identity of the victim, Aberatio ictus, which relates to deviation of the criminal act from the initial plan, Praeter intentionem, or unintended consequences of an unlawful act.",
+		"popularity": 23.139,
+        "poster_path": "/images/KLdPUh7D0sU.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
   }
-],
-"production_countries": [
-  {
-    "iso_3166_1": "US",
-    "name": "United States of America"
+  
+  if (req.params.series_id == 2030088805){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 2030088805,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "death under exceptional circumstance, tumultous affray, abortion, infanticide, parricide, murder",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "death under exceptional circumstance, tumultous affray, abortion, infanticide, parricide, murder",
+		"overview": "The discussion will examine issues relating to different forms of homicide and related crimes within the framework of the Philippine Constitution. Specifically, it will analyze: Death under exceptional circumstances, Tumultuous affray, Abortion, Infanticide, Parricide, Murder.",
+		"popularity": 23.139,
+        "poster_path": "/images/kxirVAw_-0s.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
   }
-],
-"seasons": [
-  {
-    "air_date": "2006-12-22",
-    "episode_count": 2,
-    "id": 21591,
-    "name": "Specials",
-    "overview": "",
-    "poster_path": null,
-    "season_number": 0,
-    "vote_average": 0
-  },
-  {
-    "air_date": "2005-04-13",
-    "episode_count": 6,
-    "id": 21590,
-    "name": "Season 1",
-    "overview": "",
-    "poster_path": "/keFARZE8NK3RcIuAGguhJcVwgx6.jpg",
-    "season_number": 1,
-    "vote_average": 0
+  
+  if (req.params.series_id == 2030188801){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 2030188801,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Impossible crime",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Impossible crime",
+		"overview": "The discussion will focus on the concept of impossible crimes under Philippine criminal law. An impossible crime refers to an act that is incapable of being performed due to factual or legal impossibility, yet there is criminal intent to commit the act.",
+		"popularity": 23.139,
+        "poster_path": "/images/zcYAnpJxV5g.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
   }
-],
-"spoken_languages": [
-  {
-    "english_name": "English",
-    "iso_639_1": "en",
-    "name": "English"
+  
+  if (req.params.series_id == 2030188802){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 2030188802,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Stages of felony",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Stages of felony",
+		"overview": "The discussion will focus on the different stages a felony can take under Philippine law - attempted, frustrated or consummated. Specifically, it will examine: Defining the elements and requirements of an attempted felony, including specifics on overt acts and proximity to completion.",
+		"popularity": 23.139,
+        "poster_path": "/images/ncg7TsrhiUY.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
   }
-],
-"status": "Ended",
-"tagline": "",
-"type": "Miniseries",
-"vote_average": 5.7,
-"vote_count": 29
-});
+  
+  if (req.params.series_id == 2030188803){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 2030188803,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Plunder",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Plunder",
+		"overview": "The discussion will provide an analysis of the crime of plunder as defined under Republic Act 7080, as amended by Republic Act 7659. Specifically, it will: Outline the key provisions of both laws pertaining to the offense of plunder, Explain the essential elements that must be proved to constitute plunder.",
+		"popularity": 23.139,
+        "poster_path": "/images/a6yRu-13OFc.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+  
+  if (req.params.series_id == 2030188804){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 2030188804,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Treason, Rebellion, coup detat, sedition",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Treason, Rebellion, coup detat, sedition",
+		"overview": "The video will discuss and compare the crimes of treason, rebellion, coup d'etat and sedition under Philippine law. It will analyze the following elements: The offender, The criminal act, The mode, and the Criminal intent.",
+		"popularity": 23.139,
+        "poster_path": "/images/dLSWeutlFPA.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+  
+  if (req.params.series_id == 2030188805){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 2030188805,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Violence against women RA No  9262",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Violence against women RA No  9262",
+		"overview": "The discussion is all about RA No 9262 with cases in which the victim must be a woman with whom the offender has a marital sexual or dating relationship or the child is the biological child of the woman or the child is under the care of a woman.",
+		"popularity": 23.139,
+        "poster_path": "/images/bhI5oNqfplk.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+  
+  if (req.params.series_id == 2030288801){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 2030288801,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Amnesty and pardon",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Amnesty and pardon",
+		"overview": "The discussion will focus on comparing and contrasting the concepts of amnesty and pardon under Philippine law. Specific points of analysis include: Defining amnesty and pardon, and how they differ in terms of effect and application, Requirements and procedures for granting each type of relief.",
+		"popularity": 23.139,
+        "poster_path": "/images/JgDpR8Xme4Y.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+  
+  if (req.params.series_id == 2030288802){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		   
+		],
+		"homepage": "",
+		"id": 2030288802,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Probation and community service",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Probation and community service",
+		"overview": "The video will provide an overview and analysis of probation and community service as alternatives to imprisonment under Philippine law. Specifically, it will cover: An introduction to probation and its legal basis under Presidential Decree 968, as amended by Republic Act 10707, and Eligibility criteria and procedures for both probation and community service.",
+		"popularity": 23.139,
+        "poster_path": "/images/BB3yoKrF8DM.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+  
+  if (req.params.series_id == 2030288803){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 2030288803,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Three-fold rule and GCTA",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Three-fold rule and GCTA",
+		"overview":  "The discussion will focus on analyzing the Three-fold Rule under Philippine penal law and its relationship to the Good Conduct Time Allowance (GCTA) system. Specifically, it will: Explain the Three-fold Rule, Outline the GCTA system, how it grants reductions in sentence length for good behavior, and Compare how these two concepts interact and potentially conflict.",
+		"popularity": 23.139,
+        "poster_path": "/images/JxsN19NL_Ds.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+  
+  if (req.params.series_id == 2030288804){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		
+		],
+		"homepage": "",
+		"id": 2030288804,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Principal, accomplice, accessory, fencing, obstruction of justice 1",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Principal, accomplice, accessory, fencing, obstruction of justice 1",
+		"overview": "The discussion will examine different parties to a crime based on provisions in the Revised Penal Code and how they relate to criminal liability. Specifically, it will explore the roles and elements of principal, accomplice, accessory - a person who helps a felon escape punishment for reasons of blood or affinity, fencing, obstruction of justice - acts that hinder investigation/prosecution.",
+		"popularity": 23.139,
+        "poster_path": "/images/l1G9L8dF6zQ.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+  
+  if (req.params.series_id == 2030288805){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+	
+		],
+		"homepage": "",
+		"id": 2030288805,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Trafficking in person, child trafficking, child pornography, cyber sex",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Trafficking in person, child trafficking, child pornography, cyber sex",
+		"overview": "The discussion will focus on analyzing trafficking in persons based on Republic Act 9208 (The Anti-Trafficking in Persons Act of 2003), as amended by RA 11862. Specifically, it will examine the key elements that define trafficking offenses under this law.",
+		"popularity": 23.139,
+        "poster_path": "/images/Pgzb33HIBDQ.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+  
+  if (req.params.series_id == 2030388801){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		  
+		],
+		"homepage": "",
+		"id": 2030388801,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Special complex crime",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Special complex crime",
+		"overview": "The discussion will focus on the concept of a special complex crime under Philippine criminal law. A special complex crime involves the commission of two or more felonies through a single criminal act, transaction, or course of conduct where the law prescribes a single, indivisible penalty for the whole offense.",
+		"popularity": 23.139,
+        "poster_path": "/images/O4WKPNUks5U.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+  
+  if (req.params.series_id == 2030388802){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 2030388802,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Rape with homicide, robbery with homicide or rape",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Rape with homicide, robbery with homicide or rape",
+		"overview": "The video will provide an analysis of the legal concept of special complex crimes under Philippine law. A main focus will be on two key characteristics that define special complex crimes such as the original design and direct connection.",
+		"popularity": 23.139,
+        "poster_path": "/images/B6-DJ-qWYKg.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+  
+  if (req.params.series_id == 2030388803){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 2030388803,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Kidnapping with homicide or rape",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Kidnapping with homicide or rape",
+		"overview": "The discussion will focus on analyzing the special complex crime of kidnapping with either homicide or rape under Philippine law. Specifically, it will examine kidnapping as one of the principal offenses of this special complex crime and homicide or rape as the other principal offense committed through the same criminal act.",
+		"popularity": 23.139,
+        "poster_path": "/images/CaRrSRRAI8c.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+  
+  if (req.params.series_id == 2030388804){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		 
+		],
+		"homepage": "",
+		"id": 2030388804,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Kidnapping with rape, rape through forcible abduction, kidnapping and robbery",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Kidnapping with rape, rape through forcible abduction, kidnapping and robbery",
+		"overview":  "The discussion will focus on the special complex crime of kidnapping with rape, rape through forcible abduction, and kidnapping and robbery. For a crime to be called kidnapping with rape, the original design must be to commit kidnapping. If the original design however, is to rape the victim then the crime commited is complex crime of rape through forcible abduction.",
+		"popularity": 23.139,
+        "poster_path": "/images/FZQmGvdWONY.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+  
+  if (req.params.series_id == 2030388805){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		  
+		],
+		"homepage": "",
+		"id": 2030388805,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Theft and estafa",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Theft and estafa",
+		"overview": "The discussion will focus on distinguishing the crimes of theft and estafa through misappropriation under Philippine law. Specifically, it will define the elements of theft as taking another's property without consent and explain estafa through misappropriation, which involves receiving property through trust, administration of an obligation, or duty to deliver, and later misappropriating, converting or denying the property.",
+		"popularity": 23.139,
+        "poster_path": "/images/ybOrhRO0uMM.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+
+  if (req.params.series_id == 2030488801){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+ 
+		],
+		"homepage": "",
+		"id": 2030488801,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Rape, sexual assault, acts of lasciviouness, sexual abuse, child prostituiton, child cohabitation",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Rape, sexual assault, acts of lasciviouness, sexual abuse, child prostituiton, child cohabitation",
+		"overview":   "The discussion is all about Rape, sexual assault, acts of lasciviouness, sexual abuse, child prostituiton, and child cohabitation. The discussion will also include laws and example cases under it.",
+		"popularity": 23.139,
+        "poster_path": "/images/bZ_Dn4SFniM.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+  
+  if (req.params.series_id == 2030488802){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		   
+		],
+		"homepage": "",
+		"id": 2030488802,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Falsification, malversation, estafa, theft",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Falsification, malversation, estafa, theft",
+		"overview": "The discussion will analyze the crime of falsification of public, commercial or private documents in relation to other offenses like malversation, estafa, and theft. Specifically, it will cover 4 rules on classifying these crimes.",
+		"popularity": 23.139,
+        "poster_path": "/images/AYoZ07A0OWg.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+  
+  if (req.params.series_id == 2030488803){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 2030488803,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Terrorism",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Terrorism",
+		"overview": "The video will analyze the concept of terrorism under Republic Act 11479 or the Anti-Terrorism Act of 2020. Specifically, it will cover an overview of the definition of terrorism provided in RA 11479 and the acts classified as terrorism and potential issues around vagueness/overreach.",
+		"popularity": 23.139,
+        "poster_path": "/images/4c6N2L9mO3A.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+  
+  if (req.params.series_id == 2030488804){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		  
+		],
+		"homepage": "",
+		"id": 2030488804,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Generality and territoriality 1",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Generality and territoriality 1",
+		"overview": "The discussion will provide a comparative analysis of the principles of generality and territoriality in criminal law. Specifically, it will define the key concepts of generality and territoriality separately, examine the scope and application of each principle, and compare and contrast the approaches of both principles.",
+		"popularity": 23.139,
+        "poster_path": "/images/-rxaYsUN3YY.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+  
+  if (req.params.series_id == 2030488805){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		  
+		],
+		"homepage": "",
+		"id": 2030488805,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Territoriality, repeal and RA 10951 001 2",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Territoriality, repeal and RA 10951 001 2",
+		"overview":  "The discussion will continue examining the principle of territoriality in criminal law. Specifically, it will analyze specific types of crimes in relation to territorial jurisdiction issues, evaluate concepts like objective and subjective territoriality in more depth and discuss exceptions to territoriality such as crimes on the high seas.",
+		"popularity": 23.139,
+        "poster_path": "/images/cNsyonG2K1o.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+  
+  if (req.params.series_id == 2030588801){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		  
+		],
+		"homepage": "",
+		"id": 2030588801,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Culpa and mistake of fact",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Culpa and mistake of fact",
+		"overview":  "The discussion will provide analyses of the doctrine of Culpa and the concept of Mistake of Fact in criminal law. Specifically, it will define Culpa and explain the two prevailing views on its scope and culpability standards, distinguish Culpa from Dolus and analyze their applications, and outline the rules governing mistakes of fact as exculpatory or inculpatory circumstances.",
+		"popularity": 23.139,
+        "poster_path": "/images/hzwrQOg7CqA.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+  
+  if (req.params.series_id == 2030588802){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		   
+		],
+		"homepage": "",
+		"id": 2030588802,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Penalties special law",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Penalties special law",
+		"overview": "The discussion will focus on analyzing criminal penalties associated with offenses established under special laws in the Philippines. Some points of discussion may include examining categories of special laws that contain criminal provisions, discussing the range and graduation of penalties for violating special laws, and comparing penalty schemes between special laws and the Revised Penal Code.",
+		"popularity": 23.139,
+        "poster_path": "/images/TDpAhpVcKXo.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+  
+  if (req.params.series_id == 2030588803){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		  {
+			"id": 18,
+			"name": "Drama"
+		  },
+		  {
+			"id": 9648,
+			"name": "Mystery"
+		  },
+		  {
+			"id": 10765,
+			"name": "Sci-Fi & Fantasy"
+		  }
+		],
+		"homepage": "",
+		"id": 2030588803,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Penalties for special law",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Penalties for special law",
+		"overview":  "The discussion will center on analyzing special penal laws and applicable penalties through examination of two case studies such as People v. Obias (G.R. No. 222187, March 25, 2019) and People v. Pis-an (G.R. No. 242692, July 13, 2020)",
+		"popularity": 23.139,
+        "poster_path": "/images/Cf0TCYWhreQ.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+  
+  if (req.params.series_id == 2030588804){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 2030588804,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Lawas principle",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Lawas principle",
+		"overview":  "The video will examine the legal concept and principles surrounding single criminal investure under Philippine law. As a foundational point, it will discuss Article 48 of the Revised Penal Code, which establishes the general rule regarding a single criminal act.",
+		"popularity": 23.139,
+        "poster_path": "/images/QPIpzPG8GhI.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+  
+  if (req.params.series_id == 2030588805){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		   
+		],
+		"homepage": "",
+		"id": 2030588805,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Carnapping and piracy",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Carnapping and piracy",
+		"overview":  "The discussion centers around the issue of carnapping and how motor vehicles are used on public highways. Specifically, we will be exploring the legal implications when a motor vehicle is carnapped and subsequently utilized on public roadways.",
+		"popularity": 23.139,
+        "poster_path": "/images/Nhh2qyOpCiY.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+  
+  if (req.params.series_id == 2030688801){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		   
+		],
+		"homepage": "",
+		"id": 2030688801,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Brigandage and hijacking",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Brigandage and hijacking",
+		"overview":  "The crime of brigandage under Philippine law involves organized armed robbery carried out by groups of four or more individuals. Specifically brigandage refers to a form of aggravated robbery or theft committed by an association of four or more persons who are armed with firearms or other deadly weapons.",
+		"popularity": 23.139,
+        "poster_path": "/images/4P9MdLhfxvw.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+  
+  if (req.params.series_id == 2030688802){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		  
+		],
+		"homepage": "",
+		"id": 2030688802,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Syndicated estafa",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Syndicated estafa",
+		"overview":  "The discussion will center around the crime of syndicated estafa based on Philippine laws and jurisprudence. Some key points of focus could include legally defining the elements that constitute the offense of syndicated estafa, analyzing the distinctive characteristics that make this different from simple estafa, and exploring the legal frameworks used to identify syndicated criminal operations.",
+		"popularity": 23.139,
+        "poster_path": "/images/nFK07TccaHc.png",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+  
+  if (req.params.series_id == 2030688803){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		   
+		],
+		"homepage": "",
+		"id": 2030688803,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Voyuerism",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Voyuerism",
+		"overview":  "The discussion will center around analyzing Republic Act 9995, also known as the Anti-Photo and Video Voyeurism Act of 2009. Some potential discussion points include defining key terms related to photo/video voyeurism as outlined in the law, examining the specific acts that are deemed illegal photo/video voyeurism, and discussing the intent and objectives of RA 9995 in addressing these issues.",
+		"popularity": 23.139,
+        "poster_path": "/images/kSqwVtztixg.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+  
+  if (req.params.series_id == 2030688804){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		 
+		],
+		"homepage": "",
+		"id": 2030688804,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Hazing",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Hazing",
+		"overview":  "The discussion will center around analyzing the legal framework for hazing under Republic Act 8049 (also known as the Anti-Hazing Law of 1995), as subsequently amended by RA 11053 in 2018. A primary focus will be on the key elements that constitute hazing based on these laws.",
+		"popularity": 23.139,
+        "poster_path": "/images/huREGMfs_54.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+  
+  if (req.params.series_id == 2030688805){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		  
+		],
+		"homepage": "",
+		"id": 2030688805,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Cyber libel",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Cyber libel",
+		"overview": "The discussion will focus on analyzing key aspects of cyber libel law based on the Court of Appeals decision in People vs. Santos and Ressa of Rappler (CA-G.R. SP No. 151618). Specifically, it will examine the appellate court's rulings on applicability of traditional libel rules to online publications/blog posts, interpretation of actual malice in the context of digital media, and scope and limits of exemptions like fair comment and criticism.",
+		"popularity": 23.139,
+        "poster_path": "/images/-e3At2-lqTk.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+  
+  if (req.params.series_id == 2030788801){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		 
+		],
+		"homepage": "",
+		"id": 2030788801,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Special Complex crime",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Special Complex crime",
+		"overview":  "The video will examine the concept of complex crimes under Article 48 of the Revised Penal Code of the Philippines. Specifically, it will cover an overview of complex crimes as defined in the RPC and distinguishing between the two types such as the compound crime where one felony serves as a means for committing another and complex crime proper where a single act constitutes two or more grave/less grave felonies.",
+		"popularity": 23.139,
+        "poster_path": "/images/yJyR5OOmcVQ.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+  
+  if (req.params.series_id == 2030788802){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 2030788802,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Delito continuado",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Delito continuado",
+		"overview":   "The video will provide an analysis of the legal concept of delito continuado or continuing crime under Philippine law. Key aspects that will be covered include the definition of a continuing crime as composed of several acts committed under a single criminal impulse in violation of a single penal provision and distinguishing features compared to other types of crimes like complex crimes.",
+		"popularity": 23.139,
+        "poster_path": "/images/pnScrR_P5AM.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+  
+  if (req.params.series_id == 2030788803){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 2030788803,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Delito continuado 2",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Delito continuado 2",
+		"overview":  "The discussion will cover the second part of the concept of delito continuado or continuing crime under Philippine criminal law. Specifically, it will focus on analyzing the four kinds of continuing crimes identified by Train jurisprudence such as the crimes committed with indivisible intention, crimes committed by successive acts, crimes committed by intermittent acts, and crimes committed in breach of only one duty.",
+		"popularity": 23.139,
+        "poster_path": "/images/GQpnQnCKBDU.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+
+
 });
 
 router.get('/tv/:series_id/account_states', function(req, res, next) {
