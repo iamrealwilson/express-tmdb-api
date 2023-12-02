@@ -9241,8 +9241,6 @@ router.get('/discover/movie', function(req, res, next) {
     "total_pages": 1,
     "total_results": 5
     });
- } else {
-  res.json({});
  }
 
 
@@ -9354,8 +9352,6 @@ router.get('/discover/movie', function(req, res, next) {
     "total_pages": 1,
     "total_results": 5
     });
- } else {
-  res.json({});
  }
 
 
@@ -9467,8 +9463,6 @@ router.get('/discover/movie', function(req, res, next) {
     "total_pages": 1,
     "total_results": 5
     });
- } else {
-  res.json({});
  }
 
 
@@ -9580,8 +9574,6 @@ router.get('/discover/movie', function(req, res, next) {
     "total_pages": 1,
     "total_results": 5
     });
- } else {
-  res.json({});
  }
 
 
@@ -9693,8 +9685,6 @@ router.get('/discover/movie', function(req, res, next) {
     "total_pages": 1,
     "total_results": 5
     });
- } else {
-  res.json({});
  }
 
 
@@ -9806,8 +9796,6 @@ router.get('/discover/movie', function(req, res, next) {
     "total_pages": 1,
     "total_results": 5
     });
- } else {
-  res.json({});
  }
 
 
@@ -9919,10 +9907,7 @@ router.get('/discover/movie', function(req, res, next) {
     "total_pages": 1,
     "total_results": 5
     });
- } else {
-  res.json({});
  }
-
 
   if (req.query.with_genres == 20307 ){
       res.json(
@@ -10032,8 +10017,6 @@ router.get('/discover/movie', function(req, res, next) {
     "total_pages": 1,
     "total_results": 5
     });
- } else {
-  res.json({});
  }
 
 
@@ -10145,8 +10128,6 @@ router.get('/discover/movie', function(req, res, next) {
     "total_pages": 1,
     "total_results": 5
     });
- } else {
-  res.json({});
  }
 
 
@@ -10154,7 +10135,6 @@ router.get('/discover/movie', function(req, res, next) {
 
 
 router.get('/discover/tv', function(req, res, next) {
-  console.log('Request Genres - ' + req.query.with_genres);
   if (req.query.with_genres == 20300 ){
       res.json({
     "page": 1,
@@ -10261,8 +10241,6 @@ router.get('/discover/tv', function(req, res, next) {
     "total_pages": 1,
     "total_results": 5
     });
- } else {
-  res.json({});
  }
 
 
@@ -10372,8 +10350,6 @@ router.get('/discover/tv', function(req, res, next) {
     "total_pages": 1,
     "total_results": 5
     });
- } else {
-  res.json({});
  }
 
 
@@ -10483,8 +10459,6 @@ router.get('/discover/tv', function(req, res, next) {
     "total_pages": 1,
     "total_results": 5
     });
- } else {
-  res.json({});
  }
 
 
@@ -10594,8 +10568,6 @@ router.get('/discover/tv', function(req, res, next) {
     "total_pages": 1,
     "total_results": 5
     });
- } else {
-  res.json({});
  }
 
 
@@ -10705,8 +10677,6 @@ router.get('/discover/tv', function(req, res, next) {
     "total_pages": 1,
     "total_results": 5
     });
- } else {
-  res.json({});
  }
 
 
@@ -10816,8 +10786,6 @@ router.get('/discover/tv', function(req, res, next) {
     "total_pages": 1,
     "total_results": 5
     });
- } else {
-  res.json({});
  }
 
 
@@ -10927,8 +10895,6 @@ router.get('/discover/tv', function(req, res, next) {
     "total_pages": 1,
     "total_results": 5
     });
- } else {
-  res.json({});
  }
 
 
@@ -10994,52 +10960,11 @@ router.get('/discover/tv', function(req, res, next) {
         "video": false,
         "vote_average": 7.2,
         "vote_count": 786
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/images/rMvPXy8PUjj1o8o1pzgQbdNCsvj.jpg",
-        "genre_ids": [
-          28,
-          12,
-          53
-        ],
-        "id": 99988804,
-        "original_language": "en",
-        "original_title": "Bigamy illegal marriage performance of illegal marriage",
-        "overview": "Bigamy can be intentional, where one spouse marries a second spouse knowing full well their initial marriage remains legally binding, or it can be unintentional, the result of an attempted divorce that was never legally finalized.",
-        "popularity": 1108.183,
-        "poster_path": "/images/iwsMu0ehRPbtaSxqiaUDQB9qMWT.jpg",
-        "release_date": "2023-09-15",
-        "title": "Bigamy illegal marriage performance of illegal marriage",
-        "video": false,
-        "vote_average": 6.4,
-        "vote_count": 741
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/images/628Dep6AxEtDxjZoGP78TsOxYbK.jpg",
-        "genre_ids": [
-          28,
-          53
-        ],
-        "id": 99988805,
-        "original_language": "en",
-        "original_title": "Complex Crime",
-        "overview": "Complex Crime is defined as when a single act constitutes two or more grave or less grave felonies, or when an offense is a necessary means for committing the other, the penalty for the most serious crime shall be imposed, the same to be applied in its maximum period.",
-        "popularity": 1044.199,
-        "poster_path": "/images/NNxYkU70HPurnNCSiCjYAmacwm.jpg",
-        "release_date": "2023-07-08",
-        "title": "Complex Crime",
-        "video": false,
-        "vote_average": 7.6,
-        "vote_count": 2454
       }
     ],
     "total_pages": 1,
-    "total_results": 5
+    "total_results": 3
     });
- } else {
-  res.json({});
  }
 
 });
