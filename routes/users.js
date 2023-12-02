@@ -9146,7 +9146,7 @@ router.get('/discover/movie', function(req, res, next) {
         "genre_ids": [
           20300, 20301, 20302, 20304, 20300, 20300
         ],
-        "id": 99988801,
+        "id": 2030088801,
         "original_language": "en",
         "original_title": "Delito Continuado",
         "overview": "Delito Continuado or continuing offense consists of a series of acts arising from. one criminal intent or resolution. In the above views, since there is only a single criminal intent, even though there. is a series of criminal acts.",
@@ -9166,7 +9166,7 @@ router.get('/discover/movie', function(req, res, next) {
           9648
         ],
 
-        "id": 99988802,
+        "id": 2030088802,
         "original_language": "en",
         "original_title": "Three fold rule and GCTA",
         "overview": "Under the three-fold rule, of Article 70, a convict can be punished only up to three times the most severe penalty imposed, and such maximum period shall not exceed 40 years.",
@@ -9186,7 +9186,7 @@ router.get('/discover/movie', function(req, res, next) {
           28,
           53
         ],
-        "id": 99988803,
+        "id": 2030088803,
         "original_language": "en",
         "original_title": "Falsification Malversation of Funds Estafa Theft",
         "overview": "The crime of theft is included necessarily in that of robbery and therefore ... estafa with falsification through imprudence, but of intentional estafa with ...",
@@ -9206,7 +9206,7 @@ router.get('/discover/movie', function(req, res, next) {
           12,
           53
         ],
-        "id": 99988804,
+        "id": 2030088804,
         "original_language": "en",
         "original_title": "Bigamy illegal marriage performance of illegal marriage",
         "overview": "Bigamy can be intentional, where one spouse marries a second spouse knowing full well their initial marriage remains legally binding, or it can be unintentional, the result of an attempted divorce that was never legally finalized.",
@@ -9225,7 +9225,7 @@ router.get('/discover/movie', function(req, res, next) {
           28,
           53
         ],
-        "id": 99988805,
+        "id": 2030088805,
         "original_language": "en",
         "original_title": "Complex Crime",
         "overview": "Complex Crime is defined as when a single act constitutes two or more grave or less grave felonies, or when an offense is a necessary means for committing the other, the penalty for the most serious crime shall be imposed, the same to be applied in its maximum period.",
@@ -9257,7 +9257,7 @@ router.get('/discover/movie', function(req, res, next) {
           18,
           36
         ],
-        "id": 99988801,
+        "id": 2030188801,
         "original_language": "en",
         "original_title": "Delito Continuado",
         "overview": "Delito Continuado or continuing offense consists of a series of acts arising from. one criminal intent or resolution. In the above views, since there is only a single criminal intent, even though there. is a series of criminal acts.",
@@ -9277,7 +9277,7 @@ router.get('/discover/movie', function(req, res, next) {
           9648
         ],
 
-        "id": 99988802,
+        "id": 2030188802,
         "original_language": "en",
         "original_title": "Three fold rule and GCTA",
         "overview": "Under the three-fold rule, of Article 70, a convict can be punished only up to three times the most severe penalty imposed, and such maximum period shall not exceed 40 years.",
@@ -9297,7 +9297,7 @@ router.get('/discover/movie', function(req, res, next) {
           28,
           53
         ],
-        "id": 99988803,
+        "id": 2030188803,
         "original_language": "en",
         "original_title": "Falsification Malversation of Funds Estafa Theft",
         "overview": "The crime of theft is included necessarily in that of robbery and therefore ... estafa with falsification through imprudence, but of intentional estafa with ...",
@@ -9317,7 +9317,7 @@ router.get('/discover/movie', function(req, res, next) {
           12,
           53
         ],
-        "id": 99988804,
+        "id": 2030188804,
         "original_language": "en",
         "original_title": "Bigamy illegal marriage performance of illegal marriage",
         "overview": "Bigamy can be intentional, where one spouse marries a second spouse knowing full well their initial marriage remains legally binding, or it can be unintentional, the result of an attempted divorce that was never legally finalized.",
@@ -9336,7 +9336,7 @@ router.get('/discover/movie', function(req, res, next) {
           28,
           53
         ],
-        "id": 99988805,
+        "id": 2030188805,
         "original_language": "en",
         "original_title": "Complex Crime",
         "overview": "Complex Crime is defined as when a single act constitutes two or more grave or less grave felonies, or when an offense is a necessary means for committing the other, the penalty for the most serious crime shall be imposed, the same to be applied in its maximum period.",
@@ -9368,7 +9368,7 @@ router.get('/discover/movie', function(req, res, next) {
           18,
           36
         ],
-        "id": 99988801,
+        "id": 2030288801,
         "original_language": "en",
         "original_title": "Delito Continuado",
         "overview": "Delito Continuado or continuing offense consists of a series of acts arising from. one criminal intent or resolution. In the above views, since there is only a single criminal intent, even though there. is a series of criminal acts.",
@@ -9388,7 +9388,7 @@ router.get('/discover/movie', function(req, res, next) {
           9648
         ],
 
-        "id": 99988802,
+        "id": 2030288802,
         "original_language": "en",
         "original_title": "Three fold rule and GCTA",
         "overview": "Under the three-fold rule, of Article 70, a convict can be punished only up to three times the most severe penalty imposed, and such maximum period shall not exceed 40 years.",
@@ -9408,7 +9408,7 @@ router.get('/discover/movie', function(req, res, next) {
           28,
           53
         ],
-        "id": 99988803,
+        "id": 2030288803,
         "original_language": "en",
         "original_title": "Falsification Malversation of Funds Estafa Theft",
         "overview": "The crime of theft is included necessarily in that of robbery and therefore ... estafa with falsification through imprudence, but of intentional estafa with ...",
@@ -9428,7 +9428,7 @@ router.get('/discover/movie', function(req, res, next) {
           12,
           53
         ],
-        "id": 99988804,
+        "id": 2030288804,
         "original_language": "en",
         "original_title": "Bigamy illegal marriage performance of illegal marriage",
         "overview": "Bigamy can be intentional, where one spouse marries a second spouse knowing full well their initial marriage remains legally binding, or it can be unintentional, the result of an attempted divorce that was never legally finalized.",
@@ -9447,7 +9447,7 @@ router.get('/discover/movie', function(req, res, next) {
           28,
           53
         ],
-        "id": 99988805,
+        "id": 2030288805,
         "original_language": "en",
         "original_title": "Complex Crime",
         "overview": "Complex Crime is defined as when a single act constitutes two or more grave or less grave felonies, or when an offense is a necessary means for committing the other, the penalty for the most serious crime shall be imposed, the same to be applied in its maximum period.",
@@ -9479,7 +9479,7 @@ router.get('/discover/movie', function(req, res, next) {
           18,
           36
         ],
-        "id": 99988801,
+        "id": 2030388801,
         "original_language": "en",
         "original_title": "Delito Continuado",
         "overview": "Delito Continuado or continuing offense consists of a series of acts arising from. one criminal intent or resolution. In the above views, since there is only a single criminal intent, even though there. is a series of criminal acts.",
@@ -9499,7 +9499,7 @@ router.get('/discover/movie', function(req, res, next) {
           9648
         ],
 
-        "id": 99988802,
+        "id": 2030388802,
         "original_language": "en",
         "original_title": "Three fold rule and GCTA",
         "overview": "Under the three-fold rule, of Article 70, a convict can be punished only up to three times the most severe penalty imposed, and such maximum period shall not exceed 40 years.",
@@ -9519,7 +9519,7 @@ router.get('/discover/movie', function(req, res, next) {
           28,
           53
         ],
-        "id": 99988803,
+        "id": 2030388803,
         "original_language": "en",
         "original_title": "Falsification Malversation of Funds Estafa Theft",
         "overview": "The crime of theft is included necessarily in that of robbery and therefore ... estafa with falsification through imprudence, but of intentional estafa with ...",
@@ -9539,7 +9539,7 @@ router.get('/discover/movie', function(req, res, next) {
           12,
           53
         ],
-        "id": 99988804,
+        "id": 2030388804,
         "original_language": "en",
         "original_title": "Bigamy illegal marriage performance of illegal marriage",
         "overview": "Bigamy can be intentional, where one spouse marries a second spouse knowing full well their initial marriage remains legally binding, or it can be unintentional, the result of an attempted divorce that was never legally finalized.",
@@ -9558,7 +9558,7 @@ router.get('/discover/movie', function(req, res, next) {
           28,
           53
         ],
-        "id": 99988805,
+        "id": 2030388805,
         "original_language": "en",
         "original_title": "Complex Crime",
         "overview": "Complex Crime is defined as when a single act constitutes two or more grave or less grave felonies, or when an offense is a necessary means for committing the other, the penalty for the most serious crime shall be imposed, the same to be applied in its maximum period.",
@@ -9590,7 +9590,7 @@ router.get('/discover/movie', function(req, res, next) {
           18,
           36
         ],
-        "id": 99988801,
+        "id": 2030488801,
         "original_language": "en",
         "original_title": "Delito Continuado",
         "overview": "Delito Continuado or continuing offense consists of a series of acts arising from. one criminal intent or resolution. In the above views, since there is only a single criminal intent, even though there. is a series of criminal acts.",
@@ -9610,7 +9610,7 @@ router.get('/discover/movie', function(req, res, next) {
           9648
         ],
 
-        "id": 99988802,
+        "id": 2030488802,
         "original_language": "en",
         "original_title": "Three fold rule and GCTA",
         "overview": "Under the three-fold rule, of Article 70, a convict can be punished only up to three times the most severe penalty imposed, and such maximum period shall not exceed 40 years.",
@@ -9630,7 +9630,7 @@ router.get('/discover/movie', function(req, res, next) {
           28,
           53
         ],
-        "id": 99988803,
+        "id": 2030488803,
         "original_language": "en",
         "original_title": "Falsification Malversation of Funds Estafa Theft",
         "overview": "The crime of theft is included necessarily in that of robbery and therefore ... estafa with falsification through imprudence, but of intentional estafa with ...",
@@ -9650,7 +9650,7 @@ router.get('/discover/movie', function(req, res, next) {
           12,
           53
         ],
-        "id": 99988804,
+        "id": 2030488804,
         "original_language": "en",
         "original_title": "Bigamy illegal marriage performance of illegal marriage",
         "overview": "Bigamy can be intentional, where one spouse marries a second spouse knowing full well their initial marriage remains legally binding, or it can be unintentional, the result of an attempted divorce that was never legally finalized.",
@@ -9669,7 +9669,7 @@ router.get('/discover/movie', function(req, res, next) {
           28,
           53
         ],
-        "id": 99988805,
+        "id": 2030488805,
         "original_language": "en",
         "original_title": "Complex Crime",
         "overview": "Complex Crime is defined as when a single act constitutes two or more grave or less grave felonies, or when an offense is a necessary means for committing the other, the penalty for the most serious crime shall be imposed, the same to be applied in its maximum period.",
@@ -9701,7 +9701,7 @@ router.get('/discover/movie', function(req, res, next) {
           18,
           36
         ],
-        "id": 99988801,
+        "id": 2030588801,
         "original_language": "en",
         "original_title": "Delito Continuado",
         "overview": "Delito Continuado or continuing offense consists of a series of acts arising from. one criminal intent or resolution. In the above views, since there is only a single criminal intent, even though there. is a series of criminal acts.",
@@ -9721,7 +9721,7 @@ router.get('/discover/movie', function(req, res, next) {
           9648
         ],
 
-        "id": 99988802,
+        "id": 2030588802,
         "original_language": "en",
         "original_title": "Three fold rule and GCTA",
         "overview": "Under the three-fold rule, of Article 70, a convict can be punished only up to three times the most severe penalty imposed, and such maximum period shall not exceed 40 years.",
@@ -9741,7 +9741,7 @@ router.get('/discover/movie', function(req, res, next) {
           28,
           53
         ],
-        "id": 99988803,
+        "id": 2030588803,
         "original_language": "en",
         "original_title": "Falsification Malversation of Funds Estafa Theft",
         "overview": "The crime of theft is included necessarily in that of robbery and therefore ... estafa with falsification through imprudence, but of intentional estafa with ...",
@@ -9761,7 +9761,7 @@ router.get('/discover/movie', function(req, res, next) {
           12,
           53
         ],
-        "id": 99988804,
+        "id": 2030588804,
         "original_language": "en",
         "original_title": "Bigamy illegal marriage performance of illegal marriage",
         "overview": "Bigamy can be intentional, where one spouse marries a second spouse knowing full well their initial marriage remains legally binding, or it can be unintentional, the result of an attempted divorce that was never legally finalized.",
@@ -9780,7 +9780,7 @@ router.get('/discover/movie', function(req, res, next) {
           28,
           53
         ],
-        "id": 99988805,
+        "id": 2030588805,
         "original_language": "en",
         "original_title": "Complex Crime",
         "overview": "Complex Crime is defined as when a single act constitutes two or more grave or less grave felonies, or when an offense is a necessary means for committing the other, the penalty for the most serious crime shall be imposed, the same to be applied in its maximum period.",
@@ -9812,7 +9812,7 @@ router.get('/discover/movie', function(req, res, next) {
           18,
           36
         ],
-        "id": 99988801,
+        "id": 2030688801,
         "original_language": "en",
         "original_title": "Delito Continuado",
         "overview": "Delito Continuado or continuing offense consists of a series of acts arising from. one criminal intent or resolution. In the above views, since there is only a single criminal intent, even though there. is a series of criminal acts.",
@@ -9832,7 +9832,7 @@ router.get('/discover/movie', function(req, res, next) {
           9648
         ],
 
-        "id": 99988802,
+        "id": 2030688802,
         "original_language": "en",
         "original_title": "Three fold rule and GCTA",
         "overview": "Under the three-fold rule, of Article 70, a convict can be punished only up to three times the most severe penalty imposed, and such maximum period shall not exceed 40 years.",
@@ -9852,7 +9852,7 @@ router.get('/discover/movie', function(req, res, next) {
           28,
           53
         ],
-        "id": 99988803,
+        "id": 2030688803,
         "original_language": "en",
         "original_title": "Falsification Malversation of Funds Estafa Theft",
         "overview": "The crime of theft is included necessarily in that of robbery and therefore ... estafa with falsification through imprudence, but of intentional estafa with ...",
@@ -9872,7 +9872,7 @@ router.get('/discover/movie', function(req, res, next) {
           12,
           53
         ],
-        "id": 99988804,
+        "id": 2030688804,
         "original_language": "en",
         "original_title": "Bigamy illegal marriage performance of illegal marriage",
         "overview": "Bigamy can be intentional, where one spouse marries a second spouse knowing full well their initial marriage remains legally binding, or it can be unintentional, the result of an attempted divorce that was never legally finalized.",
@@ -9891,7 +9891,7 @@ router.get('/discover/movie', function(req, res, next) {
           28,
           53
         ],
-        "id": 99988805,
+        "id": 2030688805,
         "original_language": "en",
         "original_title": "Complex Crime",
         "overview": "Complex Crime is defined as when a single act constitutes two or more grave or less grave felonies, or when an offense is a necessary means for committing the other, the penalty for the most serious crime shall be imposed, the same to be applied in its maximum period.",
@@ -9922,7 +9922,7 @@ router.get('/discover/movie', function(req, res, next) {
           18,
           36
         ],
-        "id": 99988801,
+        "id": 2030788801,
         "original_language": "en",
         "original_title": "Delito Continuado",
         "overview": "Delito Continuado or continuing offense consists of a series of acts arising from. one criminal intent or resolution. In the above views, since there is only a single criminal intent, even though there. is a series of criminal acts.",
@@ -9942,7 +9942,7 @@ router.get('/discover/movie', function(req, res, next) {
           9648
         ],
 
-        "id": 99988802,
+        "id": 2030788802,
         "original_language": "en",
         "original_title": "Three fold rule and GCTA",
         "overview": "Under the three-fold rule, of Article 70, a convict can be punished only up to three times the most severe penalty imposed, and such maximum period shall not exceed 40 years.",
@@ -9962,7 +9962,7 @@ router.get('/discover/movie', function(req, res, next) {
           28,
           53
         ],
-        "id": 99988803,
+        "id": 2030788803,
         "original_language": "en",
         "original_title": "Falsification Malversation of Funds Estafa Theft",
         "overview": "The crime of theft is included necessarily in that of robbery and therefore ... estafa with falsification through imprudence, but of intentional estafa with ...",
@@ -9982,7 +9982,7 @@ router.get('/discover/movie', function(req, res, next) {
           12,
           53
         ],
-        "id": 99988804,
+        "id": 2030788804,
         "original_language": "en",
         "original_title": "Bigamy illegal marriage performance of illegal marriage",
         "overview": "Bigamy can be intentional, where one spouse marries a second spouse knowing full well their initial marriage remains legally binding, or it can be unintentional, the result of an attempted divorce that was never legally finalized.",
@@ -10001,118 +10001,7 @@ router.get('/discover/movie', function(req, res, next) {
           28,
           53
         ],
-        "id": 99988805,
-        "original_language": "en",
-        "original_title": "Complex Crime",
-        "overview": "Complex Crime is defined as when a single act constitutes two or more grave or less grave felonies, or when an offense is a necessary means for committing the other, the penalty for the most serious crime shall be imposed, the same to be applied in its maximum period.",
-        "popularity": 1044.199,
-        "poster_path": "/images/NNxYkU70HPurnNCSiCjYAmacwm.jpg",
-        "release_date": "2023-07-08",
-        "title": "Complex Crime",
-        "video": false,
-        "vote_average": 7.6,
-        "vote_count": 2454
-      }
-    ],
-    "total_pages": 1,
-    "total_results": 5
-    });
- }
-
-
-  if (req.query.with_genres == 20308 ){
-      res.json(
-	  
-	  {
-    "page": 1,
-    "results": [
-      {
-        "adult": false,
-        "backdrop_path": "/images/fm6KqXpk3M2HVveHwCrBSSBaO0V.jpg",
-        "genre_ids": [
-          18,
-          36
-        ],
-        "id": 99988801,
-        "original_language": "en",
-        "original_title": "Delito Continuado",
-        "overview": "Delito Continuado or continuing offense consists of a series of acts arising from. one criminal intent or resolution. In the above views, since there is only a single criminal intent, even though there. is a series of criminal acts.",
-        "popularity": 2590.24,
-        "poster_path": "/images/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
-        "release_date": "2023-07-19",
-        "title": "Delito Continuado",
-        "video": false,
-        "vote_average": 8.2,
-        "vote_count": 4588
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/images/t5zCBSB5xMDKcDqe91qahCOUYVV.png",
-        "genre_ids": [
-          27,
-          9648
-        ],
-
-        "id": 99988802,
-        "original_language": "en",
-        "original_title": "Three fold rule and GCTA",
-        "overview": "Under the three-fold rule, of Article 70, a convict can be punished only up to three times the most severe penalty imposed, and such maximum period shall not exceed 40 years.",
-        "popularity": 1617.893,
-        "poster_path": "/images/A4j8S6moJS2zNtRR8oWF08gRnL5.png",
-        "release_date": "2023-10-25",
-        "title": "Three fold rule and GCTA",
-        "video": false,
-        "vote_average": 8,
-        "vote_count": 2300
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/images/kjQBrc00fB2RjHZB3PGR4w9ibpz.jpg",
-        "genre_ids": [
-          878,
-          28,
-          53
-        ],
-        "id": 99988803,
-        "original_language": "en",
-        "original_title": "Falsification Malversation of Funds Estafa Theft",
-        "overview": "The crime of theft is included necessarily in that of robbery and therefore ... estafa with falsification through imprudence, but of intentional estafa with ...",
-        "popularity": 1595.817,
-        "poster_path": "/images/vBZ0qvaRxqEhZwl6LWmruJqWE8Z.png",
-        "release_date": "2023-09-27",
-        "title": "Falsification Malversation of Funds Estafa Theft",
-        "video": false,
-        "vote_average": 7.2,
-        "vote_count": 786
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/images/rMvPXy8PUjj1o8o1pzgQbdNCsvj.jpg",
-        "genre_ids": [
-          28,
-          12,
-          53
-        ],
-        "id": 99988804,
-        "original_language": "en",
-        "original_title": "Bigamy illegal marriage performance of illegal marriage",
-        "overview": "Bigamy can be intentional, where one spouse marries a second spouse knowing full well their initial marriage remains legally binding, or it can be unintentional, the result of an attempted divorce that was never legally finalized.",
-        "popularity": 1108.183,
-        "poster_path": "/images/iwsMu0ehRPbtaSxqiaUDQB9qMWT.jpg",
-        "release_date": "2023-09-15",
-        "title": "Bigamy illegal marriage performance of illegal marriage",
-        "video": false,
-        "vote_average": 6.4,
-        "vote_count": 741
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/images/628Dep6AxEtDxjZoGP78TsOxYbK.jpg",
-        "genre_ids": [
-          28,
-          53
-        ],
-        "id": 99988805,
+        "id": 2030788805,
         "original_language": "en",
         "original_title": "Complex Crime",
         "overview": "Complex Crime is defined as when a single act constitutes two or more grave or less grave felonies, or when an offense is a necessary means for committing the other, the penalty for the most serious crime shall be imposed, the same to be applied in its maximum period.",
@@ -10146,7 +10035,7 @@ router.get('/discover/tv', function(req, res, next) {
           18,
           36
         ],
-        "id": 20300888801,
+        "id": 2030088801,
         "original_language": "en",
         "original_title": "Robbery, kidnapping, arbitrary detention, unlawful arrest, arson",
         "overview": "This discussion will provide a constitutional law analysis of certain serious criminal offenses in the Philippines: Robbery, Kidnapping, Arbitrary detention, Unlawful arrest, Arson.",
@@ -10166,7 +10055,7 @@ router.get('/discover/tv', function(req, res, next) {
           9648
         ],
 
-        "id": 20300888802,
+        "id": 2030088802,
         "original_language": "en",
         "original_title": "RA No  11648 statutory rape",
         "overview": "The discussion will center on analyzing Republic Act No. 11648, which amended Article 266-A of the Revised Penal Code on online libel. Specifically, points of discussion include: An overview of the new provisions introduced under the amended Article 266-A, Comparison to the previous provisions to understand the key changes/updates, Constitutional and legal issues potentially raised by the amendments.",
@@ -10186,7 +10075,7 @@ router.get('/discover/tv', function(req, res, next) {
           28,
           53
         ],
-        "id": 20300888803,
+        "id": 2030088803,
         "original_language": "en",
         "original_title": "bigamy, illegal marriage   performance of illegal marriage",
         "overview": "The discussion will focus on analyzing and comparing the crimes of bigamy, illegal marriage, and performance of illegal marriage under Philippine law. Specifically, it will: Define the elements and nature of bigamy as contracting a second or subsequent marriage, Explain illegal marriage in terms of lack of legal requirements or impediments.",
@@ -10206,7 +10095,7 @@ router.get('/discover/tv', function(req, res, next) {
           12,
           53
         ],
-        "id": 20300888804,
+        "id": 2030088804,
         "original_language": "en",
         "original_title": "error in personae, aberatiu ictus, praeter intentioneme",
         "overview": "The discussion will examine the concepts of error in personae, aberatio ictus, and praeter intentionem in relation to Article 4 of the Revised Penal Code of the Philippines. Specifically, it will analyze: Error in personae, which refers to mistakes regarding the identity of the victim, Aberatio ictus, which relates to deviation of the criminal act from the initial plan, Praeter intentionem, or unintended consequences of an unlawful act.",
@@ -10225,7 +10114,7 @@ router.get('/discover/tv', function(req, res, next) {
           28,
           53
         ],
-        "id": 20300888805,
+        "id": 2030088805,
         "original_language": "en",
         "original_title": "death under exceptional circumstance, tumultous affray, abortion, infanticide, parricide, murder,",
         "overview": "The discussion will examine issues relating to different forms of homicide and related crimes within the framework of the Philippine Constitution. Specifically, it will analyze: Death under exceptional circumstances, Tumultuous affray, Abortion, Infanticide, Parricide, Murder.",
@@ -10255,7 +10144,7 @@ router.get('/discover/tv', function(req, res, next) {
           18,
           36
         ],
-        "id": 20301888801,
+        "id": 2030188801,
         "original_language": "en",
         "original_title": "Impossible crime",
         "overview": "The discussion will focus on the concept of impossible crimes under Philippine criminal law. An impossible crime refers to an act that is incapable of being performed due to factual or legal impossibility, yet there is criminal intent to commit the act.",
@@ -10275,7 +10164,7 @@ router.get('/discover/tv', function(req, res, next) {
           9648
         ],
 
-        "id": 20301888802,
+        "id": 2030188802,
         "original_language": "en",
         "original_title": "Stages of felony",
         "overview": "The discussion will focus on the different stages a felony can take under Philippine law - attempted, frustrated or consummated. Specifically, it will examine: Defining the elements and requirements of an attempted felony, including specifics on overt acts and proximity to completion.",
@@ -10295,7 +10184,7 @@ router.get('/discover/tv', function(req, res, next) {
           28,
           53
         ],
-        "id": 20301888803,
+        "id": 2030188803,
         "original_language": "en",
         "original_title": "Plunder",
         "overview": "The discussion will provide an analysis of the crime of plunder as defined under Republic Act 7080, as amended by Republic Act 7659. Specifically, it will: Outline the key provisions of both laws pertaining to the offense of plunder, Explain the essential elements that must be proved to constitute plunder.",
@@ -10315,7 +10204,7 @@ router.get('/discover/tv', function(req, res, next) {
           12,
           53
         ],
-        "id": 20301888804,
+        "id": 2030188804,
         "original_language": "en",
         "original_title": "Treason, Rebellion, coup detat, sedition",
         "overview": "The video will discuss and compare the crimes of treason, rebellion, coup d'etat and sedition under Philippine law. It will analyze the following elements: The offender, The criminal act, The mode, and the Criminal intent.",
@@ -10334,7 +10223,7 @@ router.get('/discover/tv', function(req, res, next) {
           28,
           53
         ],
-        "id": 20301888805,
+        "id": 2030188805,
         "original_language": "en",
         "original_title": "Violence against women RA No  9262",
         "overview": "The discussion is all about RA No 9262 with cases in which the victim must be a woman with whom the offender has a marital sexual or dating relationship or the child is the biological child of the woman or the child is under the care of a woman.",
@@ -10364,7 +10253,7 @@ router.get('/discover/tv', function(req, res, next) {
           18,
           36
         ],
-        "id": 20302888801,
+        "id": 2030288801,
         "original_language": "en",
         "original_title": "Amnesty and pardon",
         "overview": "The discussion will focus on comparing and contrasting the concepts of amnesty and pardon under Philippine law. Specific points of analysis include: Defining amnesty and pardon, and how they differ in terms of effect and application, Requirements and procedures for granting each type of relief.",
@@ -10384,7 +10273,7 @@ router.get('/discover/tv', function(req, res, next) {
           9648
         ],
 
-        "id": 20302888802,
+        "id": 2030288802,
         "original_language": "en",
         "original_title": "Probation and community service",
         "overview": "The video will provide an overview and analysis of probation and community service as alternatives to imprisonment under Philippine law. Specifically, it will cover: An introduction to probation and its legal basis under Presidential Decree 968, as amended by Republic Act 10707, and Eligibility criteria and procedures for both probation and community service.",
@@ -10404,7 +10293,7 @@ router.get('/discover/tv', function(req, res, next) {
           28,
           53
         ],
-        "id": 20302888803,
+        "id": 2030288803,
         "original_language": "en",
         "original_title": "Three-fold rule and GCTA",
         "overview": "The discussion will focus on analyzing the Three-fold Rule under Philippine penal law and its relationship to the Good Conduct Time Allowance (GCTA) system. Specifically, it will: Explain the Three-fold Rule, Outline the GCTA system, how it grants reductions in sentence length for good behavior, and Compare how these two concepts interact and potentially conflict.",
@@ -10424,7 +10313,7 @@ router.get('/discover/tv', function(req, res, next) {
           12,
           53
         ],
-        "id": 20302888804,
+        "id": 2030288804,
         "original_language": "en",
         "original_title": "Principal, accomplice, accessory, fencing, obstruction of justice 1",
         "overview": "The discussion will examine different parties to a crime based on provisions in the Revised Penal Code and how they relate to criminal liability. Specifically, it will explore the roles and elements of principal, accomplice, accessory - a person who helps a felon escape punishment for reasons of blood or affinity, fencing, obstruction of justice - acts that hinder investigation/prosecution.",
@@ -10443,7 +10332,7 @@ router.get('/discover/tv', function(req, res, next) {
           28,
           53
         ],
-        "id": 20302888805,
+        "id": 2030288805,
         "original_language": "en",
         "original_title": "Trafficking in person, child trafficking, child pornography, cyber sex",
         "overview": "The discussion will focus on analyzing trafficking in persons based on Republic Act 9208 (The Anti-Trafficking in Persons Act of 2003), as amended by RA 11862. Specifically, it will examine the key elements that define trafficking offenses under this law.",
@@ -10473,7 +10362,7 @@ router.get('/discover/tv', function(req, res, next) {
           18,
           36
         ],
-        "id": 20303888801,
+        "id": 2030388801,
         "original_language": "en",
         "original_title": "Special complex crime",
         "overview": "The discussion will focus on the concept of a special complex crime under Philippine criminal law. A special complex crime involves the commission of two or more felonies through a single criminal act, transaction, or course of conduct where the law prescribes a single, indivisible penalty for the whole offense.",
@@ -10493,7 +10382,7 @@ router.get('/discover/tv', function(req, res, next) {
           9648
         ],
 
-        "id": 20303888802,
+        "id": 2030388802,
         "original_language": "en",
         "original_title": "Rape with homicide, robbery with homicide or rape",
         "overview": "The video will provide an analysis of the legal concept of special complex crimes under Philippine law. A main focus will be on two key characteristics that define special complex crimes such as the original design and direct connection.",
@@ -10513,7 +10402,7 @@ router.get('/discover/tv', function(req, res, next) {
           28,
           53
         ],
-        "id": 20303888803,
+        "id": 2030388803,
         "original_language": "en",
         "original_title": "Kidnapping with homicide or rape",
         "overview": "The discussion will focus on analyzing the special complex crime of kidnapping with either homicide or rape under Philippine law. Specifically, it will examine kidnapping as one of the principal offenses of this special complex crime and homicide or rape as the other principal offense committed through the same criminal act.",
@@ -10533,7 +10422,7 @@ router.get('/discover/tv', function(req, res, next) {
           12,
           53
         ],
-        "id": 20303888804,
+        "id": 2030388804,
         "original_language": "en",
         "original_title": "Kidnapping with rape, rape through forcible abduction, kidnapping and robbery",
         "overview": "The discussion will focus on the special complex crime of kidnapping with rape, rape through forcible abduction, and kidnapping and robbery. For a crime to be called kidnapping with rape, the original design must be to commit kidnapping. If the original design however, is to rape the victim then the crime commited is complex crime of rape through forcible abduction.",
@@ -10552,7 +10441,7 @@ router.get('/discover/tv', function(req, res, next) {
           28,
           53
         ],
-        "id": 20303888805,
+        "id": 2030388805,
         "original_language": "en",
         "original_title": "Theft and estafae",
         "overview": "The discussion will focus on distinguishing the crimes of theft and estafa through misappropriation under Philippine law. Specifically, it will define the elements of theft as taking another's property without consent and explain estafa through misappropriation, which involves receiving property through trust, administration of an obligation, or duty to deliver, and later misappropriating, converting or denying the property.",
@@ -10582,7 +10471,7 @@ router.get('/discover/tv', function(req, res, next) {
           18,
           36
         ],
-        "id": 20304888801,
+        "id": 2030488801,
         "original_language": "en",
         "original_title": "Rape, sexual assault, acts of lasciviouness, sexual abuse, child prostituiton, child cohabitation",
         "overview": "The discussion is all about Rape, sexual assault, acts of lasciviouness, sexual abuse, child prostituiton, and child cohabitation. The discussion will also include laws and example cases under it.",
@@ -10602,7 +10491,7 @@ router.get('/discover/tv', function(req, res, next) {
           9648
         ],
 
-        "id": 20304888802,
+        "id": 2030488802,
         "original_language": "en",
         "original_title": "Falsification, malversation, estafa, theft",
         "overview": "The discussion will analyze the crime of falsification of public, commercial or private documents in relation to other offenses like malversation, estafa, and theft. Specifically, it will cover 4 rules on classifying these crimes.",
@@ -10622,7 +10511,7 @@ router.get('/discover/tv', function(req, res, next) {
           28,
           53
         ],
-        "id": 20304888803,
+        "id": 2030488803,
         "original_language": "en",
         "original_title": "Terrorism",
         "overview": "The video will analyze the concept of terrorism under Republic Act 11479 or the Anti-Terrorism Act of 2020. Specifically, it will cover an overview of the definition of terrorism provided in RA 11479 and the acts classified as terrorism and potential issues around vagueness/overreach.",
@@ -10642,7 +10531,7 @@ router.get('/discover/tv', function(req, res, next) {
           12,
           53
         ],
-        "id": 20304888804,
+        "id": 2030488804,
         "original_language": "en",
         "original_title": "Generality and territoriality 1",
         "overview": "The discussion will provide a comparative analysis of the principles of generality and territoriality in criminal law. Specifically, it will define the key concepts of generality and territoriality separately, examine the scope and application of each principle, and compare and contrast the approaches of both principles.",
@@ -10661,7 +10550,7 @@ router.get('/discover/tv', function(req, res, next) {
           28,
           53
         ],
-        "id": 20304888805,
+        "id": 2030488805,
         "original_language": "en",
         "original_title": "Territoriality, repeal and RA 10951 001 2",
         "overview": "The discussion will continue examining the principle of territoriality in criminal law. Specifically, it will analyze specific types of crimes in relation to territorial jurisdiction issues, evaluate concepts like objective and subjective territoriality in more depth and discuss exceptions to territoriality such as crimes on the high seas.",
@@ -10691,7 +10580,7 @@ router.get('/discover/tv', function(req, res, next) {
           18,
           36
         ],
-        "id": 20305888801,
+        "id": 2030588801,
         "original_language": "en",
         "original_title": "Culpa and mistake of fact",
         "overview": "The discussion will provide analyses of the doctrine of Culpa and the concept of Mistake of Fact in criminal law. Specifically, it will define Culpa and explain the two prevailing views on its scope and culpability standards, distinguish Culpa from Dolus and analyze their applications, and outline the rules governing mistakes of fact as exculpatory or inculpatory circumstances.",
@@ -10711,7 +10600,7 @@ router.get('/discover/tv', function(req, res, next) {
           9648
         ],
 
-        "id": 20305888802,
+        "id": 2030588802,
         "original_language": "en",
         "original_title": "Penalties special law",
         "overview": "The discussion will focus on analyzing criminal penalties associated with offenses established under special laws in the Philippines. Some points of discussion may include examining categories of special laws that contain criminal provisions, discussing the range and graduation of penalties for violating special laws, and comparing penalty schemes between special laws and the Revised Penal Code.",
@@ -10731,7 +10620,7 @@ router.get('/discover/tv', function(req, res, next) {
           28,
           53
         ],
-        "id": 20305888803,
+        "id": 2030588803,
         "original_language": "en",
         "original_title": "Penalties for special law",
         "overview": "The discussion will center on analyzing special penal laws and applicable penalties through examination of two case studies such as People v. Obias (G.R. No. 222187, March 25, 2019) and People v. Pis-an (G.R. No. 242692, July 13, 2020)",
@@ -10751,7 +10640,7 @@ router.get('/discover/tv', function(req, res, next) {
           12,
           53
         ],
-        "id": 20305888804,
+        "id": 2030588804,
         "original_language": "en",
         "original_title": "Lawas principle",
         "overview": "The video will examine the legal concept and principles surrounding single criminal investure under Philippine law. As a foundational point, it will discuss Article 48 of the Revised Penal Code, which establishes the general rule regarding a single criminal act.",
@@ -10770,7 +10659,7 @@ router.get('/discover/tv', function(req, res, next) {
           28,
           53
         ],
-        "id": 20305888805,
+        "id": 2030588805,
         "original_language": "en",
         "original_title": "Carnapping and piracy",
         "overview": "The discussion centers around the issue of carnapping and how motor vehicles are used on public highways. Specifically, we will be exploring the legal implications when a motor vehicle is carnapped and subsequently utilized on public roadways.",
@@ -10800,7 +10689,7 @@ router.get('/discover/tv', function(req, res, next) {
           18,
           36
         ],
-        "id": 20306888801,
+        "id": 2030688801,
         "original_language": "en",
         "original_title": "Brigandage and hijacking",
         "overview": "The crime of brigandage under Philippine law involves organized armed robbery carried out by groups of four or more individuals. Specifically brigandage refers to a form of aggravated robbery or theft committed by an association of four or more persons who are armed with firearms or other deadly weapons.",
@@ -10820,7 +10709,7 @@ router.get('/discover/tv', function(req, res, next) {
           9648
         ],
 
-        "id": 20306888802,
+        "id": 2030688802,
         "original_language": "en",
         "original_title": "Syndicated estafa",
         "overview": "The discussion will center around the crime of syndicated estafa based on Philippine laws and jurisprudence. Some key points of focus could include legally defining the elements that constitute the offense of syndicated estafa, analyzing the distinctive characteristics that make this different from simple estafa, and exploring the legal frameworks used to identify syndicated criminal operations.",
@@ -10840,7 +10729,7 @@ router.get('/discover/tv', function(req, res, next) {
           28,
           53
         ],
-        "id": 20306888803,
+        "id": 2030688803,
         "original_language": "en",
         "original_title": "Voyuerism",
         "overview": "The discussion will center around analyzing Republic Act 9995, also known as the Anti-Photo and Video Voyeurism Act of 2009. Some potential discussion points include defining key terms related to photo/video voyeurism as outlined in the law, examining the specific acts that are deemed illegal photo/video voyeurism, and discussing the intent and objectives of RA 9995 in addressing these issues.",
@@ -10860,7 +10749,7 @@ router.get('/discover/tv', function(req, res, next) {
           12,
           53
         ],
-        "id": 20306888804,
+        "id": 2030688804,
         "original_language": "en",
         "original_title": "Hazing",
         "overview": "The discussion will center around analyzing the legal framework for hazing under Republic Act 8049 (also known as the Anti-Hazing Law of 1995), as subsequently amended by RA 11053 in 2018. A primary focus will be on the key elements that constitute hazing based on these laws.",
@@ -10879,7 +10768,7 @@ router.get('/discover/tv', function(req, res, next) {
           28,
           53
         ],
-        "id": 20306888805,
+        "id": 2030688805,
         "original_language": "en",
         "original_title": "Cyber libel",
         "overview": "The discussion will focus on analyzing key aspects of cyber libel law based on the Court of Appeals decision in People vs. Santos and Ressa of Rappler (CA-G.R. SP No. 151618). Specifically, it will examine the appellate court's rulings on applicability of traditional libel rules to online publications/blog posts, interpretation of actual malice in the context of digital media, and scope and limits of exemptions like fair comment and criticism.",
@@ -10909,7 +10798,7 @@ router.get('/discover/tv', function(req, res, next) {
           18,
           36
         ],
-        "id": 20307888801,
+        "id": 2030788801,
         "original_language": "en",
         "original_title": "Complex crime",
         "overview": "The video will examine the concept of complex crimes under Article 48 of the Revised Penal Code of the Philippines. Specifically, it will cover an overview of complex crimes as defined in the RPC and distinguishing between the two types such as the compound crime where one felony serves as a means for committing another and complex crime proper where a single act constitutes two or more grave/less grave felonies.",
@@ -10929,7 +10818,7 @@ router.get('/discover/tv', function(req, res, next) {
           9648
         ],
 
-        "id": 20307888802,
+        "id": 2030788802,
         "original_language": "en",
         "original_title": "Delito continuado",
         "overview": "The video will provide an analysis of the legal concept of delito continuado or continuing crime under Philippine law. Key aspects that will be covered include the definition of a continuing crime as composed of several acts committed under a single criminal impulse in violation of a single penal provision and distinguishing features compared to other types of crimes like complex crimes.",
@@ -10949,7 +10838,7 @@ router.get('/discover/tv', function(req, res, next) {
           28,
           53
         ],
-        "id": 20307888803,
+        "id": 2030788803,
         "original_language": "en",
         "original_title": "Delito continuado 2",
         "overview": "The discussion will cover the second part of the concept of delito continuado or continuing crime under Philippine criminal law. Specifically, it will focus on analyzing the four kinds of continuing crimes identified by Train jurisprudence such as the crimes committed with indivisible intention, crimes committed by successive acts, crimes committed by intermittent acts, and crimes committed in breach of only one duty.",
@@ -21184,9 +21073,9 @@ router.get('/tv/:series_id/translations', function(req, res, next) {
 
 router.get('/tv/:series_id/videos', function(req, res, next) {
 
-   if (req.params.series_id == 2230088801){
+   if (req.params.series_id == 2030088801){
       res.json({
-      "id": 223008880101,
+      "id": 2030088801,
       "results": [
         {
           "iso_639_1": "en",
@@ -21204,9 +21093,9 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
   
-   if (req.params.series_id == 2230088802){
+   if (req.params.series_id == 2030088802){
       res.json({
-      "id": 223008880102,
+      "id": 2030088802,
       "results": [
         {
           "iso_639_1": "en",
@@ -21224,9 +21113,9 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
   
-   if (req.params.series_id == 2230088803){
+   if (req.params.series_id == 2030088803){
       res.json({
-      "id": 223008880103,
+      "id": 2030088803,
       "results": [
         {
           "iso_639_1": "en",
@@ -21244,9 +21133,9 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
   
-   if (req.params.series_id == 2230088804){
+   if (req.params.series_id == 2030088804){
       res.json({
-      "id": 223008880104,
+      "id": 2030088804,
       "results": [
         {
           "iso_639_1": "en",
@@ -21264,9 +21153,9 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
   
-   if (req.params.series_id == 2230088805){
+   if (req.params.series_id == 2030088805){
       res.json({
-      "id": 223008880105,
+      "id": 2030088805,
       "results": [
         {
           "iso_639_1": "en",
@@ -21284,9 +21173,9 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
   
-   if (req.params.series_id == 2230088806){
+   if (req.params.series_id == 2030188801){
       res.json({
-      "id": 223018880101,
+      "id": 2030188801,
       "results": [
         {
           "iso_639_1": "en",
@@ -21304,9 +21193,9 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
   
-   if (req.params.series_id == 2230088807){
+   if (req.params.series_id == 2030188802){
       res.json({
-      "id": 223008880101,
+      "id": 2030188802,
       "results": [
         {
           "iso_639_1": "en",
@@ -21324,9 +21213,9 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
   
-   if (req.params.series_id == 2230088808){
+   if (req.params.series_id == 2030188803){
       res.json({
-      "id": 223008880101,
+      "id": 2030188803,
       "results": [
         {
           "iso_639_1": "en",
@@ -21344,9 +21233,9 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
   
-   if (req.params.series_id == 2230088809){
+   if (req.params.series_id == 2030188804){
       res.json({
-      "id": 223008880101,
+      "id": 2030188804,
       "results": [
         {
           "iso_639_1": "en",
@@ -21364,14 +21253,14 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
   
-   if (req.params.series_id == 22300888010){
+   if (req.params.series_id == 2030188805){
       res.json({
-      "id": 223008880101,
+      "id": 2030188805,
       "results": [
         {
           "iso_639_1": "en",
           "iso_3166_1": "US",
-          "name": "10. Violence against women RA No. 9262",
+          "name": "Violence against women RA No. 9262",
           "key": "VK4r7_g6RJE",
           "site": "YouTube",
           "size": 480,
@@ -21384,9 +21273,9 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
   
-   if (req.params.series_id == 22300888011){
+   if (req.params.series_id == 2030288801){
       res.json({
-      "id": 223008880101,
+      "id": 2030288801,
       "results": [
         {
           "iso_639_1": "en",
@@ -21404,9 +21293,9 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
   
-   if (req.params.series_id == 22300888012){
+   if (req.params.series_id == 2030288802){
       res.json({
-      "id": 223008880101,
+      "id": 2030288802,
       "results": [
         {
           "iso_639_1": "en",
@@ -21424,9 +21313,9 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
   
-   if (req.params.series_id == 22300888013){
+   if (req.params.series_id == 2030288803){
       res.json({
-      "id": 223008880101,
+      "id": 2030288803,
       "results": [
         {
           "iso_639_1": "en",
@@ -21444,9 +21333,9 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
   
-   if (req.params.series_id == 22300888014){
+   if (req.params.series_id == 2030288804){
       res.json({
-      "id": 223008880101,
+      "id": 2030288804,
       "results": [
         {
           "iso_639_1": "en",
@@ -21464,9 +21353,9 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
   
-   if (req.params.series_id == 22300888015){
+   if (req.params.series_id == 2030288805){
       res.json({
-      "id": 223008880101,
+      "id": 2030288805,
       "results": [
         {
           "iso_639_1": "en",
@@ -21484,9 +21373,9 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
   
-   if (req.params.series_id == 22300888016){
+   if (req.params.series_id == 2030388801){
       res.json({
-      "id": 223008880101,
+      "id": 2030388801,
       "results": [
         {
           "iso_639_1": "en",
@@ -21504,9 +21393,9 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
   
-   if (req.params.series_id == 22300888017){
+   if (req.params.series_id == 2030388802){
       res.json({
-      "id": 223008880101,
+      "id": 2030388802,
       "results": [
         {
           "iso_639_1": "en",
@@ -21524,9 +21413,9 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
   
-   if (req.params.series_id == 22300888018){
+   if (req.params.series_id == 2030388803){
       res.json({
-      "id": 223008880101,
+      "id": 2030388803,
       "results": [
         {
           "iso_639_1": "en",
@@ -21544,9 +21433,9 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
   
-   if (req.params.series_id == 22300888019){
+   if (req.params.series_id == 2030388804){
       res.json({
-      "id": 223008880101,
+      "id": 2030388804,
       "results": [
         {
           "iso_639_1": "en",
@@ -21564,9 +21453,9 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
   
-   if (req.params.series_id == 22300888020){
+   if (req.params.series_id == 2030388805){
       res.json({
-      "id": 223008880101,
+      "id": 2030388805,
       "results": [
         {
           "iso_639_1": "en",
@@ -21584,9 +21473,9 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
   
-   if (req.params.series_id == 22300888021){
+   if (req.params.series_id == 2030488801){
       res.json({
-      "id": 223008880101,
+      "id": 2030488801,
       "results": [
         {
           "iso_639_1": "en",
@@ -21604,9 +21493,9 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
   
-   if (req.params.series_id == 22300888022){
+   if (req.params.series_id == 2030488802){
       res.json({
-      "id": 223008880101,
+      "id": 2030488802,
       "results": [
         {
           "iso_639_1": "en",
@@ -21624,9 +21513,9 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
   
-   if (req.params.series_id == 22300888023){
+   if (req.params.series_id == 2030488803){
       res.json({
-      "id": 223008880101,
+      "id": 2030488803,
       "results": [
         {
           "iso_639_1": "en",
@@ -21644,9 +21533,9 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
   
-   if (req.params.series_id == 22300888024){
+   if (req.params.series_id == 2030488804){
       res.json({
-      "id": 223008880101,
+      "id": 2030488804,
       "results": [
         {
           "iso_639_1": "en",
@@ -21664,9 +21553,9 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
   
-   if (req.params.series_id == 22300888025){
+   if (req.params.series_id == 2030488805){
       res.json({
-      "id": 223008880101,
+      "id": 2030488805,
       "results": [
         {
           "iso_639_1": "en",
@@ -21684,9 +21573,9 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
   
-   if (req.params.series_id == 22300888026){
+   if (req.params.series_id == 2030588801){
       res.json({
-      "id": 223008880101,
+      "id": 2030588801,
       "results": [
         {
           "iso_639_1": "en",
@@ -21704,9 +21593,9 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
   
-   if (req.params.series_id == 22300888027){
+   if (req.params.series_id == 2030588802){
       res.json({
-      "id": 223008880101,
+      "id": 2030588802,
       "results": [
         {
           "iso_639_1": "en",
@@ -21724,9 +21613,9 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
   
-   if (req.params.series_id == 22300888028){
+   if (req.params.series_id == 2030588803){
       res.json({
-      "id": 223008880101,
+      "id": 2030588803,
       "results": [
         {
           "iso_639_1": "en",
@@ -21744,9 +21633,9 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
   
-   if (req.params.series_id == 22300888029){
+   if (req.params.series_id == 2030588804){
       res.json({
-      "id": 223008880101,
+      "id": 2030588804,
       "results": [
         {
           "iso_639_1": "en",
@@ -21764,9 +21653,9 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
   
-   if (req.params.series_id == 22300888030){
+   if (req.params.series_id == 2030588805){
       res.json({
-      "id": 223008880101,
+      "id": 2030588805,
       "results": [
         {
           "iso_639_1": "en",
@@ -21784,9 +21673,9 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
   
-   if (req.params.series_id == 22300888031){
+   if (req.params.series_id == 2030688801){
       res.json({
-      "id": 223008880101,
+      "id": 2030688801,
       "results": [
         {
           "iso_639_1": "en",
@@ -21804,9 +21693,9 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
   
-   if (req.params.series_id == 22300888032){
+   if (req.params.series_id == 2030688802){
       res.json({
-      "id": 223008880101,
+      "id": 2030688802,
       "results": [
         {
           "iso_639_1": "en",
@@ -21824,9 +21713,9 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
   
-   if (req.params.series_id == 22300888033){
+   if (req.params.series_id == 2030688803){
       res.json({
-      "id": 223008880101,
+      "id": 2030688803,
       "results": [
         {
           "iso_639_1": "en",
@@ -21844,9 +21733,9 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
   
-   if (req.params.series_id == 22300888034){
+   if (req.params.series_id == 2030688804){
       res.json({
-      "id": 223008880101,
+      "id": 2030688804,
       "results": [
         {
           "iso_639_1": "en",
@@ -21864,9 +21753,9 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
   
-   if (req.params.series_id == 22300888035){
+   if (req.params.series_id == 2030688805){
       res.json({
-      "id": 223008880101,
+      "id": 2030688805,
       "results": [
         {
           "iso_639_1": "en",
@@ -21884,9 +21773,9 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
   
-   if (req.params.series_id == 22300888036){
+   if (req.params.series_id == 2030788801){
       res.json({
-      "id": 223008880101,
+      "id": 2030788801,
       "results": [
         {
           "iso_639_1": "en",
@@ -21904,9 +21793,9 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
   
-   if (req.params.series_id == 22300888037){
+   if (req.params.series_id == 2030788802){
       res.json({
-      "id": 223008880101,
+      "id": 2030788802,
       "results": [
         {
           "iso_639_1": "en",
@@ -21924,9 +21813,9 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
   
-   if (req.params.series_id == 22300888038){
+   if (req.params.series_id == 2030788803){
       res.json({
-      "id": 223008880101,
+      "id": 2030788803,
       "results": [
         {
           "iso_639_1": "en",
