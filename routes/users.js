@@ -10020,6 +10020,304 @@ router.get('/discover/movie', function(req, res, next) {
  }
 
 
+  if (req.query.with_genres == 30300 ){
+      res.json(
+	  
+	  {
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/yZAv5u72r2E.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 3030088801,
+        "original_language": "en",
+        "original_title": "Political Atty Loanzon Lecture 1",
+        "overview": "The discussion will focus on the first part of Political Law by Atty Loanzon.",
+        "popularity": 2590.24,
+        "poster_path": "/images/yZAv5u72r2E.jpg",
+        "release_date": "2023-07-19",
+        "title": "Political Atty Loanzon Lecture 1",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/x7YFlRd2a44.png",
+        "genre_ids": [
+        
+        ],
+
+        "id": 3030088802,
+        "original_language": "en",
+        "original_title": "Political   Atty Loanzon   Lecture 2",
+        "overview": "The discussion will focus on the second part of Political Law by Atty Loanzon.",
+        "popularity": 1617.893,
+        "poster_path": "/images/x7YFlRd2a44.png",
+        "release_date": "2023-10-25",
+        "title": "Political   Atty Loanzon   Lecture 2",
+        "video": false,
+        "vote_average": 8,
+        "vote_count": 2300
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/9wdgsK5gBN0.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 3030088803,
+        "original_language": "en",
+        "original_title": "Political   Atty Loanzon   Lecture 3",
+        "overview": "The discussion will focus on the third part of Political Law by Atty Loanzon.",
+        "popularity": 1595.817,
+        "poster_path": "/images/9wdgsK5gBN0.png",
+        "release_date": "2023-09-27",
+        "title": "Political   Atty Loanzon   Lecture 3",
+        "video": false,
+        "vote_average": 7.2,
+        "vote_count": 786
+      },
+    ],
+    "total_pages": 1,
+    "total_results": 3
+    });
+ }
+
+  if (req.query.with_genres == 30301 ){
+      res.json(
+	  
+	  {
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/aIKEU6YktdA.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 3030188801,
+        "original_language": "en",
+        "original_title": "Political   Atty Loanzon   Lecture 4",
+        "overview": "The discussion will focus on the fourth part of Political Law by Atty Loanzon.",
+        "popularity": 2590.24,
+        "poster_path": "/images/aIKEU6YktdA.jpg",
+        "release_date": "2023-07-19",
+        "title": "Political   Atty Loanzon   Lecture 4",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/m1_rMY84MmM.png",
+        "genre_ids": [
+        
+        ],
+
+        "id": 3030188802,
+        "original_language": "en",
+        "original_title": "Political   Atty Loanzon   Lecture 5",
+        "overview": "The discussion will focus on the fifth part of Political Law by Atty Loanzon.",
+        "popularity": 1617.893,
+        "poster_path": "/images/m1_rMY84MmM.png",
+        "release_date": "2023-10-25",
+        "title": "Political   Atty Loanzon   Lecture 5",
+        "video": false,
+        "vote_average": 8,
+        "vote_count": 2300
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/Ckd2JrSXI9A.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 3030188803,
+        "original_language": "en",
+        "original_title": "Political   Atty Loanzon   Lecture 6",
+        "overview": "The discussion will focus on the sixth part of Political Law by Atty Loanzon.",
+        "popularity": 1595.817,
+        "poster_path": "/images/Ckd2JrSXI9A.png",
+        "release_date": "2023-09-27",
+        "title": "Political   Atty Loanzon   Lecture 6",
+        "video": false,
+        "vote_average": 7.2,
+        "vote_count": 786
+      },
+    ],
+    "total_pages": 1,
+    "total_results": 3
+    });
+ }
+
+  if (req.query.with_genres == 30302 ){
+      res.json(
+	  
+	  {
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/Vi6lV7KAi7M.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 3030288801,
+        "original_language": "en",
+        "original_title": "Political Atty Loanzon Lecture 7",
+        "overview": "The discussion will focus on the seventh part of Political Law by Atty Loanzon.",
+        "popularity": 2590.24,
+        "poster_path": "/images/Vi6lV7KAi7M.jpg",
+        "release_date": "2023-07-19",
+        "title": "Political Atty Loanzon Lecture 7",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/CiaiqmGR3Bs.png",
+        "genre_ids": [
+         
+        ],
+
+        "id": 3030288802,
+        "original_language": "en",
+        "original_title": "Political Atty Loanzon Lecture 8",
+        "overview": "The discussion will focus on the eighth part of Political Law by Atty Loanzon.",
+        "popularity": 1617.893,
+        "poster_path": "/images/CiaiqmGR3Bs.png",
+        "release_date": "2023-10-25",
+        "title": "Political Atty Loanzon Lecture 8",
+        "video": false,
+        "vote_average": 8,
+        "vote_count": 2300
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/7QUIPi5-yF8.jpg",
+        "genre_ids": [
+         
+        ],
+        "id": 3030288803,
+        "original_language": "en",
+        "original_title": "Political Atty Loanzon Lecture 9",
+        "overview": "The discussion will focus on the ninth part of Political Law by Atty Loanzon.",
+        "popularity": 1595.817,
+        "poster_path": "/images/7QUIPi5-yF8.png",
+        "release_date": "2023-09-27",
+        "title": "Political Atty Loanzon Lecture 9",
+        "video": false,
+        "vote_average": 7.2,
+        "vote_count": 786
+      },
+    ],
+    "total_pages": 1,
+    "total_results": 3
+    });
+ }
+
+  if (req.query.with_genres == 30303 ){
+      res.json(
+	  
+	  {
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/kxwEc2oi8-E.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 3030388801,
+        "original_language": "en",
+        "original_title": "Political Atty Loanzon Lecture 10",
+        "overview": "The discussion will focus on the tenth part of Political Law by Atty Loanzon.",
+        "popularity": 2590.24,
+        "poster_path": "/images/kxwEc2oi8-E.jpg",
+        "release_date": "2023-07-19",
+        "title": "Political Atty Loanzon Lecture 10",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/NhaoeTyNLkc.png",
+        "genre_ids": [
+         
+        ],
+
+        "id": 3030388802,
+        "original_language": "en",
+        "original_title": "Political Atty Loanzon Lecture 11",
+        "overview": "The discussion will focus on the eleventh part of Political Law by Atty Loanzon.",
+        "popularity": 1617.893,
+        "poster_path": "/images/NhaoeTyNLkc.png",
+        "release_date": "2023-10-25",
+        "title": "Political Atty Loanzon Lecture 11",
+        "video": false,
+        "vote_average": 8,
+        "vote_count": 2300
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/FOc_FnSXp6U.jpg",
+        "genre_ids": [
+         
+        ],
+        "id": 3030388803,
+        "original_language": "en",
+        "original_title": "Political Atty Loanzon Lecture 12",
+        "overview": "The discussion will focus on the twelfth part of Political Law by Atty Loanzon.",
+        "popularity": 1595.817,
+        "poster_path": "/images/FOc_FnSXp6U.png",
+        "release_date": "2023-09-27",
+        "title": "Political Atty Loanzon Lecture 12",
+        "video": false,
+        "vote_average": 7.2,
+        "vote_count": 786
+      },
+    ],
+    "total_pages": 1,
+    "total_results": 3
+    });
+ }
+
+  if (req.query.with_genres == 30304 ){
+      res.json(
+	  
+	  {
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/q8kQ3KriJL8.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 3030488801,
+        "original_language": "en",
+        "original_title": "Political Atty Loanzon Lecture 13",
+        "overview": "The discussion will focus on the fundamentals of local government by Atty Loanzon.",
+        "popularity": 2590.24,
+        "poster_path": "/images/q8kQ3KriJL8.jpg",
+        "release_date": "2023-07-19",
+        "title": "Political Atty Loanzon Lecture 13",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      }
+	  ],
+    "total_pages": 1,
+    "total_results": 1
+    });
+ }
+
 });
 
 
@@ -10791,7 +11089,6 @@ router.get('/discover/tv', function(req, res, next) {
     });
  }
 
-
   if (req.query.with_genres == 20307 ){
       res.json({
     "page": 1,
@@ -10861,6 +11158,294 @@ router.get('/discover/tv', function(req, res, next) {
     });
  }
 
+  if (req.query.with_genres == 30300 ){
+      res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/yZAv5u72r2E.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 3030088801,
+        "original_language": "en",
+        "original_title": "Political Atty Loanzon Lecture 1",
+        "overview": "The discussion will focus on the first part of Political Law by Atty Loanzon.",
+        "popularity": 2590.24,
+        "poster_path": "/images/yZAv5u72r2E.jpg",
+        "release_date": "2023-07-19",
+        "title": "Political Atty Loanzon Lecture 1",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/x7YFlRd2a44.jpg",
+        "genre_ids": [
+        
+        ],
+
+        "id": 3030088802,
+        "original_language": "en",
+        "original_title": "Political Atty Loanzon Lecture 2",
+        "overview": "The discussion will focus on the second part of Political Law by Atty Loanzon.",
+        "popularity": 1617.893,
+        "poster_path": "/images/x7YFlRd2a44.jpg",
+        "release_date": "2023-10-25",
+        "title": "Political Atty Loanzon Lecture 2",
+        "video": false,
+        "vote_average": 8,
+        "vote_count": 2300
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/9wdgsK5gBN0.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 3030088803,
+        "original_language": "en",
+        "original_title": "Political Atty Loanzon Lecture 3",
+        "overview": "The discussion will focus on the third part of Political Law by Atty Loanzon.",
+        "popularity": 1595.817,
+        "poster_path": "/images/9wdgsK5gBN0.jpg",
+        "release_date": "2023-09-27",
+        "title": "Political Atty Loanzon Lecture 3",
+        "video": false,
+        "vote_average": 7.2,
+        "vote_count": 786
+      }
+    ],
+    "total_pages": 1,
+    "total_results": 3
+    });
+ }
+
+  if (req.query.with_genres == 30301 ){
+      res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/aIKEU6YktdA.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 3030188801,
+        "original_language": "en",
+        "original_title": "Political Atty Loanzon Lecture 4",
+        "overview": "The discussion will focus on the fourth part of Political Law by Atty Loanzon.",
+        "popularity": 2590.24,
+        "poster_path": "/images/aIKEU6YktdA.jpg",
+        "release_date": "2023-07-19",
+        "title": "Political Atty Loanzon Lecture 4",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/m1_rMY84MmM.jpg",
+        "genre_ids": [
+        
+        ],
+
+        "id": 3030188802,
+        "original_language": "en",
+        "original_title": "Political Atty Loanzon Lecture 5",
+        "overview": "The discussion will focus on the fifth part of Political Law by Atty Loanzon.",
+        "popularity": 1617.893,
+        "poster_path": "/images/m1_rMY84MmM.jpg",
+        "release_date": "2023-10-25",
+        "title": "Political Atty Loanzon Lecture 5",
+        "video": false,
+        "vote_average": 8,
+        "vote_count": 2300
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/Ckd2JrSXI9A.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 3030188803,
+        "original_language": "en",
+        "original_title": "Political Atty Loanzon Lecture 6",
+        "overview": "The discussion will focus on the sixth part of Political Law by Atty Loanzon.",
+        "popularity": 1595.817,
+        "poster_path": "/images/Ckd2JrSXI9A.jpg",
+        "release_date": "2023-09-27",
+        "title": "Political Atty Loanzon Lecture 6",
+        "video": false,
+        "vote_average": 7.2,
+        "vote_count": 786
+      }
+    ],
+    "total_pages": 1,
+    "total_results": 3
+    });
+ }
+
+  if (req.query.with_genres == 30302 ){
+      res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/Vi6lV7KAi7M.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 3030288801,
+        "original_language": "en",
+        "original_title": "Political Atty Loanzon Lecture 7",
+        "overview": "The discussion will focus on the seventh part of Political Law by Atty Loanzon.",
+        "popularity": 2590.24,
+        "poster_path": "/images/Vi6lV7KAi7M.jpg",
+        "release_date": "2023-07-19",
+        "title": "Political Atty Loanzon Lecture 7",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/CiaiqmGR3Bs.jpg",
+        "genre_ids": [
+        
+        ],
+
+        "id": 3030288802,
+        "original_language": "en",
+        "original_title": "Political Atty Loanzon Lecture 8",
+        "overview": "The discussion will focus on the eighth part of Political Law by Atty Loanzon.",
+        "popularity": 1617.893,
+        "poster_path": "/images/CiaiqmGR3Bs.jpg",
+        "release_date": "2023-10-25",
+        "title": "Political Atty Loanzon Lecture 8",
+        "video": false,
+        "vote_average": 8,
+        "vote_count": 2300
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/7QUIPi5-yF8.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 3030288803,
+        "original_language": "en",
+        "original_title": "Political Atty Loanzon Lecture 9",
+        "overview": "The discussion will focus on the ninth part of Political Law by Atty Loanzon.",
+        "popularity": 1595.817,
+        "poster_path": "/images/7QUIPi5-yF8.jpg",
+        "release_date": "2023-09-27",
+        "title": "Political Atty Loanzon Lecture 9",
+        "video": false,
+        "vote_average": 7.2,
+        "vote_count": 786
+      }
+    ],
+    "total_pages": 1,
+    "total_results": 3
+    });
+ }
+
+  if (req.query.with_genres == 30303 ){
+      res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/kxwEc2oi8-E.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 3030388801,
+        "original_language": "en",
+        "original_title": "Political Atty Loanzon Lecture 10",
+        "overview": "The discussion will focus on the tenth part of Political Law by Atty Loanzon.",
+        "popularity": 2590.24,
+        "poster_path": "/images/kxwEc2oi8-E.jpg",
+        "release_date": "2023-07-19",
+        "title": "Political Atty Loanzon Lecture 10",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/NhaoeTyNLkc.jpg",
+        "genre_ids": [
+        
+        ],
+
+        "id": 3030388802,
+        "original_language": "en",
+        "original_title": "Political Atty Loanzon Lecture 11",
+        "overview": "The discussion will focus on the eleventh part of Political Law by Atty Loanzon.",
+        "popularity": 1617.893,
+        "poster_path": "/images/NhaoeTyNLkc.jpg",
+        "release_date": "2023-10-25",
+        "title": "Political Atty Loanzon Lecture 11",
+        "video": false,
+        "vote_average": 8,
+        "vote_count": 2300
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/FOc_FnSXp6U.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 3030388803,
+        "original_language": "en",
+        "original_title": "Political Atty Loanzon Lecture 12",
+        "overview": "The discussion will focus on the twelfth part of Political Law by Atty Loanzon.",
+        "popularity": 1595.817,
+        "poster_path": "/images/FOc_FnSXp6U.jpg",
+        "release_date": "2023-09-27",
+        "title": "Political Atty Loanzon Lecture 12",
+        "video": false,
+        "vote_average": 7.2,
+        "vote_count": 786
+      }
+    ],
+    "total_pages": 1,
+    "total_results": 3
+    });
+ }
+
+  if (req.query.with_genres == 30304 ){
+      res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/q8kQ3KriJL8.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 3030488801,
+        "original_language": "en",
+        "original_title": "Political Atty Loanzon Lecture 13",
+        "overview": "The discussion will focus on the fundamentals of local government by Atty Loanzon.",
+        "popularity": 2590.24,
+        "poster_path": "/images/q8kQ3KriJL8.jpg",
+        "release_date": "2023-07-19",
+        "title": "Political Atty Loanzon Lecture 13",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      }
+	  ],
+    "total_pages": 1,
+    "total_results": 3
+    });
+ }
+
 });
 
 router.get('/find/:external_id', function(req, res, next) {
@@ -10894,24 +11479,28 @@ router.get('/genre/movie/list', function(req, res, next) {
   res.json({
 "genres": [
 		{
-		  "id": 90101,
-		  "name": "Reviewer on Political Part 1"
+		  "id": 30300,
+		  "name": "Political Atty Loanzon - Lecture 1"
 		},
 		{
-		  "id": 90102,
-		  "name": "Reviewer on Political Part 2"
+		  "id": 30301,
+		  "name": "Political Atty Loanzon - Lecture 2"
 		},
 		{
-		  "id": 90103,
-		  "name": "Reviewer on Political Part 3"
+		  "id": 30302,
+		  "name": "Political Atty Loanzon - Lecture 3"
 		},
 		{
-		  "id": 90104,
-		  "name": "Reviewer on Political Part 4"
+		  "id": 30303,
+		  "name": "Political Atty Loanzon - Lecture 4"
 		},
 		{
-		  "id": 90105,
-		  "name": "Reviewer on Political Part 5"
+		  "id": 30304,
+		  "name": "Political Atty Loanzon - Lecture 5"
+		},
+		{
+		  "id": 30305,
+		  "name": "Political Atty Loanzon - Lecture 6"
 		},
 		{
 		  "id": 90106,
@@ -11048,26 +11637,7 @@ router.get('/genre/movie/list', function(req, res, next) {
 router.get('/genre/tv/list', function(req, res, next) {
   res.json({
  "genres": [
-    {
-      "id": 1001,
-      "name": "Politcal Part 1"
-    },
-    {
-      "id": 1002,
-      "name": "Political Part 2"
-    },
-    {
-      "id": 1003,
-      "name": "Political Part 3"
-    },
-    {
-      "id": 1004,
-      "name": "Political Part 4"
-    },
-    {
-      "id": 1005,
-      "name": "Political Part 5"
-    },
+    
     {
       "id": 1006,
       "name": "Taxation Part 1"
@@ -11216,6 +11786,227 @@ router.get('/genre/tv/list', function(req, res, next) {
       "id": 1380,
       "name": "Legal Ethics Part 3"
     }
+  ]
+});
+});
+
+router.get('/genre/tv/com/list', function(req, res, next) {
+  res.json({
+ "genres": [
+    {
+      "id": 90300,
+      "name": "Commercial Part 1"
+    },
+    {
+      "id": 90301,
+      "name": "Commercial Part 2"
+    },
+    {
+      "id": 90302,
+      "name": "Commercial Part 3"
+    },
+    {
+      "id": 90303,
+      "name": "Commercial Part 4"
+    },
+    {
+      "id": 90304,
+      "name": "Commercial Part 5"
+    },
+	{
+      "id": 90305,
+      "name": "Commercial Part 6"
+    }
+  ]
+});
+});
+
+router.get('/genre/tv/rem/list', function(req, res, next) {
+  res.json({
+ "genres": [
+    {
+      "id": 80300,
+      "name": "Remedial Part 1"
+    },
+    {
+      "id": 80301,
+      "name": "Remedial Part 2"
+    },
+    {
+      "id": 80302,
+      "name": "Remedial Part 3"
+    },
+    {
+      "id": 80303,
+      "name": "Remedial Part 4"
+    },
+    {
+      "id": 80304,
+      "name": "Remedial Part 5"
+    },
+	{
+      "id": 80305,
+      "name": "Remedial Part 6"
+    }
+  ]
+});
+});
+
+router.get('/genre/tv/civ/list', function(req, res, next) {
+  res.json({
+ "genres": [
+    {
+      "id": 70300,
+      "name": "Civil Part 1"
+    },
+    {
+      "id": 70301,
+      "name": "Civil Part 2"
+    },
+    {
+      "id": 70302,
+      "name": "Civil Part 2"
+    },
+    {
+      "id": 70303,
+      "name": "Civil Part 3"
+    },
+    {
+      "id": 70304,
+      "name": "Civil Part 4"
+    },
+    {
+      "id": 70305,
+      "name": "Civil Part 5"
+    },
+    {
+      "id": 70306,
+      "name": "Civil Part 6"
+    }
+  ]
+});
+});
+
+router.get('/genre/tv/le/list', function(req, res, next) {
+  res.json({
+ "genres": [
+    {
+      "id": 60300,
+      "name": "Legal Ethics Part 1"
+    },
+    {
+      "id": 60301,
+      "name": "Legal Ethics Part 2"
+    },
+    {
+      "id": 60302,
+      "name": "Legal Ethics Part 3"
+    },
+	{
+      "id": 60303,
+      "name": "Legal Ethics Part 4"
+    },
+	{
+      "id": 60304,
+      "name": "Legal Ethics Part 5"
+    },
+	{
+      "id": 60305,
+      "name": "Legal Ethics Part 6"
+    }
+  ]
+});
+});
+
+router.get('/genre/tv/tax/list', function(req, res, next) {
+  res.json({
+ "genres": [
+    {
+      "id": 50300,
+      "name": "Taxation Part 1"
+    },
+    {
+      "id": 50301,
+      "name": "Taxation Part 2"
+    },
+    {
+      "id": 50302,
+      "name": "Taxation Part 3"
+    },
+    {
+      "id": 50303,
+      "name": "Taxation Part 4"
+    },
+    {
+      "id": 50304,
+      "name": "Taxation Part 5"
+    },
+    {
+      "id": 50305,
+      "name": "Taxation Part 6"
+    },
+  ]
+});
+});
+
+router.get('/genre/tv/labor/list', function(req, res, next) {
+  res.json({
+ "genres": [
+    {
+      "id": 40300,
+      "name": "Labort Part 1"
+    },
+    {
+      "id": 40301,
+      "name": "Labort Part 2"
+    },
+    {
+      "id": 40302,
+      "name": "Labort Part 3"
+    },
+	{
+      "id": 40303,
+      "name": "Labort Part 4"
+    },
+	{
+      "id": 40304,
+      "name": "Labort Part 5"
+    },
+	{
+      "id": 40305,
+      "name": "Labort Part 6"
+    },
+  ]
+});
+});
+
+router.get('/genre/tv/political/list', function(req, res, next) {
+  res.json({
+ "genres": [
+    {
+	  "id": 30300,
+	  "name": "Political Atty Loanzon - Lecture 1"
+	},
+	{
+	  "id": 30301,
+	  "name": "Political Atty Loanzon - Lecture 2"
+	},
+	{
+	  "id": 30302,
+	  "name": "Political Atty Loanzon - Lecture 3"
+	},
+	{
+	  "id": 30303,
+	  "name": "Political Atty Loanzon - Lecture 4"
+	},
+	{
+	  "id": 30304,
+	  "name": "Political Atty Loanzon - Lecture 5"
+	},
+	{
+	  "id": 30305,
+	  "name": "Political Atty Loanzon - Lecture 6"
+	}
   ]
 });
 });
@@ -20020,18 +20811,6 @@ router.get('/tv/:series_id', function(req, res, next) {
 		],
 		"first_air_date": "2005-04-13",
 		"genres": [
-		  {
-			"id": 18,
-			"name": "Drama"
-		  },
-		  {
-			"id": 9648,
-			"name": "Mystery"
-		  },
-		  {
-			"id": 10765,
-			"name": "Sci-Fi & Fantasy"
-		  }
 		],
 		"homepage": "",
 		"id": 2030088801,
@@ -22654,6 +23433,886 @@ router.get('/tv/:series_id', function(req, res, next) {
   }
 
 
+
+  if (req.params.series_id == 3030088801){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 3030088801,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Political Atty Loanzon Lecture 1",
+		"next_episode_to_air": null,
+		"networks": [
+		  
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Political Atty Loanzon Lecture 1",
+		"overview":  "The discussion will focus on the first part of Political Law by Atty Loanzon.",
+		"popularity": 23.139,
+        "poster_path": "/images/yZAv5u72r2E.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+
+  if (req.params.series_id == 3030088802){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 3030088802,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Political Atty Loanzon Lecture 2",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Political Atty Loanzon Lecture 2",
+		"overview":  "The discussion will focus on the second part of Political Law by Atty Loanzon.",
+		"popularity": 23.139,
+        "poster_path": "/images/x7YFlRd2a44.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+
+  if (req.params.series_id == 3030088803){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 3030088803,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Political Atty Loanzon Lecture 3",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Political Atty Loanzon Lecture 3",
+		"overview":  "The discussion will focus on the third part of Political Law by Atty Loanzon.",
+		"popularity": 23.139,
+        "poster_path": "/images/9wdgsK5gBN0.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+
+  if (req.params.series_id == 3030188801){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 3030188801,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Political Atty Loanzon Lecture 4",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Political Atty Loanzon Lecture 4",
+		"overview":  "The discussion will focus on the fourth part of Political Law by Atty Loanzon.",
+		"popularity": 23.139,
+        "poster_path": "/images/aIKEU6YktdA.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+
+  if (req.params.series_id == 3030188802){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 3030188802,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Political Atty Loanzon Lecture 5",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Political Atty Loanzon Lecture 5",
+		"overview":  "The discussion will focus on the fifth part of Political Law by Atty Loanzon.",
+		"popularity": 23.139,
+        "poster_path": "/images/m1_rMY84MmM.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+
+  if (req.params.series_id == 3030188803){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 3030188803,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Political Atty Loanzon Lecture 6",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Political Atty Loanzon Lecture 6",
+		"overview":  "The discussion will focus on the sixth part of Political Law by Atty Loanzon.",
+		"popularity": 23.139,
+        "poster_path": "/images/Ckd2JrSXI9A.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+
+  if (req.params.series_id == 3030288801){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 3030288801,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Political Atty Loanzon Lecture 7",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Political Atty Loanzon Lecture 7",
+		"overview":  "The discussion will focus on the seventh part of Political Law by Atty Loanzon.",
+		"popularity": 23.139,
+        "poster_path": "/images/Vi6lV7KAi7M.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+
+  if (req.params.series_id == 3030288802){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 3030288802,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Political Atty Loanzon Lecture 8",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Political Atty Loanzon Lecture 8",
+		"overview":  "The discussion will focus on the eighth part of Political Law by Atty Loanzon.",
+		"popularity": 23.139,
+        "poster_path": "/images/CiaiqmGR3Bs.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+
+  if (req.params.series_id == 3030288803){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 3030288803,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Political Atty Loanzon Lecture 9",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Political Atty Loanzon Lecture 9",
+		"overview":  "The discussion will focus on the ninth part of Political Law by Atty Loanzon.",
+		"popularity": 23.139,
+        "poster_path": "/images/7QUIPi5-yF8.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+
+  if (req.params.series_id == 3030388801){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 3030388801,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Political Atty Loanzon Lecture 10",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Political Atty Loanzon Lecture 10",
+		"overview":  "The discussion will focus on the tenth part of Political Law by Atty Loanzon.",
+		"popularity": 23.139,
+        "poster_path": "/images/kxwEc2oi8-E.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+
+  if (req.params.series_id == 3030388802){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 3030388802,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Political Atty Loanzon Lecture 11",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Political Atty Loanzon Lecture 11",
+		"overview":  "The discussion will focus on the eleventh part of Political Law by Atty Loanzon.",
+		"popularity": 23.139,
+        "poster_path": "/images/NhaoeTyNLkc.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+
+  if (req.params.series_id == 3030388803){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 3030388803,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Political Atty Loanzon Lecture 12",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Political Atty Loanzon Lecture 12",
+		"overview":  "The discussion will focus on the twelfth part of Political Law by Atty Loanzon.",
+		"popularity": 23.139,
+        "poster_path": "/images/FOc_FnSXp6U.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+
+  if (req.params.series_id == 3030488801){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 3030488801,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Political Atty Loanzon Lecture 13",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Political Atty Loanzon Lecture 13",
+		"overview":  "The discussion will focus on the fundamentals of local government by Atty Loanzon.",
+		"popularity": 23.139,
+        "poster_path": "/images/q8kQ3KriJL8.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+
 });
 
 router.get('/tv/:series_id/account_states', function(req, res, next) {
@@ -24357,7 +26016,267 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       ]
       });
     }
-  
+
+   if (req.params.series_id == 3030088801){
+      res.json({
+      "id": 3030088801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Political Atty Loanzon Lecture 1",
+          "key": "N9CqCe4LDz0",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+   if (req.params.series_id == 3030088802){
+      res.json({
+      "id": 3030088802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Political Atty Loanzon Lecture 2",
+          "key": "YbV71WzyU5E",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+   if (req.params.series_id == 3030088803){
+      res.json({
+      "id": 3030088803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Political Atty Loanzon Lecture 3",
+          "key": "MJZW11VWas8",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+   if (req.params.series_id == 3030188801){
+      res.json({
+      "id": 3030188801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Political Atty Loanzon Lecture 4",
+          "key": "YkA3sehU5SI",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+   if (req.params.series_id == 3030188802){
+      res.json({
+      "id": 3030188802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Political Atty Loanzon Lecture 5",
+          "key": "sx8H8JpnEas",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+   if (req.params.series_id == 3030188803){
+      res.json({
+      "id": 3030188803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Political Atty Loanzon Lecture 6",
+          "key": "fQIpwtQFlTk",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+   if (req.params.series_id == 3030288801){
+      res.json({
+      "id": 3030288801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Political Atty Loanzon Lecture 7",
+          "key": "N07GFlShNVo",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+   if (req.params.series_id == 3030288802){
+      res.json({
+      "id": 3030288802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Political Atty Loanzon Lecture 8",
+          "key": "p4H4RmrTdmg",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+   if (req.params.series_id == 3030288803){
+      res.json({
+      "id": 3030288803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Political Atty Loanzon Lecture 9",
+          "key": "FcLoVZCxoy4",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+   if (req.params.series_id == 3030388801){
+      res.json({
+      "id": 3030388801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Political Atty Loanzon Lecture 10",
+          "key": "CZYCCa6LDKQ",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+   if (req.params.series_id == 3030388802){
+      res.json({
+      "id": 3030388802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Political Atty Loanzon Lecture 11",
+          "key": "RNCxHfvgHxs",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+   if (req.params.series_id == 3030388803){
+      res.json({
+      "id": 3030388803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Political Atty Loanzon Lecture 12",
+          "key": "cDZkTpVg1cQ",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+   if (req.params.series_id == 3030488801){
+      res.json({
+      "id": 3030488801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Political Atty Loanzon Lecture 13",
+          "key": "qj1YA-PbzWY",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
 });
 
 router.get('/tv/:series_id/watch/providers', function(req, res, next) {
@@ -25357,6 +27276,267 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "iso_3166_1": "US",
           "name": "38. Delito continuado 2",
           "key": "Gb_fIzBMLf0",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+
+   if (req.params.tv_id == 3030088801){
+      res.json({
+      "id": 3030088801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Political Atty Loanzon Lecture 1",
+          "key": "N9CqCe4LDz0",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+   if (req.params.tv_id == 3030088802){
+      res.json({
+      "id": 3030088802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Political Atty Loanzon Lecture 2",
+          "key": "YbV71WzyU5E",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+   if (req.params.tv_id == 3030088803){
+      res.json({
+      "id": 3030088803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Political Atty Loanzon Lecture 3",
+          "key": "MJZW11VWas8",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+ 
+   if (req.params.tv_id == 3030188804){
+      res.json({
+      "id": 3030188804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Political Atty Loanzon Lecture 4",
+          "key": "YkA3sehU5SI",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+ 
+   if (req.params.tv_id == 3030188805){
+      res.json({
+      "id": 3030188805,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Political Atty Loanzon Lecture 5",
+          "key": "sx8H8JpnEas",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+ 
+   if (req.params.tv_id == 3030188806){
+      res.json({
+      "id": 3030188806,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Political Atty Loanzon Lecture 6",
+          "key": "fQIpwtQFlTk",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+ 
+   if (req.params.tv_id == 3030288807){
+      res.json({
+      "id": 3030288807,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Political Atty Loanzon Lecture 7",
+          "key": "N07GFlShNVo",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+ 
+   if (req.params.tv_id == 3030288808){
+      res.json({
+      "id": 3030288808,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Political Atty Loanzon Lecture 8",
+          "key": "p4H4RmrTdmg",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+ 
+   if (req.params.tv_id == 3030288809){
+      res.json({
+      "id": 3030288809,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Political Atty Loanzon Lecture 9",
+          "key": "cLoVZCxoy4",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+ 
+   if (req.params.tv_id == 30303888010){
+      res.json({
+      "id": 30303888010,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Political Atty Loanzon Lecture 10",
+          "key": "CZYCCa6LDKQ",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+ 
+   if (req.params.tv_id == 30303888011){
+      res.json({
+      "id": 30303888011,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Political Atty Loanzon Lecture 11",
+          "key": "RNCxHfvgHxs",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+ 
+   if (req.params.tv_id == 30303888012){
+      res.json({
+      "id": 30303888012,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Political Atty Loanzon Lecture 12",
+          "key": "cDZkTpVg1cQ",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+ 
+   if (req.params.tv_id == 30304888013){
+      res.json({
+      "id": 30304888013,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Political Atty Loanzon Lecture 13",
+          "key": "qj1YA-PbzWY",
           "site": "YouTube",
           "size": 480,
           "type": "Trailer",
